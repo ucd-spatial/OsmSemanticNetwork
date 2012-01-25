@@ -4,7 +4,7 @@
 
 The RDF datasets contained in this folder have been extracted by 
 the OpenStreetMap Wiki Crawler 
-(https://github.com/andrea-ballatore/OsmWikiCrawler).
+(http://github.com/ucd-spatial/OsmWikiCrawler).
 This data is derived from information collected by OpenStreetMap  
 (http://www.openstreetmap.org) and licensed under the same terms as the OSM
 data, currently the Creative Commons Attribution-ShareAlike 2.0 license.
@@ -22,5 +22,5 @@ Folder content:
 ================================================================================
 Author: Andrea Ballatore (School of Computer Science and Informatics,
 	University College Dublin)
-Project home page: https://github.com/andrea-ballatore
+Project home page: http://github.com/ucd-spatial
 ================================================================================
