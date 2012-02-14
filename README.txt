@@ -19,7 +19,6 @@ This material is Open Knowledge. http://opendefinition.org
 ================================================================================
 
 * Vertices *
-
 osmwiki:Key:⟨key⟩					OSM Key.
 osmwiki:Tag:⟨key = value⟩			OSM Tag.
 osmwiki:Proposed features/⟨tag⟩		OSM Proposed Tag.
@@ -28,7 +27,6 @@ osmwiki:⟨page⟩ 						OSM Cluster page.
 others								LGD and Wikipedia nodes.
 
 * Edges *
-
 osmwiki:link				Internal hyperlink within OSM Wiki.
 osmwiki:key					Link to OSM key page.
 osmwiki:valueLabel		  	A value of a OSM tag.
@@ -39,6 +37,12 @@ osmwiki:wikipediaLink		A link to a Wikipedia page.
 osmwiki:redirect		 	Redirect to a OSM wiki page.
 owl:owl#equivalentClass		Equivalent class in other ontology.
 osmwiki:implies		 		Tag implies target tag.
+
+* Examples *
+amenity: http://wiki.openstreetmap.org/wiki/Key:amenity
+amenity=university: http://wiki.openstreetmap.org/wiki/Tag:amenity%3Duniversity
+waterway=river: http://wiki.openstreetmap.org/wiki/Tag:waterway%3Driver
+shop=books: http://wiki.openstreetmap.org/wiki/Tag:shop%3Dbooks
 
 ================================================================================
 Folder content: 
