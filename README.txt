@@ -9,8 +9,8 @@ This data is derived from information collected by OpenStreetMap
 (http://www.openstreetmap.org) and licensed under the same terms as the OSM
 data, currently the Creative Commons Attribution-ShareAlike 2.0 license.
 
-Please note that this project uses data provided by OpenStreetMap
-(http://www.openstreetmap.org), but is not affiliated with the project.
+OSM Project: http://wiki.openstreetmap.org/wiki/OSMSemanticNetwork
+
 RDF is a standard Semantic Web format: http://www.w3.org/RDF
 This material is Open Knowledge. http://opendefinition.org
 
