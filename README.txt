@@ -50,6 +50,27 @@ Folder content:
 	extracted on a certain date (yyyy-mm-dd).
 * RDF files: the same content as the NT files in RDF format.
 ================================================================================
+REFERENCE:
+If you use this work in your research, please reference this paper:
+
+--------------------------------------------------------------------------------
+ A. Ballatore, D.C. Wilson & M. Bertolotto, A Survey of Volunteered Open Ontologies in 
+ the Semantic Geospatial Web, in Advanced Techniques in Web Intelligence - 3: Quality-based
+ Information Retrieval, Studies in Computational Intelligence, Springer, IN PRESS, 2012.
+--------------------------------------------------------------------------------
+
+  BIBTEX entry:
+  @incollection{Ballatore:2012:survey,
+     author={Ballatore, A. and Wilson, D.C. and Bertolotto, M.},
+     title = {{A Survey of Volunteered Open Ontologies in the Semantic Geospatial Web}},
+     booktitle = {Advanced Techniques in Web Intelligence - 3: Quality-based Information Retrieval},
+     series = {Studies in Computational Intelligence},
+     publisher = {Springer},
+     note = {IN PRESS}, 
+     year = {2012}
+  }
+  
+================================================================================
 Author: Andrea Ballatore (School of Computer Science and Informatics,
 	University College Dublin)
 Project home page: http://github.com/ucd-spatial
