@@ -1,15 +1,16 @@
 ================================================================================
- OpenStreetMap (OSM) Semantic Network
+     The OpenStreetMap Semantic Network
 ================================================================================
 
+Project home page: http://wiki.openstreetmap.org/wiki/OSMSemanticNetwork
+
+These RDF graphs represent the concepts used in the OpenStreetMap dataset.
 The RDF datasets contained in this folder have been extracted by 
 the OpenStreetMap Wiki Crawler 
 (http://github.com/ucd-spatial/OsmWikiCrawler).
 This data is derived from information collected by OpenStreetMap  
 (http://www.openstreetmap.org) and licensed under the same terms as the OSM
 data, currently the Creative Commons Attribution-ShareAlike 2.0 license.
-
-OSM Project: http://wiki.openstreetmap.org/wiki/OSMSemanticNetwork
 
 RDF is a standard Semantic Web format: http://www.w3.org/RDF
 The files were validated with http://www.w3.org/RDF/Validator
