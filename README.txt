@@ -12,6 +12,7 @@ data, currently the Creative Commons Attribution-ShareAlike 2.0 license.
 OSM Project: http://wiki.openstreetmap.org/wiki/OSMSemanticNetwork
 
 RDF is a standard Semantic Web format: http://www.w3.org/RDF
+The files were validated with http://www.w3.org/RDF/Validator
 This material is Open Knowledge. http://opendefinition.org
 
 ================================================================================
