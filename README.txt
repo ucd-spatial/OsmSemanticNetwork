@@ -17,6 +17,11 @@ The files were validated with http://www.w3.org/RDF/Validator
 This material is Open Knowledge. http://opendefinition.org
 
 ================================================================================
+Author:  Andrea Ballatore (University College Dublin)
+		 http://sites.google.com/site/andreaballatore
+Contact: myname.mysurname@ucd.ie
+Project home page: http://github.com/ucd-spatial
+================================================================================
   RDF content: 
 ================================================================================
 
@@ -71,9 +76,3 @@ If you use this work in your research, please reference this paper:
      note = {IN PRESS}, 
      year = {2012}
   }
-  
-================================================================================
-Author: Andrea Ballatore (School of Computer Science and Informatics,
-	University College Dublin)
-Project home page: http://github.com/ucd-spatial
-================================================================================
