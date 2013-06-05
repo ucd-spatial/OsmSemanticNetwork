@@ -12,12 +12,15 @@
   	Author: Dr. Andrea Ballatore (http://sites.google.com/site/andreaballatore)
   	
   	File: This file contains a manual mapping of 30 terms from the OSM Semantic Network with WordNet 2.0.
+  		  The <osnp:debug> tags contain the debug information used to establish the mappings manually.
   		  This dataset was used in the evaluation in:
   		  
   		  A. Ballatore, M. Bertolotto & D.C. Wilson, Grounding Linked Open Data in WordNet: The Case of the
   		     OSM Semantic Network, in The 12th International Symposium on Web & Wireless Geographical 
   		     Information Systems (W2GIS), Springer, Lecture Notes in Computer Science, vol. 7820, 
   		     pp. 1-15, Banff, Canada, 2013.
+  		  
+  		  
   		  
   	Date: June 5, 2013
   	
