@@ -8,6 +8,22 @@
     xmlns:wn="http://www.w3.org/2006/03/wn/wn20/instances/"
     xmlns:wns="http://www.w3.org/2006/03/wn/wn20/schema/"
   xml:base="http://spatial.ucd.ie/lod/osn/" > 
+    <!--
+  	Author: Dr. Andrea Ballatore (http://sites.google.com/site/andreaballatore)
+  	
+  	File: This file contains a manual mapping of 30 terms from the OSM Semantic Network with WordNet 2.0.
+  		  This dataset was used in the evaluation in:
+  		  
+  		  A. Ballatore, M. Bertolotto & D.C. Wilson, Grounding Linked Open Data in WordNet: The Case of the
+  		     OSM Semantic Network, in The 12th International Symposium on Web & Wireless Geographical 
+  		     Information Systems (W2GIS), Springer, Lecture Notes in Computer Science, vol. 7820, 
+  		     pp. 1-15, Banff, Canada, 2013.
+  		  
+  	Date: June 5, 2013
+  	
+  	Example: http://spatial.ucd.ie/lod/osn/term/k:natural/v:bay in OpenStreetMap is a "skos:closeMatch" to
+  			 http://www.w3.org/2006/03/wn/wn20/instances/wordsense-bay-noun-1 in WordNet.
+   -->
   <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:landuse/v:industrial">
   	<osnp:manual xml:lang="en">TRUE</osnp:manual>
     <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-2 - ws: sphere/area/arena/domain/field/orbit - [(a particular environment or walk o... - tc=72 -  </osnp:debug>
