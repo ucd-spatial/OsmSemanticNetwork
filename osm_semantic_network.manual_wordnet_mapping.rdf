@@ -1,0 +1,1377 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:osnp="http://spatial.ucd.ie/lod/osn/property/"
+    xmlns:osn="http://spatial.ucd.ie/lod/osn/"
+    xmlns:osnt="http://spatial.ucd.ie/lod/osn/term/"
+    xmlns:wn="http://www.w3.org/2006/03/wn/wn20/instances/"
+    xmlns:wns="http://www.w3.org/2006/03/wn/wn20/schema/"
+  xml:base="http://spatial.ucd.ie/lod/osn/" > 
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:landuse/v:industrial">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-2 - ws: sphere/area/arena/domain/field/orbit - [(a particular environment or walk o... - tc=72 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-factory-noun-1 - ws: factory/manufactory/manufacturing plant/mill - [(a plant consisting of buildings wi... - tc=18 -  </osnp:debug>
+    <skos:definition xml:lang="en">Predominantly workshops, factories or warehouses Use tag landuse=industrial to mark areas used for industrial use like workshops, factories or warehouses.</skos:definition>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-area-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-industrial-adjective-2 - ws: industrial - [(having highly developed industries... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-3 - ws: area - [(a subject of study; "it was his ar... - tc=66 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-workshop-noun-1"/>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-industrial-adjective-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-industrial-adjective-1 - ws: industrial - [(of or relating to or resulting fro... - tc=21 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-workshop-noun-2 - ws: workshop - [(a brief intensive course for a sma... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-industrial-adjective-3 - ws: industrial - [(employed in industry; "industrial ... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[industrial#JJ#null 1]]</osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-warehouse-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-4 - ws: area - [(a part of a structure having some ... - tc=42 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-5 - ws: area/region - [(a part of an animal that has a spe... - tc=32 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-workshop-noun-1 - ws: workshop/shop - [(small workplace where handcrafts o... - tc=6 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-factory-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-6 - ws: area/expanse/surface area - [(the extent of a 2-dimensional surf... - tc=26 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[landuse#NN#null 1]]</osnp:debug>
+    <osnp:value xml:lang="en">industrial</osnp:value>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[workshop#NN#null 2], [factory#NN#null 2], [warehouse#NN#null 2], [tag landuse#NN#null 1], [landuse#NN#null 1], [industrial#JJ#null 2], [area#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-warehouse-noun-1 - ws: warehouse/storage warehouse - [(a storehouse for goods and merchan... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-area-noun-1 - ws: area/country - [(a particular geographical region o... - tc=620 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">landuse</osnp:keyLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:shop/v:car">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-shop-noun-1 - ws: shop/store - [(a mercantile establishment for the... - tc=9 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-car-noun-1"/>
+    <osnp:value xml:lang="en">car</osnp:value>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-shop-noun-1"/>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-car-noun-1 - ws: automobile/car/auto/machine/motorcar - [(4-wheeled motor vehicle; usually p... - tc=598 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-shop-noun-3 - ws: shop class/shop - [(a course of instruction in a trade... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[car#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[shop#NN#null 1], [car#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-shop-noun-2 - ws: workshop/shop - [(small workplace where handcrafts o... - tc=1 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">shop</osnp:keyLabel>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-car-noun-4 - ws: car/gondola - [(car suspended from an airship and ... - tc=0 -  </osnp:debug>
+    <skos:definition xml:lang="en">A shop for cars</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-car-noun-5 - ws: car/elevator car - [(where passengers ride up and down;... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[shop#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-car-noun-3 - ws: cable car/car - [(a conveyance for passengers or fre... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-car-noun-2 - ws: car/railcar/railroad car/railway car - [(a wheeled vehicle adapted to the r... - tc=24 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:natural/v:bay">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-surround-verb-2 - ws: border/surround/skirt - [(extend on all sides of simultaneou... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-11 - ws: farming/land - [(working the land as an occupation ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-6 - ws: kingdom/land/realm - [(a domain in which something is dom... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-sea-noun-1 - ws: sea - [(a division of an ocean or a large ... - tc=38 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-bay-noun-6 - ws: alcove/bay - [(a small recess opening off a large... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[bay#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sea-noun-2 - ws: ocean/sea - [(anything apparently limitless in q... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-10 - ws: call - [(indicate a decision in regard to; ... - tc=37 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-water-noun-3 - ws: water system/water/water supply - [(facility that provides a source of... - tc=50 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-narrow-adjective-4 - ws: narrow - [(very limited in degree; "won by a ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-4 - ws: area - [(a part of a structure having some ... - tc=42 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-17 - ws: predict/prognosticate/foretell/forebode/anticipate/call/promise - [(make a prediction about; tell in a... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-5 - ws: area/region - [(a part of an animal that has a spe... - tc=32 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-9 - ws: state/nation/body politic/commonwealth/country/land/res publica - [(a politically organized body of pe... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-8 - ws: call - [(order or request or give a command... - tc=44 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-bay-noun-1 - ws: bay - [(an indentation of a shoreline larg... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-surround-verb-4 - ws: besiege/beleaguer/circumvent/hem in/surround - [(surround so as to force to give up... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-bay-noun-7 - ws: bay - [(a horse of a moderate reddish-brow... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sea-noun-3 - ws: sea - [(turbulent water with swells of con... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-water-noun-5 - ws: piddle/pee/piss/urine/water/weewee - [(liquid excretory product; "there w... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-6 - ws: call/visit/call in - [(pay a brief visit; "The mayor like... - tc=55 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-bay-noun-3 - ws: true laurel/Laurus nobilis/bay/bay laurel/bay tree - [(small Mediterranean evergreen tree... - tc=0 -  </osnp:debug>
+    <osnp:value xml:lang="en">bay</osnp:value>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-1 - ws: land - [(the land on which real estate is l... - tc=23 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-5 - ws: country/land/state - [(the territory occupied by a nation... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-water-noun-4 - ws: water - [(once thought to be one of four ele... - tc=3 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-land-noun-2"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-4 - ws: domain/demesne/land - [(territory over which rule or contr... - tc=11 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-land-noun-2 - ws: land/ground/soil - [(material in the top layer of the s... - tc=18 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-water-noun-2"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-12 - ws: call - [(read aloud to check for omissions ... - tc=8 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-24 - ws: bid/call - [(make a demand, as for a card or a ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cove-noun-2 - ws: cove - [(small or narrow cave in the side o... - tc=0 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">natural</osnp:keyLabel>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-2 - ws: sphere/area/arena/domain/field/orbit - [(a particular environment or walk o... - tc=72 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-3 - ws: area - [(a subject of study; "it was his ar... - tc=66 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-22 - ws: address/call - [(greet, as with a prescribed form, ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-11 - ws: call - [(stop or postpone because of advers... - tc=8 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-8 - ws: nation/a people/country/land - [(the people who live in a nation or... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-14 - ws: call - [(declare in the capacity of an umpi... - tc=8 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-surround-verb-1 - ws: surround/circle/ring/environ/encircle/round - [(be around; "Developments surround ... - tc=14 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-cove-noun-1 - ws: cove - [(a small inlet)] - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-16 - ws: call - [(utter in a loud voice or announce;... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-land-noun-3 - ws: ground/earth/land/dry land/solid ground/terra firma - [(the solid part of the earth's surf... - tc=11 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-13 - ws: call - [(send a message or attempt to reach... - tc=8 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-bay-noun-5 - ws: bay - [(a compartment in an aircraft used ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-25 - ws: call - [(require the presentation of for re... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-19 - ws: call - [(consider or regard as being; "I wo... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-4 - ws: call/send for - [(order, request, or command to come... - tc=155 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-water-noun-2 - ws: body of water/water - [(the part of the earth's surface co... - tc=219 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-surround-verb-5 - ws: fence/palisade/wall/surround/fence in - [(surround with a wall in order to f... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-5 - ws: scream/shout/yell/call/cry/hollo/holler/shout out/squall - [(utter a sudden loud cry; "she crie... - tc=128 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-27 - ws: call - [(challenge the sincerity or truthfu... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-1 - ws: name/call - [(assign a specified, proper name to... - tc=1168 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-7 - ws: call - [(call a meeting; invite or command ... - tc=46 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[natural#JJ#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-6 - ws: area/expanse/surface area - [(the extent of a 2-dimensional surf... - tc=26 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-15 - ws: call - [(utter a characteristic note or cry... - tc=5 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-inlet-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-surround-verb-3 - ws: smother/surround - [(envelop completely; "smother the m... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-bay-noun-4 - ws: bay - [(a compartment on a ship between de... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-narrow-adjective-1 - ws: narrow - [(not wide; "a narrow bridge"; "a na... - tc=20 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-18 - ws: call - [(challenge (somebody) to make good ... - tc=2 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-cove-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-7 - ws: estate/acres/demesne/land/landed estate - [(extensive landed property (especia... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-water-noun-1 - ws: water/H2O - [(binary compound that occurs at roo... - tc=744 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-28 - ws: call - [(rouse somebody from sleep with a c... - tc=0 -  </osnp:debug>
+    <skos:definition xml:lang="en">Area of water mostly surrounded by land. Approved A bay is an area of water mostly surrounded or otherwise demarcated by land. Bays generally have calmer waters than the surrounding sea, due to the surrounding land blocking some waves and often reducing winds. It can also be an inlet in a lake or pond. A large bay may be called a gulf, a sea, a sound, or a bight. A narrow bay may also be called a fjord if its sides are relatively steep. A cove is a circular or oval coastal inlet with a narrow entrance; some coves may be referred to as bays.</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-23 - ws: call - [(make a stop in a harbour; "The shi... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-narrow-adjective-3 - ws: narrow-minded/narrow - [(lacking tolerance or flexibility o... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-2 - ws: phone/telephone/call/ring/call up - [(get or try to get into communicati... - tc=577 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-9 - ws: call - [(order, summon, or request for a sp... - tc=41 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-inlet-noun-1 - ws: inlet/recess - [(an arm off of a larger body of wat... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-26 - ws: call - [(lure by imitating the characterist... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[bay#NN#null 5], [surround#VB#null 4], [water#NN#null 3], [land#NN#null 3], [area#NN#null 2], [sea#NN#null 2], [inlet#NN#null 2], [call#VB#null 2], [narrow#JJ#null 2], [cove#NN#null 2]]</osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-area-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-water-noun-6 - ws: water - [(a fluid necessary for the life of ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-area-noun-1 - ws: area/country - [(a particular geographical region o... - tc=620 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-sea-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-bay-noun-2 - ws: bay - [(the sound of a hound on the scent)... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-3 - ws: call - [(ascribe a quality to or give a nam... - tc=569 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-land-noun-3"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-20 - ws: call/call in - [(demand payment of (a loan); "Call ... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-call-verb-21 - ws: call/call off - [(give the calls (to the dancers) fo... - tc=1 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-bay-noun-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:amenity/v:prison">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-prison-noun-1"/>
+    <osnp:value xml:lang="en">prison</osnp:value>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[prison#NN#null 1]]</osnp:debug>
+    <osnp:keyLabel xml:lang="en">amenity</osnp:keyLabel>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-prison-noun-1 - ws: prison/prison house - [(a correctional institution where p... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[prison#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[amenity#NN#null 1]]</osnp:debug>
+    <skos:definition xml:lang="en">A prison.</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-prison-noun-2 - ws: prison/prison house - [(a prisonlike situation; a place of... - tc=0 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/proposed_term/aqueduct">
+    <osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-map-verb-2 - ws: map - [(explore or survey for the purpose ... - tc=1 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-aqueduct-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-historical-adjective-1"/>
+    <osnp:keyLabel xml:lang="en">historic</osnp:keyLabel>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[aqueduct#NN#null 1]]</osnp:debug>
+    <osnp:value xml:lang="en">aqueduct</osnp:value>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-historical-adjective-4 - ws: diachronic/historical - [(used of the study of a phenomenon ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-historical-adjective-1 - ws: historical - [(of or relating to the study of his... - tc=12 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-map-verb-5 - ws: map - [(depict as if on a map; "sorrow was... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-map-verb-3 - ws: map - [(locate within a specific region of... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-map-verb-1 - ws: map - [(make a map of; show or establish t... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-map-verb-6 - ws: map/represent - [(to establish a mapping (of mathema... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[map#VB#null 1], [historical#JJ#null 1], [aqueduct#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[historic#JJ#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-map-verb-4 - ws: map/map out - [(plan, delineate, or arrange in det... - tc=0 -  </osnp:debug>
+    <skos:definition xml:lang="en">To map historical aqueducts</skos:definition>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-aqueduct-noun-1 - ws: aqueduct - [(a conduit that resembles a bridge ... - tc=0 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-aqueduct-noun-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:landuse/v:reservoir">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-17 - ws: cover - [(help out by taking someone's place... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-22 - ws: overlay/cover - [(put something on top of something ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-6 - ws: man - [(a male subordinate; "the chief sta... - tc=36 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-14 - ws: underwrite/insure/cover - [(protect by insurance; "The insuran... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-23 - ws: cover - [(play a higher card than the one pr... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-water-noun-5 - ws: piddle/pee/piss/urine/water/weewee - [(liquid excretory product; "there w... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-body-noun-8 - ws: consistency/body/consistence - [(the property of holding together a... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-body-noun-7 - ws: body - [(the external structure of a vehicl... - tc=18 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[reservoir#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-water-noun-6 - ws: water - [(a fluid necessary for the life of ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-store-verb-2 - ws: store - [(find a place for and put away for ... - tc=11 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-24 - ws: cover - [(be responsible for guarding an opp... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-19 - ws: cover - [(spread over a surface to conceal o... - tc=0 -  </osnp:debug>
+    <skos:definition xml:lang="en">Man made body of stored water. May be covered or uncovered. Man made body of stored water. May be covered or uncovered.</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-16 - ws: cover - [(invest with a large or excessive a... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-water-noun-2 - ws: body of water/water - [(the part of the earth's surface co... - tc=219 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-8 - ws: man - [(a male person who plays a signific... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-2 - ws: cover/spread over - [(form a cover over; "The grass cove... - tc=19 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-7 - ws: man - [(an adult male person who has a man... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-8 - ws: report/cover - [(be responsible for reporting the d... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-3 - ws: man - [(the generic use of the word to ref... - tc=275 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-4 - ws: world/human beings/human race/humanity/humankind/humans/man/mankind - [(all of the inhabitants of the eart... - tc=205 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-body-noun-3 - ws: body - [(a group of persons associated by s... - tc=160 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-body-noun-1 - ws: body/organic structure/physical structure - [(the entire physical structure of a... - tc=536 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-2 - ws: serviceman/man/military man/military personnel - [(someone who serves in the armed fo... - tc=432 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-11 - ws: man/piece - [(game equipment consisting of an ob... - tc=0 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">landuse</osnp:keyLabel>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-10 - ws: cover - [(to take an action to protect again... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-9 - ws: man/valet/gentleman/gentleman's gentleman/valet de chambre - [(a manservant who acts as a persona... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-5 - ws: cover/treat/deal/address/handle/plow - [(deal with verbally or in some form... - tc=14 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-5 - ws: human being/homo/human/man - [(any living or extinct member of th... - tc=88 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-1 - ws: man/adult male - [(an adult male person (as opposed t... - tc=1437 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-20 - ws: shroud/cover/enshroud/hide - [(cover as if with a shroud; "The or... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-1 - ws: cover - [(provide with a covering or cause t... - tc=35 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[man#NN#null 2], [body#NN#null 2], [store#VB#null 2], [water#NN#null 2], [cover#VB#null 2], [uncover#VB#null 2]]</osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-reservoir-noun-2"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-store-verb-1 - ws: store/stack away/hive away/lay in/put in/salt away/stash away - [(keep or lay aside for future use; ... - tc=18 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-9 - ws: cover - [(hold within range of an aimed fire... - tc=2 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-reservoir-noun-3"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-body-noun-5 - ws: body - [(an individual 3-dimensional object... - tc=31 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-water-noun-4 - ws: water - [(once thought to be one of four ele... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-4 - ws: cover - [(provide for; "The grant doesn't co... - tc=16 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-6 - ws: comprehend/encompass/embrace/cover - [(include in scope; include as part ... - tc=10 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-26 - ws: cover/wrap up - [(clothe, as if for protection from ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-body-noun-4 - ws: torso/body/trunk - [(the body excluding the head and ne... - tc=63 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-11 - ws: cover/cover up - [(hide from view or knowledge; "The ... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-water-noun-1 - ws: water/H2O - [(binary compound that occurs at roo... - tc=744 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-reservoir-noun-4 - ws: reservoir/source - [(anything (a person or animal or pl... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-21 - ws: breed/cover - [(copulate with a female, used espec... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-body-noun-6 - ws: body - [(a collection of particulars consid... - tc=30 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-uncover-verb-1 - ws: uncover/bring out/reveal/unveil - [(make visible; "Summer brings out b... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-12 - ws: cover - [(protect or defend (a position in a... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-reservoir-noun-1 - ws: reservoir - [(a large or extra supply of somethi... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-water-noun-3 - ws: water system/water/water supply - [(facility that provides a source of... - tc=50 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-reservoir-noun-3 - ws: reservoir - [(tank used for collecting and stori... - tc=1 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-water-noun-2"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-7 - ws: traverse/cross/track/pass over/cover/cut across/cut through/get across/get over - [(travel across or pass over; "The c... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-13 - ws: cover - [(maintain a check on; especially by... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-18 - ws: cover - [(be sufficient to meet, defray, or ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-body-noun-2 - ws: body/dead body - [(body of a dead animal or person; "... - tc=266 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-reservoir-noun-2 - ws: reservoir/artificial lake - [(lake used to store water for commu... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[landuse#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-3 - ws: extend/cover - [(span an interval of distance, spac... - tc=18 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-uncover-verb-2 - ws: uncover/expose - [(remove all or part of one's clothe... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-body-noun-9 - ws: body - [(the central message of a communica... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-15 - ws: compensate/overcompensate/cover - [(make up for shortcomings or a feel... - tc=0 -  </osnp:debug>
+    <osnp:value xml:lang="en">reservoir</osnp:value>
+    
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-25 - ws: brood/incubate/hatch/cover - [(sit on (eggs); "Birds brood"; "The... - tc=0 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:natural/v:glacier">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-northern-adjective-1 - ws: northern - [(in or characteristic of a region o... - tc=15 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-17 - ws: cover - [(help out by taking someone's place... - tc=0 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">natural</osnp:keyLabel>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-12 - ws: cover - [(protect or defend (a position in a... - tc=1 -  </osnp:debug>
+    <skos:definition xml:lang="en">Areas (or peaks) covered with ice throughout the year Glaciers are a prominent feature in many northern countries. Approved Glaciers are a prominent feature in many northern countries, and as such, they should be mapped. As some of the world's glaciers are very large (e.g., the Greenland ice sheet covers approximately 1,750,000 km2), it should be possible to mark the area with several shorter ways (similar to the natural=coastline tag). Elements: Areas (or peaks) covered with ice throughout the year</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-11 - ws: cover/cover up - [(hide from view or knowledge; "The ... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-peak-noun-2 - ws: blossom/flower/bloom/efflorescence/flush/heyday/peak/prime - [(the period of greatest prosperity ... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-26 - ws: cover/wrap up - [(clothe, as if for protection from ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-peak-noun-4 - ws: summit/top/crest/peak/crown/tip - [(the top point of a mountain or hil... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-country-noun-2 - ws: state/nation/body politic/commonwealth/country/land/res publica - [(a politically organized body of pe... - tc=257 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-21 - ws: breed/cover - [(copulate with a female, used espec... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-glacier-noun-1 - ws: glacier - [(a slowly moving mass of ice)] - tc=1 -  </osnp:debug>
+    <osnp:value xml:lang="en">glacier</osnp:value>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ice-noun-4 - ws: ice/icing/frosting - [(a flavored sugar topping used to c... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-22 - ws: overlay/cover - [(put something on top of something ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-1 - ws: cover - [(provide with a covering or cause t... - tc=35 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-3 - ws: area - [(a subject of study; "it was his ar... - tc=66 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-northern-adjective-4 - ws: northern - [(situated in or coming from regions... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[glacier#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-16 - ws: cover - [(invest with a large or excessive a... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ice-noun-5 - ws: ice/frappe - [(a frozen dessert with fruit flavor... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ice-noun-8 - ws: ice rink/ice/ice-skating rink - [(a rink with a floor of ice for ice... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[natural#JJ#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-6 - ws: comprehend/encompass/embrace/cover - [(include in scope; include as part ... - tc=10 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-18 - ws: cover - [(be sufficient to meet, defray, or ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-peak-noun-7 - ws: bill/eyeshade/peak/visor/vizor - [(a brim that projects to the front ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-year-noun-2 - ws: year - [(a period of time occupying a regul... - tc=27 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-country-noun-1 - ws: country/land/state - [(the territory occupied by a nation... - tc=276 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-10 - ws: cover - [(to take an action to protect again... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-25 - ws: brood/incubate/hatch/cover - [(sit on (eggs); "Birds brood"; "The... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-4 - ws: cover - [(provide for; "The grant doesn't co... - tc=16 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-peak-noun-6 - ws: vertex/acme/apex/peak - [(the highest point (of something); ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-year-noun-4 - ws: class/year - [(a body of students who graduate to... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-country-noun-4 - ws: rural area/country - [(an area outside of cities and town... - tc=39 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-23 - ws: cover - [(play a higher card than the one pr... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-5 - ws: area/region - [(a part of an animal that has a spe... - tc=32 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-peak-noun-4"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-6 - ws: area/expanse/surface area - [(the extent of a 2-dimensional surf... - tc=26 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ice-noun-6 - ws: methamphetamine/Methedrine/chalk/chicken feed/crank/deoxyephedrine/glass/ice/meth/methamphetamine hydrochloride/shabu/trash - [(amphetamine used in the form of a ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-country-noun-5 - ws: area/country - [(a particular geographical region o... - tc=29 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-area-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-13 - ws: cover - [(maintain a check on; especially by... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-year-noun-3 - ws: year - [(the period of time that it takes f... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-2 - ws: sphere/area/arena/domain/field/orbit - [(a particular environment or walk o... - tc=72 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-19 - ws: cover - [(spread over a surface to conceal o... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-24 - ws: cover - [(be responsible for guarding an opp... - tc=0 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-glacier-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-peak-noun-5 - ws: point/peak/tip - [(a V shape; "the cannibal's teeth w... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-country-noun-3 - ws: nation/a people/country/land - [(the people who live in a nation or... - tc=71 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-9 - ws: cover - [(hold within range of an aimed fire... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-peak-noun-1 - ws: peak/extremum - [(the most extreme possible amount o... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ice-noun-3 - ws: sparkler/ice - [(diamonds; "look at the ice on that... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-2 - ws: cover/spread over - [(form a cover over; "The grass cove... - tc=19 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ice-noun-1 - ws: ice/water ice - [(water frozen in the solid state; "... - tc=31 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[area#NN#null 3], [cover#VB#null 3], [ice#NN#null 3], [glacier#NN#null 3], [peak#NN#null 2], [year#NN#null 2], [prominent#JJ#null 2], [northern#JJ#null 2], [country#NN#null 2], [year glacier#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-area-noun-1 - ws: area/country - [(a particular geographical region o... - tc=620 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-4 - ws: area - [(a part of a structure having some ... - tc=42 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-7 - ws: traverse/cross/track/pass over/cover/cut across/cut through/get across/get over - [(travel across or pass over; "The c... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ice-noun-2 - ws: ice - [(the frozen part of a body of water... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-14 - ws: underwrite/insure/cover - [(protect by insurance; "The insuran... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-5 - ws: cover/treat/deal/address/handle/plow - [(deal with verbally or in some form... - tc=14 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-3 - ws: extend/cover - [(span an interval of distance, spac... - tc=18 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-15 - ws: compensate/overcompensate/cover - [(make up for shortcomings or a feel... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-20 - ws: shroud/cover/enshroud/hide - [(cover as if with a shroud; "The or... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-peak-noun-3 - ws: top/peak/elevation/acme/height/pinnacle/summit/superlative - [(the highest level or degree attain... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-year-noun-1 - ws: year/twelvemonth/yr - [(a period of time containing 365 (o... - tc=832 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cover-verb-8 - ws: report/cover - [(be responsible for reporting the d... - tc=3 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:clothes/v:women">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-woman-noun-1 - ws: woman/adult female - [(an adult female person (as opposed... - tc=480 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sell-verb-2 - ws: sell - [(be sold at a certain price or in a... - tc=159 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-woman-noun-4 - ws: woman - [(a female person who plays a signif... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-clothes-noun-1 - ws: dress/apparel/clothes/wearing apparel - [(clothing in general; "she was refi... - tc=45 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sell-verb-7 - ws: sell - [(be approved of or gain acceptance;... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-woman-noun-2 - ws: womanhood/woman - [(women as a class; "it's an insult ... - tc=95 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sell-verb-6 - ws: betray/sell - [(deliver to an enemy by treachery; ... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sell-verb-5 - ws: sell - [(give up for a price or reward; "Sh... - tc=8 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-clothes-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-woman-noun-1"/>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[clothes#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sell-verb-4 - ws: sell - [(persuade somebody to accept someth... - tc=31 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[sell#VB#null 1], [clothes#NN#null 1], [woman#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-woman-noun-3 - ws: charwoman/char/cleaning lady/cleaning woman/woman - [(a human female who does housework;... - tc=7 -  </osnp:debug>
+    <skos:definition xml:lang="en">Sells clothes for women.</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sell-verb-8 - ws: sell - [(be responsible for the sale of; "A... - tc=0 -  </osnp:debug>
+    <osnp:value xml:lang="en">women</osnp:value>
+    <osnp:keyLabel xml:lang="en">clothes</osnp:keyLabel>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sell-verb-3 - ws: trade/deal/sell - [(do business; offer for sale as for... - tc=59 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[woman#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sell-verb-1 - ws: sell - [(exchange or deliver for money or i... - tc=633 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:railway/v:subway">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+  	<skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-subway-noun-1"/>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[railway#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-2 - ws: service - [(a company or agency that performs ... - tc=252 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[city#NN#null 4], [city passenger#NN#null 4], [passenger#NN#null 4], [rail#NN#null 4], [rail service#NN#null 4], [service#NN#null 4], [see#VB#null 3], [wikipedium#NN#null 3], [rapid#JJ#null 3], [transit#NN#null 3]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-city-noun-3 - ws: city/metropolis - [(people living in a large densely p... - tc=24 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-14 - ws: attend/look/see/take care - [(take charge of or deal with; "Coul... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-city-noun-2 - ws: city - [(an incorporated administrative dis... - tc=103 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-rail-noun-2 - ws: rail - [(short for railway; "he traveled by... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-transit-noun-2 - ws: transit/transportation/transportation system - [(a facility consisting of the means... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-4 - ws: service - [(an act of help or assistance; "he ... - tc=194 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-15 - ws: see - [(receive as a specified guest; "the... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-8 - ws: check/determine/ascertain/find out/learn/see/watch - [(find out, learn, or determine with... - tc=29 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-7 - ws: watch/view/see/catch/take in - [(see or watch; "view a show on tele... - tc=31 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-city-noun-1 - ws: city/metropolis/urban center - [(a large and densely populated urba... - tc=320 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-18 - ws: see - [(deliberate or decide; "See whether... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-11 - ws: see - [(go to see for professional or busi... - tc=13 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-10 - ws: serve/service - [((sports) a stroke that puts the ba... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-24 - ws: interpret/construe/see - [(make sense of; assign a meaning to... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-13 - ws: visit/see - [(visit a place, as for entertainmen... - tc=10 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-23 - ws: see - [(match or meet; "I saw the bet of o... - tc=0 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-city-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-5 - ws: view/see/consider/reckon/regard - [(deem to be; "She views this quite ... - tc=47 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-10 - ws: check/see/ascertain/assure/control/ensure/insure/see to it - [(be careful or certain to do someth... - tc=22 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-rail-noun-1 - ws: rail/railing - [(a barrier consisting of a horizont... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-rail-noun-5 - ws: rail - [(any of numerous widely distributed... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-transit-noun-3 - ws: transit/passage - [(a journey usually by ship; "the ou... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-11 - ws: service/service of process/serving - [(the act of delivering a writ or su... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-subway-noun-2 - ws: underpass/subway - [(an underground tunnel or passage e... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-12 - ws: see - [(go to see for a social visit; "I w... - tc=12 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-3 - ws: service/divine service/religious service - [(the act of public worship followin... - tc=225 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-passenger-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-15 - ws: service - [((law) the acts performed by an Eng... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-7 - ws: service - [(the performance of duties by a wai... - tc=20 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-21 - ws: experience/go through/see/undergo - [(go or live through; "We had many t... - tc=0 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-rail-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-13 - ws: avail/help/service - [(a means of serving; "of no avail";... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-subway-noun-1 - ws: metro/subway/tube/underground - [(electric underground railway)] - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-transit-noun-1 - ws: transit/theodolite - [(a surveying instrument for measuri... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-6 - ws: discover/see/get a line/get wind/get word/hear/learn/find out/pick up - [(get to know or become aware of, us... - tc=40 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-transit-noun-1"/>
+    <osnp:keyLabel xml:lang="en">railway</osnp:keyLabel>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-9 - ws: encounter/meet/come across/ran into/run across/see - [(come together; "I'll probably see ... - tc=27 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-16 - ws: date/go out/go steady/see - [(date regularly; have a steady rela... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-rail-noun-4 - ws: rail - [(a horizontal bar (usually of wood)... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-9 - ws: service/table service - [(tableware consisting of a complete... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-4 - ws: figure/image/fancy/envision/picture/visualize/see/project/visualise - [(imagine; conceive of; see in one's... - tc=58 -  </osnp:debug>
+    <skos:definition xml:lang="en">A city passenger rail service running mostly grade separated (see Wikipedia:rapid transit). city passenger rail service Type of railway track for a city passenger rail service (see Wikipedia:rapid transit). A city passenger rail service running mostly grade separated (see Wikipedia:rapid transit).</skos:definition>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[subway#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-1 - ws: see - [(perceive by sight or have the powe... - tc=617 -  </osnp:debug>
+    <osnp:value xml:lang="en">subway</osnp:value>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-6 - ws: military service/armed service/service - [(a force that is a branch of the ar... - tc=63 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-14 - ws: service/servicing - [(the act of mating by male animals;... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-17 - ws: see - [(see and understand, have a good ey... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-2 - ws: understand/realise/realize/see - [(perceive (an idea or situation) me... - tc=159 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-rail-noun-3 - ws: rail/track/rails - [(a bar or bars of rolled steel maki... - tc=0 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-service-noun-1"/>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-passenger-noun-1 - ws: rider/passenger - [(a traveler riding in a vehicle (a ... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-5 - ws: service - [(employment in or work for another;... - tc=107 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-3 - ws: find/witness/see - [(perceive or be contemporaneous wit... - tc=141 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-22 - ws: see/escort - [(accompany or escort; "I'll see you... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-20 - ws: examine/see - [(observe, check out, and look over ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-8 - ws: service/overhaul/inspection and repair - [(periodic maintenance on a car or m... - tc=17 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-service-noun-1 - ws: service - [(work done by one person or group t... - tc=598 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-19 - ws: see - [(observe as if with an eye; "The ca... - tc=0 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:landuse">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-5 - ws: country/land/state - [(the territory occupied by a nation... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-6 - ws: area/expanse/surface area - [(the extent of a 2-dimensional surf... - tc=26 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-3 - ws: ground/earth/land/dry land/solid ground/terra firma - [(the solid part of the earth's surf... - tc=11 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-3 - ws: area - [(a subject of study; "it was his ar... - tc=66 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-11 - ws: farming/land - [(working the land as an occupation ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-2 - ws: sphere/area/arena/domain/field/orbit - [(a particular environment or walk o... - tc=72 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">landuse</osnp:keyLabel>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-land-noun-2"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-5 - ws: area/region - [(a part of an animal that has a spe... - tc=32 -  </osnp:debug>
+    <skos:definition xml:lang="en">landuse For describing the primary use of areas of land. Landuse</skos:definition>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[landuse#NN#null 2], [primary#JJ#null 1], [area#NN#null 1], [land#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-8 - ws: nation/a people/country/land - [(the people who live in a nation or... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-4 - ws: domain/demesne/land - [(territory over which rule or contr... - tc=11 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-area-noun-1 - ws: area/country - [(a particular geographical region o... - tc=620 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-9 - ws: state/nation/body politic/commonwealth/country/land/res publica - [(a politically organized body of pe... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-6 - ws: kingdom/land/realm - [(a domain in which something is dom... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-primary-adjective-1 - ws: primary - [(of first rank or importance or val... - tc=16 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-1 - ws: land - [(the land on which real estate is l... - tc=23 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: []</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-4 - ws: area - [(a part of a structure having some ... - tc=42 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-7 - ws: estate/acres/demesne/land/landed estate - [(extensive landed property (especia... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-land-noun-2 - ws: land/ground/soil - [(material in the top layer of the s... - tc=18 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[landuse#NN#null 1]]</osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-area-noun-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:natural/v:wetland">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-area-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ground-noun-3 - ws: earth/ground - [(the loose soft material that makes... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-natural-adjective-1 - ws: natural - [(in accordance with nature; relatin... - tc=23 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ground-noun-9 - ws: ground/earth - [(a connection between an electrical... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ground-noun-2 - ws: ground/reason - [(a rational motive for a belief or ... - tc=11 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-natural-adjective-5 - ws: natural - [(of a key containing no sharps or f... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ground-noun-8 - ws: ground - [(a relatively homogeneous percept e... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-natural-adjective-2 - ws: natural - [(existing in or produced by nature;... - tc=15 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:value xml:lang="en">wetland</osnp:value>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-inundation-noun-2 - ws: deluge/inundation/flood/torrent - [(an overwhelming number or amount; ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[natural#JJ#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-inundation-noun-1 - ws: deluge/inundation/flood/alluvion - [(the rising of a body of water and ... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ground-noun-5 - ws: ground - [(a position to be won or defended i... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[wetland#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[waterlogged#JJ#null 4], [area#NN#null 4], [wetland#NN#null 3], [wikipedium#NN#null 2], [inundation#NN#null 2], [ground#NN#null 2], [wetland tag#NN#null 1], [natural#JJ#null 1], [ground wetland#NN#null 1], [area subject#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-ground-noun-1 - ws: ground/earth/land/dry land/solid ground/terra firma - [(the solid part of the earth's surf... - tc=87 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-wetland-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ground-noun-4 - ws: footing/basis/ground - [(a relation that provides the found... - tc=1 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">natural</osnp:keyLabel>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-wetland-noun-1 - ws: wetland - [(a low area where the land is satur... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-6 - ws: area/expanse/surface area - [(the extent of a 2-dimensional surf... - tc=26 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-natural-adjective-3 - ws: natural - [(existing in or in conformity with ... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ground-noun-7 - ws: land/ground/soil - [(material in the top layer of the s... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ground-noun-10 - ws: ground - [((art) the surface (as a wall or ca... - tc=0 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-inundation-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-5 - ws: area/region - [(a part of an animal that has a spe... - tc=32 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ground-noun-6 - ws: background/ground - [(the part of a scene (or picture) t... - tc=1 -  </osnp:debug>
+    <skos:definition xml:lang="en">waterlogged area (on Wikipedia) The wetland tag is used for natural areas subject to inundation or with waterlogged ground wetland=* Approved An area subject to inundation by water, or where waterlogged ground may be present. Examples include swamps, tropical mangroves, tidal, marshland, and bogs. Wetlands are also typically found at the fringes of rivers, lakes or along the coastline. waterlogged area (on Wikipedia)</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-4 - ws: area - [(a part of a structure having some ... - tc=42 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-area-noun-1 - ws: area/country - [(a particular geographical region o... - tc=620 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-ground-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ground-noun-11 - ws: undercoat/primer/ground/flat coat/primer coat/priming/priming coat - [(the first or preliminary coat of p... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-3 - ws: area - [(a subject of study; "it was his ar... - tc=66 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-2 - ws: sphere/area/arena/domain/field/orbit - [(a particular environment or walk o... - tc=72 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:building/v:stadium">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-sport-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-amphitheatre-noun-2"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-amphitheatre-noun-2 - ws: amphitheater/amphitheatre/coliseum - [(an oval large stadium with tiers o... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-establish-verb-8 - ws: build/establish - [(build or establish something abstr... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-establish-verb-6 - ws: install/establish/instal/set up - [(place; "Her manager had set her up... - tc=2 -  </osnp:debug>
+    <osnp:value xml:lang="en">stadium</osnp:value>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-establish-verb-7 - ws: found/base/ground/establish - [(use as a basis for; found on; "bas... - tc=2 -  </osnp:debug>
+    <skos:definition xml:lang="en">Sports stadium, amphitheatre, etc. leisure=stadium is probably more established.</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-leisure-noun-1 - ws: leisure/leisure time - [(time available for ease and relaxa... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-establish-verb-3 - ws: prove/establish/demonstrate/shew/show - [(establish the validity of somethin... - tc=24 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sport-noun-2 - ws: sport - [(the occupation of athletes who com... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-leisure-noun-2 - ws: leisure - [(freedom to choose a pastime or enj... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-amphitheatre-noun-1 - ws: amphitheater/amphitheatre - [(a sloping gallery with seats for s... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sport-noun-3 - ws: sport/sportsman/sportswoman - [(someone who engages in sports)] - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[sport#NN#null 1], [sport stadium#NN#null 1], [stadium#NN#null 2], [amphitheatre#NN#null 1], [leisure#NN#null 1], [establish#VB#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[building#NN#null 1]]</osnp:debug>
+    <osnp:keyLabel xml:lang="en">building</osnp:keyLabel>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sport-noun-6 - ws: fun/play/sport - [(verbal wit (often at another's exp... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-establish-verb-1 - ws: establish/found/launch/set up - [(set up or found; "She set up a lit... - tc=50 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-establish-verb-4 - ws: lay down/establish/make - [(institute, enact, or establish; "m... - tc=15 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-sport-noun-1 - ws: sport/athletics - [(an active diversion requiring phys... - tc=11 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sport-noun-4 - ws: variation/mutation/mutant/sport - [((biology) an organism that has cha... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[stadium#NN#null 1]]</osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-stadium-noun-1"/>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-stadium-noun-1 - ws: stadium/arena/bowl/sports stadium - [(a large structure for open-air spo... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-establish-verb-5 - ws: establish/give - [(bring about; "The trompe l'oeil-il... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sport-noun-5 - ws: sport - [((Maine colloquial) temporary summe... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-establish-verb-2 - ws: establish/constitute/institute/found/plant - [(set up or lay the groundwork for; ... - tc=28 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:tourism/v:hotel">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[hotel#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-meeting-noun-6 - ws: confluence/meeting - [(a place where things merge or flow... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-7 - ws: service - [(the performance of duties by a wai... - tc=20 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-10 - ws: serve/service - [((sports) a stroke that puts the ba... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-15 - ws: service - [((law) the acts performed by an Eng... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-short-adjective-1 - ws: short - [(primarily temporal sense; indicati... - tc=43 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-4 - ws: service - [(an act of help or assistance; "he ... - tc=194 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-term-noun-2 - ws: term - [(a limited period of time; "a priso... - tc=216 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pay-verb-4 - ws: pay - [(bear (a cost or penalty), in recom... - tc=50 -  </osnp:debug>
+    <osnp:value xml:lang="en">hotel</osnp:value>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-short-adjective-3 - ws: short - [(low in stature; not tall; "his was... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-3 - ws: service/divine service/religious service - [(the act of public worship followin... - tc=225 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-provide-verb-3 - ws: provide - [(determine (what is to happen in ce... - tc=14 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-term-noun-4 - ws: term - [(any distinct quantity contained in... - tc=23 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-term-noun-7 - ws: terminus/term/terminal figure - [((architecture) a statue or a human... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-lodging-noun-1 - ws: housing/living accommodations/lodging - [(housing structures collectively; s... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pay-verb-5 - ws: pay up/pay/ante up - [(cancel or discharge a debt; "pay u... - tc=42 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pay-verb-11 - ws: pay - [(make a compensation for; "a favor ... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-short-adjective-6 - ws: short - [(of speech sounds (especially vowel... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-provide-verb-4 - ws: put up/offer/provide - [(mount or put up; "put up a good fi... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-establishment-noun-3 - ws: organisation/organization/administration/brass/establishment/governance/governing body - [(the persons (or committees or depa... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-term-noun-5 - ws: term - [(one of the substantive phrases in ... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-14 - ws: service/servicing - [(the act of mating by male animals;... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pay-verb-9 - ws: give/devote/pay - [(dedicate; "give thought to"; "give... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pay-verb-10 - ws: pay - [(discharge or settle; "pay a debt";... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-provide-verb-1 - ws: supply/provide/furnish/render - [(provide or furnish with; "We provi... - tc=272 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-establishment-noun-4 - ws: establishment - [(a public or private structure (bus... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-8 - ws: service/overhaul/inspection and repair - [(periodic maintenance on a car or m... - tc=17 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-service-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-meeting-noun-4 - ws: encounter/meeting - [(a casual or unexpected convergence... - tc=25 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-13 - ws: avail/help/service - [(a means of serving; "of no avail";... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-6 - ws: military service/armed service/service - [(a force that is a branch of the ar... - tc=63 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-short-adjective-5 - ws: short - [(not holding securities or commodit... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-provide-verb-7 - ws: provide - [(take measures in preparation for; ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-hotel-noun-1 - ws: hotel - [(a building where travelers can pay... - tc=39 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pay-verb-1 - ws: pay - [(give money, usually in exchange fo... - tc=917 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-term-noun-1 - ws: term - [(a word or expression used for some... - tc=307 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-establishment-noun-4"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-meeting-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-provide-verb-5 - ws: provide/leave/allow/allow for - [(make a possibility or provide oppo... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-term-noun-6 - ws: term/full term - [(the end of gestation or point at w... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-short-adjective-2 - ws: short - [(primarily spatial sense; having li... - tc=22 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pay-verb-6 - ws: yield/pay/bear - [(bring in; "interest-bearing accoun... - tc=27 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-lodging-noun-2 - ws: lodging/lodgement/lodgment - [(the state or quality of being lodg... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pay-verb-3 - ws: compensate/pay/make up/pay off - [(do or give something to somebody i... - tc=72 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pay-verb-2 - ws: give/pay - [(convey, as of a compliment, regard... - tc=148 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-establishment-noun-6 - ws: establishment/ecesis - [((ecology) the process by which a p... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-establishment-noun-1 - ws: organisation/organization/formation/establishment/constitution - [(the act of forming something; "the... - tc=10 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-meeting-noun-1 - ws: meeting - [(a formally arranged gathering; "ne... - tc=506 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-5 - ws: service - [(employment in or work for another;... - tc=107 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-term-noun-3 - ws: condition/term - [((usually plural) a statement of wh... - tc=113 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[hotel#NN#null 4], [provide#VB#null 2], [service#NN#null 2], [meeting#NN#null 2], [establishment#NN#null 1], [pay#VB#null 1], [lodging#NN#null 1], [short#JJ#null 1], [term#NN#null 1], [term basis#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-lodging-noun-3 - ws: lodging - [(the act of lodging)] - tc=0 -  </osnp:debug>
+    <skos:definition xml:lang="en">Used to tag a hotel. A hotel is an establishment that provides paid lodging, usually on a short-term basis. Hotels often provide a number of additional guest services such as a restaurant, a swimming pool or childcare. Some hotels have conference services and meeting rooms and encourage groups to hold conventions and meetings at their location</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-establishment-noun-2 - ws: institution/establishment - [(an organization founded and united... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pay-verb-8 - ws: pay - [(be worth it; "It pays to go throug... - tc=16 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-provide-verb-6 - ws: provide/bring home the bacon - [(supply means of subsistence; earn ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-provide-verb-2 - ws: supply/provide/cater/ply - [(provide what is desired or needed,... - tc=25 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">tourism</osnp:keyLabel>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[tourism#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-meeting-noun-2 - ws: meeting/coming together - [(the social act of assembling for s... - tc=115 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-2 - ws: service - [(a company or agency that performs ... - tc=252 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-establishment-noun-7 - ws: validation/establishment - [(the cognitive process of establish... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pay-verb-7 - ws: pay - [(render; "pay a visit"; "pay a call... - tc=19 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-establishment-noun-5 - ws: establishment - [(any large organization)] - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-service-noun-1 - ws: service - [(work done by one person or group t... - tc=598 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-meeting-noun-3 - ws: get together/meeting - [(a small informal social gathering;... - tc=46 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-meeting-noun-5 - ws: merging/coming together/meeting - [(the act of joining together as one... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-9 - ws: service/table service - [(tableware consisting of a complete... - tc=4 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-hotel-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-service-noun-11 - ws: service/service of process/serving - [(the act of delivering a writ or su... - tc=2 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:historic/v:battlefield">
+  <osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[battlefield#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-land-noun-2 - ws: land/ground/soil - [(material in the top layer of the s... - tc=18 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-8 - ws: nation/a people/country/land - [(the people who live in a nation or... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-battle-noun-3 - ws: battle/struggle/conflict - [(an open clash between two opposing... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-1 - ws: land - [(the land on which real estate is l... - tc=23 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-military-adjective-3 - ws: military - [(associated with or performed by ar... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-land-noun-3 - ws: ground/earth/land/dry land/solid ground/terra firma - [(the solid part of the earth's surf... - tc=11 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-9 - ws: state/nation/body politic/commonwealth/country/land/res publica - [(a politically organized body of pe... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-past-noun-3 - ws: past/past tense - [(a verb tense that expresses action... - tc=1 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-skirmish-noun-1"/>
+    <skos:definition xml:lang="en">The site of a battle or military skirmish in the past. this could be on land or at sea. The site of a battle or military skirmish in the past. this could be on land or at sea</skos:definition>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-site-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-sea-noun-1"/>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-site-noun-1 - ws: site/land site - [(the piece of land on which somethi... - tc=51 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-military-adjective-1 - ws: military - [(of or relating to the study of the... - tc=37 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sea-noun-3 - ws: sea - [(turbulent water with swells of con... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-4 - ws: domain/demesne/land - [(territory over which rule or contr... - tc=11 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-11 - ws: farming/land - [(working the land as an occupation ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-site-noun-2 - ws: situation/site - [(physical position in relation to t... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-site-noun-3 - ws: web site/internet site/site - [(a computer connected to the intern... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-battlefield-noun-1 - ws: battlefield/battleground/field/field of battle/field of honor - [(a region where a battle is being (... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-skirmish-noun-1 - ws: skirmish/encounter/brush/clash - [(a minor short-term fight)] - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-7 - ws: estate/acres/demesne/land/landed estate - [(extensive landed property (especia... - tc=2 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-land-noun-2"/>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[historic#JJ#null 1]]</osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-land-noun-3"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-military-adjective-2 - ws: military - [(characteristic of or associated wi... - tc=12 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">historic</osnp:keyLabel>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-battle-noun-2 - ws: struggle/battle - [(an energetic attempt to achieve so... - tc=8 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-past-noun-1 - ws: past/past times/yesteryear/yore - [(the time that has elapsed; "forget... - tc=44 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-5 - ws: country/land/state - [(the territory occupied by a nation... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[site#NN#null 2], [battle#NN#null 2], [military#JJ#null 2], [skirmish#NN#null 2], [past#NN#null 2], [land#NN#null 2], [sea#NN#null 2]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-past-noun-2 - ws: past - [(a earlier period in someone's life... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-6 - ws: kingdom/land/realm - [(a domain in which something is dom... - tc=2 -  </osnp:debug>
+    <osnp:value xml:lang="en">battlefield</osnp:value>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-battle-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sea-noun-2 - ws: ocean/sea - [(anything apparently limitless in q... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-battle-noun-1 - ws: engagement/fight/battle/conflict - [(a hostile meeting of opposing mili... - tc=73 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-battlefield-noun-1"/>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-sea-noun-1 - ws: sea - [(a division of an ocean or a large ... - tc=38 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:historic/v:castle">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-castle-noun-3 - ws: castle/rook - [((chess) the piece that can move an... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-castle-noun-4 - ws: castling/castle - [(interchanging the positions of the... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[castle#NN#null 1]]</osnp:debug>
+    <osnp:keyLabel xml:lang="en">historic</osnp:keyLabel>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-modern-adjective-1 - ws: modern - [(belonging to the modern era; since... - tc=62 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-modern-adjective-1"/>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-burg-noun-1 - ws: burg - [(colloquial American term for a tow... - tc=0 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-castle-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-language-noun-3 - ws: terminology/language/nomenclature - [(a system of words used in a partic... - tc=28 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-building-noun-4 - ws: building - [(the occupants of a building; "the ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-building-noun-3 - ws: building/construction - [(the commercial activity involved i... - tc=1 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-castle-noun-1"/>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-castle-noun-2"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-language-noun-5 - ws: speech/language - [(the mental faculty or power of voc... - tc=13 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-language-noun-6 - ws: lyric/language/words - [(the text of a popular song or musi... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-castle-noun-1 - ws: palace/castle - [(a large and stately mansion)] - tc=3 -  </osnp:debug>
+    <skos:definition xml:lang="en">Other languages Other languages Other languages Other languages fortified building in medieval and modern times Castles are (often fortified) buildings from medieval and modern times. For the German Burg and Schloss no proper English counterpart exists, the description and picture should help. Other languages</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-fortify-verb-1 - ws: strengthen/fortify/beef up - [(make strong or stronger; "This exe... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-medieval-adjective-1 - ws: mediaeval/medieval - [(relating to or belonging to the Mi... - tc=14 -  </osnp:debug>
+    <osnp:value xml:lang="en">castle</osnp:value>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-fortify-verb-2 - ws: fortify/fort - [(enclose by or as if by a fortifica... - tc=0 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-medieval-adjective-1"/>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[historic#JJ#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-language-noun-1 - ws: language/linguistic communication - [(a systematic means of communicatin... - tc=486 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-fortify-verb-3 - ws: arm/fortify/build up/gird - [(prepare oneself for a military con... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-language-noun-2 - ws: speech/language/oral communication/speech communication/spoken communication/spoken language/voice communication - [((language) communication by word o... - tc=155 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-building-noun-2 - ws: building/construction - [(the act of constructing or buildin... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-fortify-verb-5 - ws: fortify/lace/spike - [(add alcohol beverages)] - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-fortify-verb-4 - ws: fortify - [(add nutrients to; "fortified milk"... - tc=0 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-building-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-Middle_Ages-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-language-noun-4 - ws: linguistic process/language - [(the cognitive processes involved i... - tc=25 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[language#NN#null 5], [fortify#VB#null 2], [building#NN#null 2], [medieval#JJ#null 2], [modern#JJ#null 2], [time castle#NN#null 1], [castle#NN#null 1], [german#NN#null 1], [german burg#NN#null 1], [burg#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-castle-noun-2 - ws: castle - [(a large building formerly occupied... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-building-noun-1 - ws: building/edifice - [(a structure that has a roof and wa... - tc=48 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/proposed_term/Art_gallery">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-gallery-noun-2 - ws: veranda/gallery/verandah - [(a porch along the outside of a bui... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-art_gallery-noun-1 - ws: gallery/art gallery/picture gallery - [(a room or series of rooms where wo... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[&lt;definition&gt;#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[gallery#NN#null 1]]</osnp:debug>
+    <osnp:keyLabel xml:lang="en">tourism</osnp:keyLabel>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-gallery-noun-1 - ws: gallery - [(spectators at a golf or tennis mat... - tc=0 -  </osnp:debug>
+    <osnp:value xml:lang="en">gallery</osnp:value>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-art_gallery-noun-1"/>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[tourism#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <skos:definition xml:lang="en">&lt;definition&gt;</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-gallery-noun-3 - ws: gallery/art gallery/picture gallery - [(a room or series of rooms where wo... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-gallery-noun-6 - ws: gallery - [(narrow recessed balcony area along... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-gallery-noun-4 - ws: gallery - [(a long usually narrow room used fo... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-gallery-noun-7 - ws: drift/gallery/heading - [(a horizontal (or nearly horizontal... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-gallery-noun-5 - ws: gallery - [(a covered corridor (especially one... - tc=0 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:sport">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-32 - ws: play - [(use or move; "I had to play my que... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-6 - ws: play/spiel - [(replay (as a melody); "Play it aga... - tc=14 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-football-noun-1 - ws: football/football game - [(any of various games played with a... - tc=9 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-15 - ws: play - [(put (a card or piece) into play du... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-14 - ws: play - [(perform on a certain location; "Th... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-leisure-noun-1 - ws: leisure/leisure time - [(time available for ease and relaxa... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-34 - ws: play/encounter/meet/take on - [(contend against an opponent in a s... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-17 - ws: play - [(behave in a certain way; "play saf... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sport-noun-4 - ws: variation/mutation/mutant/sport - [((biology) an organism that has cha... - tc=0 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">sport</osnp:keyLabel>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pitch-noun-5 - ws: slant/pitch/rake - [(degree of deviation from a horizon... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-physical-adjective-2 - ws: physical - [(relating to the sciences dealing w... - tc=16 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-2 - ws: play - [(act or have an effect in a specifi... - tc=38 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-leisure-noun-2 - ws: leisure - [(freedom to choose a pastime or enj... - tc=2 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-rugby-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-16 - ws: play/toy - [(engage in an activity as if it wer... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-23 - ws: toy/dally/flirt/play - [(behave carelessly or indifferently... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-example-noun-3 - ws: example/exemplar/good example/model - [(something to be imitated; "an exem... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-9 - ws: play - [(move or seem to move quickly, ligh... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-27 - ws: bring/make for/play/work/wreak - [(cause to happen or to occur as a c... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-associate-verb-2 - ws: associate/consort/affiliate/assort - [(keep company with; hang out with; ... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-4 - ws: play/act/represent - [(play a role or part; "Gielgud play... - tc=27 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-football-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-22 - ws: play - [(be received or accepted or interpr... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-21 - ws: dally/play/trifle - [(consider not very seriously; "He i... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[sport#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-physical-adjective-1 - ws: physical - [(involving the body as distinguishe... - tc=29 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-20 - ws: play - [(use to one's advantage; "She plays... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-example-noun-1 - ws: instance/illustration/example/representative - [(an item of information that is rep... - tc=63 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-identify-verb-6 - ws: identify - [(consider to be equal or the same; ... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pitch-noun-7 - ws: pitch/pitch shot - [(a high approach shot in golf)] - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-3 - ws: play - [(play on an instrument; "The band p... - tc=29 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-18 - ws: play/run - [(cause to emit recorded sounds; "Th... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: []</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-33 - ws: play - [(employ in a game or in a specific ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-example-noun-4 - ws: example/deterrent example/lesson/object lesson - [(punishment intended as a warning t... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-identify-verb-1 - ws: identify/place - [(recognize as being; establish the ... - tc=33 -  </osnp:debug>
+    <skos:definition xml:lang="en">sport For categorising any specific sport. Sport The sport=* tag is used to identify one or more sports which can be played within or on some physical feature. A list of sports is given below. Note that both football and rugby are to be avoided; please use american_football, australian_football, canadian_football, rugby_league, rugby_union or soccer, as appropriate. A sport should normally also be associated with a suitable physical feature on which it is played; often this is leisure=pitch or leisure=track although other surfaces or features are sometimes appropriate, for example leisure=swimming_pool for swimming and diving. A leisure=sports_centre may be associated with a number of sports. Where individual sports are played at distinct identifiable places then identify the sport with the particular pitch etc. Where a number of sports are associated with a single feature then separate the sports with a ';', for example 'gymnastics;badminton'.</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-identify-verb-3 - ws: identify - [(consider (oneself) as similar to s... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pitch-noun-8 - ws: pitch/auction pitch - [(an all-fours game in which the fir... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pitch-noun-10 - ws: pitch - [(the action or manner of throwing s... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-sport-noun-1 - ws: sport/athletics - [(an active diversion requiring phys... - tc=11 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-5 - ws: play - [(be at play; be engaged in playful ... - tc=23 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-associate-verb-1 - ws: associate/relate/connect/colligate/link/link up/tie in - [(make a logical or causal connectio... - tc=26 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sport-noun-2 - ws: sport - [(the occupation of athletes who com... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-7 - ws: play - [(perform music on (a musical instru... - tc=8 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-26 - ws: play - [(be performed; "What's playing in t... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-associate-verb-3 - ws: associate/consociate - [(bring or come into association or ... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pitch-noun-9 - ws: pitching/pitch/lurch - [(abrupt up-and-down motion (as caus... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-29 - ws: play - [(make bets; "Play the reaces"; "pla... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pitch-noun-1 - ws: pitch - [(the property of sound that varies ... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pitch-noun-4 - ws: pitch/sales talk/sales pitch - [(promotion by means of an argument ... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sport-noun-6 - ws: fun/play/sport - [(verbal wit (often at another's exp... - tc=0 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-sport-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-example-noun-5 - ws: example/instance/case - [(an occurrence of something; "it wa... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-identify-verb-2 - ws: identify/name - [(give the name or identifying chara... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-19 - ws: fiddle/toy/diddle/play - [(manipulate manually or in one's mi... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-25 - ws: playact/play/act/roleplay - [(perform on a stage or theater; "Sh... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-identify-verb-5 - ws: identify/name/describe/discover/distinguish/key/key out - [(identify as in botany or biology, ... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-example-noun-6 - ws: exercise/example - [(a task performed or problem solved... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pitch-noun-2 - ws: pitch/delivery - [((baseball) the throwing of a baseb... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-31 - ws: play - [(shoot or hit in a particular manne... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pitch-noun-6 - ws: tar/pitch - [(any of various dark heavy viscid s... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-11 - ws: play/recreate - [(engage in recreational activities ... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-rugby-noun-1 - ws: rugby/rugby football/rugger - [(a form of football played with an ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-10 - ws: play - [(bet or wager (money); "He played $... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sport-noun-5 - ws: sport - [((Maine colloquial) temporary summe... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-35 - ws: play - [(exhaust by allowing to pull on the... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[sport#NN#null 13], [football#NN#null 4], [leisure#NN#null 4], [play#VB#null 3], [rugby#NN#null 3], [associate#VB#null 3], [identify#VB#null 2], [physical#JJ#null 2], [pitch#NN#null 2], [example#NN#null 2]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-28 - ws: play - [(discharge or direct or be discharg... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sport-noun-3 - ws: sport/sportsman/sportswoman - [(someone who engages in sports)] - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-1 - ws: play - [(participate in games or sport; "We... - tc=70 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-example-noun-2 - ws: example/model - [(a representative form or pattern; ... - tc=13 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-24 - ws: play - [(cause to move or operate freely wi... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-13 - ws: play - [(emit recorded sound; "The tape was... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-football-noun-2 - ws: football - [(the inflated oblong ball used in p... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-identify-verb-4 - ws: identify - [(conceive of as united or associate... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-pitch-noun-3 - ws: pitch - [(a vendor's position (especially on... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-12 - ws: play - [(pretend to be somebody in the fram... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-8 - ws: act/act as/play - [(pretend to have certain qualities ... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-play-verb-30 - ws: play/wager/bet - [(stake on the outcome of an issue; ... - tc=0 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:ethnic_group/v:any">
+  <osnp:manual xml:lang="en">TRUE</osnp:manual>
+  	<skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-ethnicity-noun-1"/>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[colombium#NN#null 1], [colombium arhuaco#NN#null 1], [arhuaco#NN#null 1], [embera#NN#null 1], [guambiano#NN#null 1], [koguus#NN#null 1], [nasa#NN#null 1], [paez#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-connection-noun-9 - ws: connexion/connection/joining - [(the act of bringing two things int... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-connection-noun-3 - ws: connecter/connector/connexion/connection/connective - [(an instrumentality that connects; ... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-protection-noun-5 - ws: auspices/aegis/protection - [(kindly endorsement and guidance; "... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-connection-noun-7 - ws: connection - [(a supplier (especially of narcotic... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:value xml:lang="en">protect_class_24/in_connection_with_political_protection/aboriginal__group/the_name_of_the_ethnic__indigenous</osnp:value>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-class-noun-8 - ws: class - [((biology) a taxonomic group contai... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[ethnic#JJ#null 1], [group#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-protect-verb-2 - ws: protect - [(use tariffs to favor domestic indu... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-protection-noun-6 - ws: protection/trade protection - [(the imposition of duties or quotas... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[protect#VB#null 1], [class#NN#null 1], [connection#NN#null 1], [political#JJ#null 1], [protection#NN#null 1], [aboriginal#JJ#null 1], [group#NN#null 1], [ethnic#JJ#null 1], [indigenous#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-protect-verb-1 - ws: protect - [(shield from danger, injury, destru... - tc=44 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-connection-noun-8 - ws: connexion/connection - [(shifting from one form of transpor... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-protection-noun-7 - ws: protection/tribute - [(payment extorted by gangsters on t... - tc=0 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-aboriginal-adjective-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-connection-noun-5 - ws: connexion/connection/association - [(the process of bringing ideas or e... - tc=1 -  </osnp:debug>
+    <skos:definition xml:lang="en">I.e. in Colombia: arhuaco, embera, guambiano, kogui, nasa, paez...</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-protection-noun-3 - ws: security/protection - [(defense against financial failure;... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-political-adjective-2 - ws: political - [(of or relating to your views about... - tc=11 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-class-noun-5 - ws: class/year - [(a body of students who graduate to... - tc=50 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-protection-noun-4 - ws: shelter/protection - [(the condition of being protected; ... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-class-noun-6 - ws: class/division - [(a league ranked by quality; "he pl... - tc=31 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-class-noun-4 - ws: category/class/family - [(a collection of things sharing a c... - tc=178 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-group-noun-3 - ws: group/mathematical group - [(a set that is closed, associative,... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-class-noun-7 - ws: class - [(elegance in dress or behavior; "sh... - tc=6 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">ethnic_group</osnp:keyLabel>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-class-noun-3 - ws: course/class/course of instruction/course of study - [(education imparted in a series of ... - tc=190 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-political-adjective-3 - ws: political - [(of or relating to the profession o... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-group-noun-2 - ws: group/chemical group/radical - [((chemistry) two or more atoms boun... - tc=9 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-political-adjective-1 - ws: political - [(involving or characteristic of pol... - tc=45 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-protection-noun-1 - ws: protection - [(the activity of protecting someone... - tc=19 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-aboriginal-adjective-1 - ws: native/aboriginal - [(being or composed of people inhabi... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-class-noun-2 - ws: class/form/grade - [(a body of students who are taught ... - tc=192 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-connection-noun-4 - ws: connection - [((usually plural) a person who is i... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-group-noun-1 - ws: group/grouping - [(any number of entities (members) c... - tc=2350 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-connection-noun-6 - ws: connection/connexion/link - [(a connecting shape)] - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-connection-noun-1 - ws: connectedness/connection/connexion - [(a relation between things or event... - tc=14 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-class-noun-1 - ws: class/social class/socio-economic class - [(people having the same social or e... - tc=214 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-protection-noun-2 - ws: protection/protective covering/protective cover - [(a covering that is intend to prote... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-connection-noun-2 - ws: connectedness/link/connection - [(the state of being connected; "the... - tc=11 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:shop/v:beauty">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-3 - ws: find/witness/see - [(perceive or be contemporaneous wit... - tc=141 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-18 - ws: see - [(deliberate or decide; "See whether... - tc=1 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-salon-noun-1"/>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-hairdresser-noun-1 - ws: styler/stylist/hairdresser/hairstylist - [(someone who cuts or beautifies hai... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-spa-noun-1 - ws: watering place/spa/watering hole - [(a health resort near a spring or a... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-15 - ws: see - [(receive as a specified guest; "the... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-12 - ws: see - [(go to see for a social visit; "I w... - tc=12 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-salon-noun-2 - ws: salon/beauty parlor/beauty parlour/beauty salon/beauty shop - [(a shop where hairdressers and beau... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-shop-noun-2 - ws: workshop/shop - [(small workplace where handcrafts o... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-1 - ws: see - [(perceive by sight or have the powe... - tc=617 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-beauty-noun-2 - ws: stunner/smasher/beauty/dish/knockout/looker/lulu/mantrap/peach/ravisher/sweetheart - [(a very attractive or seductive loo... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-spa-noun-2 - ws: resort hotel/spa - [(a fashionable hotel usually in a r... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-23 - ws: see - [(match or meet; "I saw the bet of o... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-nail-noun-1 - ws: nail - [(horny plate covering and protectin... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-20 - ws: examine/see - [(observe, check out, and look over ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-14 - ws: attend/look/see/take care - [(take charge of or deal with; "Coul... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-beauty-noun-3 - ws: beauty/beaut - [(an outstanding example of its kind... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-16 - ws: date/go out/go steady/see - [(date regularly; have a steady rela... - tc=1 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-hairdresser-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-19 - ws: see - [(observe as if with an eye; "The ca... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-8 - ws: check/determine/ascertain/find out/learn/see/watch - [(find out, learn, or determine with... - tc=29 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[shop#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-nail-noun-3 - ws: nail - [(a former unit of length for cloth ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-shop-noun-1 - ws: shop/store - [(a mercantile establishment for the... - tc=9 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-22 - ws: see/escort - [(accompany or escort; "I'll see you... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-2 - ws: understand/realise/realize/see - [(perceive (an idea or situation) me... - tc=159 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-shop-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-13 - ws: visit/see - [(visit a place, as for entertainmen... - tc=10 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[shop#NN#null 12], [hairdresser#NN#null 7], [beauty#NN#null 7], [salon#NN#null 6], [spa#NN#null 5], [nail#NN#null 5], [nail salon#NN#null 5], [non#JJ#null 4], [hairdresser beauty#NN#null 4], [see#VB#null 3]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-21 - ws: experience/go through/see/undergo - [(go or live through; "We had many t... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-4 - ws: figure/image/fancy/envision/picture/visualize/see/project/visualise - [(imagine; conceive of; see in one's... - tc=58 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-6 - ws: discover/see/get a line/get wind/get word/hear/learn/find out/pick up - [(get to know or become aware of, us... - tc=40 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">shop</osnp:keyLabel>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-9 - ws: encounter/meet/come across/ran into/run across/see - [(come together; "I'll probably see ... - tc=27 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-11 - ws: see - [(go to see for professional or busi... - tc=13 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-salon-noun-1 - ws: salon - [(gallery where works of art can be ... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-beauty-noun-1 - ws: beauty - [(the qualities that give pleasure t... - tc=16 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-5 - ws: view/see/consider/reckon/regard - [(deem to be; "She views this quite ... - tc=47 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[beauty#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-24 - ws: interpret/construe/see - [(make sense of; assign a meaning to... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-shop-noun-3 - ws: shop class/shop - [(a course of instruction in a trade... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-nail-noun-2 - ws: nail - [(a thin pointed piece of metal that... - tc=3 -  </osnp:debug>
+    <skos:definition xml:lang="en">A non-hairdresser beauty shop, spa, nail salon, etc.. See also shop=hairdresser. A non-hairdresser beauty shop, spa, nail salon, etc.. See also shop=hairdresser. A non-hairdresser beauty shop, spa, nail salon, etc. Defacto A shop that provides personal beauty services like a nail salon, tanning salon, shiatsu massage and or other spa services. Add a node tagged shop=beauty in the center of the shop. Larger shops may be mapped as an area tagged as shop=beauty. A non-hairdresser beauty shop, spa, nail salon, etc.. See also shop=hairdresser.</skos:definition>
+    <osnp:value xml:lang="en">beauty</osnp:value>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-10 - ws: check/see/ascertain/assure/control/ensure/insure/see to it - [(be careful or certain to do someth... - tc=22 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-17 - ws: see - [(see and understand, have a good ey... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-see-verb-7 - ws: watch/view/see/catch/take in - [(see or watch; "view a show on tele... - tc=31 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-spa-noun-3 - ws: health spa/health club/spa - [(a place of business with equipment... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-salon-noun-3 - ws: salon - [(elegant sitting room where guests ... - tc=0 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:wood">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-wood-noun-7 - ws: woodwind/wood/woodwind instrument - [(any wind instrument other than the... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-natural-adjective-2 - ws: natural - [(existing in or produced by nature;... - tc=15 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-wood-noun-8 - ws: wood - [(a golf club with a long shaft used... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-wood-noun-2 - ws: forest/wood/woods - [(the trees and other plants in a la... - tc=10 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-property-noun-4 - ws: property/attribute/dimension - [(a construct whereby objects or ind... - tc=32 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-wood-noun-1 - ws: wood - [(the hard fibrous lignified substan... - tc=17 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-forest-noun-2 - ws: forest/timber/timberland/woodland - [(land that is covered with trees an... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-forest-noun-1 - ws: forest/wood/woods - [(the trees and other plants in a la... - tc=36 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-property-noun-2 - ws: holding/belongings/property/material possession - [(something owned; any tangible or i... - tc=178 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[wood#NN#null 1]]</osnp:debug>
+    <osnp:keyLabel xml:lang="en">wood</osnp:keyLabel>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-information-noun-1 - ws: information/info - [(a message received and understood)... - tc=409 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-natural-adjective-5 - ws: natural - [(of a key containing no sharps or f... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-property-noun-3 - ws: property - [(a basic or essential attribute sha... - tc=138 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-information-noun-4 - ws: information/entropy/selective information - [((communication theory) a numerical... - tc=9 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[wood#NN#null 4], [wood type#NN#null 1], [wood property#NN#null 1], [property#NN#null 1], [information#NN#null 1], [natural#JJ#null 1], [landuse#NN#null 1], [forest#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: []</osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-property-noun-1 - ws: place/property - [(any area set aside for a particula... - tc=321 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-information-noun-3 - ws: information - [(knowledge acquired through study o... - tc=72 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-natural-adjective-3 - ws: natural - [(existing in or in conformity with ... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-property-noun-5 - ws: property/prop - [(any movable articles or objects us... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-natural-adjective-1 - ws: natural - [(in accordance with nature; relatin... - tc=23 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <skos:definition xml:lang="en">wood type of wood Properties wood is used to add information to natural=wood or landuse=forest.</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-information-noun-5 - ws: information - [(formal accusation of a crime)] - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-information-noun-2 - ws: information/data - [(a collection of facts from which c... - tc=215 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-wood-noun-2"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-tree-noun-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:man_made/v:surveillance">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-item-noun-1 - ws: item/point - [(a distinct part that can be specif... - tc=31 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-item-noun-2 - ws: item - [(a whole individual unit; especiall... - tc=17 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-brother-noun-3 - ws: pal/buddy/brother/chum/crony/sidekick - [(a close friend who accompanies his... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-equipment-noun-1 - ws: equipment - [(an instrumentality needed for an u... - tc=50 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-illustrate-verb-2 - ws: illustrate - [(depict with an illustration)] - tc=6 -  </osnp:debug>
+    <osnp:value xml:lang="en">surveillance</osnp:value>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-item-noun-5 - ws: item/token - [(an individual instance of a type o... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-big-adjective-1 - ws: big/large - [(above average in size or number or... - tc=1114 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-camera-noun-1"/>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-camera-noun-1 - ws: camera/photographic camera - [(equipment for taking photographs (... - tc=18 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-surveillance-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-camera-noun-2 - ws: television camera/camera/tv camera - [(television equipment consisting of... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[man#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-surveillance-noun-1 - ws: surveillance - [(close observation of a person or g... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-item-noun-4 - ws: item/detail/point - [(an isolated fact that is considere... - tc=2 -  </osnp:debug>
+    <skos:definition xml:lang="en">This Item marks a surveillance camera. This can be used to illustrate the omnipresence of Big Brother. Approved A surveillance camera or other types of surveillance equipment. These may be publicly or privately operated, and may be monitoring a public or private space. Camera data can be used to illustrate the omnipresence of Big Brother, but there's a lot of them to map!</skos:definition>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-omnipresence-noun-1 - ws: ubiquity/omnipresence/ubiquitousness - [(the state of being everywhere at o... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-item-noun-3 - ws: item/detail/particular - [(a small part that can be considere... - tc=16 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">man_made</osnp:keyLabel>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[surveillance#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-brother-noun-4 - ws: brother/comrade - [(used as a term of address for thos... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[surveillance#NN#null 3], [camera#NN#null 3], [surveillance camera#NN#null 2], [illustrate#VB#null 2], [omnipresence#NN#null 2], [big#JJ#null 2], [brother#NN#null 2], [item#NN#null 1], [surveillance equipment#NN#null 1], [equipment#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-illustrate-verb-3 - ws: illustrate - [(e.g., illustrate a book with drawi... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-brother-noun-2 - ws: brother - [(a male person who is a fellow memb... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-illustrate-verb-1 - ws: instance/illustrate/exemplify - [(clarify by giving an example of)] - tc=34 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-brother-noun-1 - ws: brother/blood brother - [(a male with the same parents as so... - tc=36 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-equipment-noun-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:amenity/v:nursing_home">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-person-noun-1 - ws: individual/person/human/mortal/somebody/someone/soul - [(a human being; "there was too much... - tc=7229 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-home-noun-9 - ws: home - [(place where something began and fl... - tc=3 -  </osnp:debug>
+    <skos:definition xml:lang="en">A home for disabled/elderly persons who need permanent care. In use A home for disabled or elderly persons who need permanent care. Names vary; in some places in the English-speaking world this sort of facility might be referred to as "assisted living" [more permanent, with nursing staff], "care homes with nursing", "rest home", or many other variations. The distinction is that constant nursing care is available.</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-nursing-noun-2 - ws: nursing - [(the profession of a nurse)] - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-nurse-verb-4 - ws: nurse - [(treat carefully; "He nursed his in... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[amenity#NN#null 1]]</osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-nursing-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-home-noun-8 - ws: home plate/home/home base/plate - [((baseball) base consisting of a ru... - tc=7 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-care-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-person-noun-3 - ws: person - [(a grammatical category of pronouns... - tc=0 -  </osnp:debug>
+    <osnp:value xml:lang="en">nursing_home</osnp:value>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-home-noun-3 - ws: home - [(the country or state or city where... - tc=116 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-home-noun-6 - ws: base/home - [(the place where you are stationed ... - tc=36 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-need-verb-1 - ws: necessitate/demand/require/need/ask/call for/involve/postulate/take - [(require as useful, just, or proper... - tc=112 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-nurse-verb-5 - ws: breastfeed/suck/lactate/nurse/bottle-feed/give suck/suckle/wet-nurse - [(give suck to; "The wetnurse suckle... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-care-noun-4 - ws: care - [(a cause for feeling concern; "his ... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-care-noun-5 - ws: tutelage/charge/care/guardianship - [(attention and management implying ... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-nurse-verb-2 - ws: harbor/entertain/harbour/hold/nurse - [(maintain (a theory, thoughts, or f... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-care-noun-6 - ws: maintenance/care/upkeep - [(activity involved in maintaining s... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-home-noun-4 - ws: home - [(an environment offering affection ... - tc=43 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[nurse#VB#null 1], [home#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-nursing-noun-1 - ws: nursing - [(the work of caring for the sick or... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-vary-verb-1 - ws: change/vary/alter - [(make or become different in some p... - tc=28 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-nurse-verb-1 - ws: nurse - [(try to cure by special care of tre... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-person-noun-2 - ws: person - [(a person's body (usually including... - tc=11 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-care-noun-1 - ws: tending/aid/attention/care - [(the work of caring for or attendin... - tc=9 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-home-noun-5 - ws: home/nursing home/rest home - [(an institution where people are ca... - tc=38 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-need-verb-2 - ws: require/want/need - [(have need of; "This piano wants th... - tc=99 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-vary-verb-4 - ws: vary/variegate/motley - [(make something more diverse and va... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-home-noun-7 - ws: home/family/house/household/menage - [(a social unit living together; "he... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-nursing-noun-3 - ws: nursing/breast feeding - [(nourishing at the breast)] - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-home-noun-2 - ws: home/dwelling/domicile/abode/dwelling house/habitation - [(housing that someone is living in;... - tc=350 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-need-verb-3 - ws: need - [(have or feel a need for; "always n... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-permanent-adjective-1 - ws: permanent/lasting - [(continuing or enduring without mar... - tc=13 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-care-noun-2 - ws: caution/care/forethought/precaution - [(judiciousness in avoiding harm or ... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-care-noun-3 - ws: fear/care/concern - [(an anxious feeling; "care had aged... - tc=1 -  </osnp:debug>
+    
+    <osnp:debug xml:lang="en">WN: instances/wordsense-vary-verb-2 - ws: deviate/vary/depart/diverge - [(be at variance with; be out of lin... - tc=20 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">amenity</osnp:keyLabel>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-vary-verb-3 - ws: vary - [(be subject to change in accordance... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-nurse-verb-3 - ws: nurse - [(serve as a nurse; care for sick or... - tc=0 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-home-noun-9"/>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-home-noun-1 - ws: place/home - [(where you live at a particular tim... - tc=430 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[home#NN#null 4], [care#NN#null 4], [permanent#JJ#null 3], [person#NN#null 2], [need#VB#null 2], [nursing#NN#null 2], [disabled\/elderly#JJ#null 1], [disabled#JJ#null 1], [elderly#JJ#null 1], [vary#VB#null 1]]</osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:waterway/v:canal">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+  	<skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-canal-noun-3"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-transportation-noun-5 - ws: transport/shipping/transportation - [(the commercial enterprise of trans... - tc=0 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-irrigation-noun-1"/>
+    <skos:definition xml:lang="en">An artificial open waterway used for transportation, waterpower, or irrigation. An artificial open waterway used for transportation, waterpower, or irrigation.</skos:definition>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[artificial#JJ#null 2], [open#JJ#null 2], [waterway#NN#null 2], [transportation#NN#null 2], [waterpower#NN#null 2], [irrigation#NN#null 2]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-transportation-noun-3 - ws: fare/transportation - [(the sum charged for riding in a pu... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-open-adjective-5 - ws: open/opened - [(used of mouth or eyes; "keep your ... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[canal#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-transportation-noun-2 - ws: conveyance/transferral/transfer/transportation - [(the act of transporting something ... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-canal-noun-1 - ws: canal - [((astronomy) an indistinct surface ... - tc=0 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">waterway</osnp:keyLabel>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-open-adjective-2 - ws: open - [(affording free passage or access; ... - tc=17 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-irrigation-noun-2 - ws: irrigation - [((medicine) cleaning a wound or bod... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-irrigation-noun-1 - ws: irrigation - [(supplying dry land with water by m... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-artificial-adjective-1 - ws: artificial/unreal - [(contrived by art rather than natur... - tc=4 -  </osnp:debug>
+    <osnp:value xml:lang="en">canal</osnp:value>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-waterway-noun-1 - ws: waterway - [(a navigable body of water)] - tc=1 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-waterpower-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-waterway-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-artificial-adjective-1"/>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[waterway#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-open-adjective-12 - ws: open - [(of a set; containing points whose ... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-transportation-noun-6 - ws: expatriation/deportation/exile/transportation - [(the act of expelling a person from... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-open-adjective-1 - ws: open/unfastened - [(affording unobstructed entrance an... - tc=34 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-canal-noun-2 - ws: channel/canal/duct/epithelial duct - [(a bodily passage or tube lined wit... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-waterway-noun-2 - ws: watercourse/waterway - [(a conduit through which water flow... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-open-adjective-18 - ws: unstopped/open - [(used of string or hole or pipe of ... - tc=0 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-transportation-noun-1"/>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-waterpower-noun-1 - ws: waterpower - [(the power to do work that is laten... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-open-adjective-17 - ws: overt/open - [(open and observable; not secret or... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-transportation-noun-1 - ws: transit/transportation/transportation system - [(a facility consisting of the means... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-canal-noun-3 - ws: canal - [(long and narrow strip of water mad... - tc=0 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/proposed_term/floodplain">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-stream-noun-2 - ws: stream/current/flow - [(dominant course (suggestive of run... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-flooding-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-3 - ws: ground/earth/land/dry land/solid ground/terra firma - [(the solid part of the earth's surf... - tc=11 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[floodplain#NN#null 1]]</osnp:debug>
+    <osnp:value xml:lang="en">floodplain</osnp:value>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-6 - ws: kingdom/land/realm - [(a domain in which something is dom... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-land-noun-2 - ws: land/ground/soil - [(material in the top layer of the s... - tc=18 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-11 - ws: farming/land - [(working the land as an occupation ... - tc=0 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">natural</osnp:keyLabel>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-periodic-adjective-1"/>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-periodic-adjective-1 - ws: periodic/periodical - [(happening or recurring at regular ... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-7 - ws: estate/acres/demesne/land/landed estate - [(extensive landed property (especia... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[natural#JJ#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-experience-verb-1 - ws: experience/go through/see/undergo - [(go or live through; "We had many t... - tc=22 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-experience-verb-4 - ws: feel/experience - [(undergo an emotional sensation; "S... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-river-noun-1 - ws: river - [(a large natural stream of water (l... - tc=55 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-flooding-noun-1 - ws: flooding/implosion therapy - [(a technique used in behavior thera... - tc=0 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-stream-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-4 - ws: domain/demesne/land - [(territory over which rule or contr... - tc=11 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-experience-verb-3 - ws: experience/get/have/receive/undergo - [(of mental or physical states or ex... - tc=8 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-floodplain-noun-1 - ws: floodplain/flood plain - [(a low plain adjacent to a river th... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-stream-noun-3 - ws: stream/current - [(a steady flow (usually from natura... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-8 - ws: nation/a people/country/land - [(the people who live in a nation or... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-experience-verb-5 - ws: experience/have - [(undergo; "The stocks had a fast ru... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-9 - ws: state/nation/body politic/commonwealth/country/land/res publica - [(a politically organized body of pe... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-5 - ws: country/land/state - [(the territory occupied by a nation... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-experience-verb-2 - ws: experience/know/live - [(have firsthand knowledge of states... - tc=10 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-land-noun-2"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-1 - ws: land - [(the land on which real estate is l... - tc=23 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-river-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-stream-noun-4 - ws: stream/flow - [(the act of flowing or streaming; c... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-stream-noun-1 - ws: stream/watercourse - [(a natural body of running water fl... - tc=20 -  </osnp:debug>
+    <skos:definition xml:lang="en">A floodplain is land adjacent to a stream or river that experiences occasional or periodic flooding</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-floodplain-noun-1"/>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[floodplain#NN#null 1], [land#NN#null 1], [adjacent#JJ#null 1], [stream#NN#null 1], [river#NN#null 1], [experience#VB#null 1], [occasional#JJ#null 1], [periodic#JJ#null 1], [flooding#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-stream-noun-5 - ws: flow/stream - [(something that resembles a flowing... - tc=2 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:man_made/v:lighthouse">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-8 - ws: man - [(a male person who plays a signific... - tc=2 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">man_made</osnp:keyLabel>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-navigation-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-adjective-3 - ws: light - [(of the military or industry; using... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-1 - ws: man/adult male - [(an adult male person (as opposed t... - tc=1437 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-noun-14 - ws: light - [(a visual warning signal; "they saw... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-assist-verb-1 - ws: help/assist/aid - [(give help or assistance; be of ser... - tc=21 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-light-noun-2"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-signal-noun-3 - ws: signal - [(an electric quantity (voltage or c... - tc=0 -  </osnp:debug>
+    <osnp:value xml:lang="en">lighthouse</osnp:value>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-noun-12 - ws: sparkle/light/spark - [(brightness and animation of counte... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-identify-verb-6 - ws: identify - [(consider to be equal or the same; ... - tc=2 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-lighthouse-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-identify-verb-1 - ws: identify/place - [(recognize as being; establish the ... - tc=33 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sea-noun-2 - ws: ocean/sea - [(anything apparently limitless in q... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-noun-6 - ws: light/illumination - [(a condition of spiritual awareness... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-noun-3 - ws: light - [(a particular perspective or aspect... - tc=15 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-7 - ws: man - [(an adult male person who has a man... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-signal-noun-2 - ws: signal - [(any incitement to action; "he awai... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-navigation-noun-1 - ws: piloting/pilotage/navigation - [(the guidance of ships or airplanes... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[man#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-lighthouse-noun-1 - ws: beacon/beacon light/lighthouse/pharos - [(a tower with a light that gives wa... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-light-noun-2 - ws: light/light source - [(any device serving as a source of ... - tc=23 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-sea-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-2 - ws: serviceman/man/military man/military personnel - [(someone who serves in the armed fo... - tc=432 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-adjective-14 - ws: light - [((physics, chemistry) not having at... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-adjective-1 - ws: light - [(of comparatively little physical w... - tc=15 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-noun-10 - ws: light/lighting - [(having abundant light or illuminat... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-adjective-5 - ws: light - [(psychologically light; especially ... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-9 - ws: man/valet/gentleman/gentleman's gentleman/valet de chambre - [(a manservant who acts as a persona... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-assist-verb-3 - ws: assist/attend/serve/attend to/wait on - [(work for or be a servant to; "May ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-adjective-6 - ws: light - [(characterized by or emitting light... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sea-noun-3 - ws: sea - [(turbulent water with swells of con... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-noun-4 - ws: light/luminosity/brightness/brightness level/luminance/luminousness - [(the quality of being luminous; emi... - tc=10 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-noun-8 - ws: light - [(a person regarded very fondly; "th... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-6 - ws: man - [(a male subordinate; "the chief sta... - tc=36 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-identify-verb-3 - ws: identify - [(consider (oneself) as similar to s... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-noun-9 - ws: light - [(mental understanding as an enlight... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-assist-verb-2 - ws: assist - [(act as an assistant in a subordina... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-noun-11 - ws: light - [(public awareness; "it brought the ... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-identify-verb-4 - ws: identify - [(conceive of as united or associate... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-4 - ws: world/human beings/human race/humanity/humankind/humans/man/mankind - [(all of the inhabitants of the eart... - tc=205 -  </osnp:debug>
+    <skos:definition xml:lang="en">A light signal assisting navigation on sea. Approved The man_made=lighthouse tag is used to identify a lighthouse or former lighthouse. Operational lighthouses show different colors in different sectors (e.g. white, red, green), so the relative direction of the light to the viewer can be approximated. Some lights are positioned behind each other and, when brought to an alignment act as a leading light. Often, lights incorporate radio transmitters, DGPS, radar and other things too.</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-navigation-noun-3 - ws: seafaring/navigation/sailing - [(the work of a sailor)] - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-11 - ws: man/piece - [(game equipment consisting of an ob... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-adjective-13 - ws: light - [(of little intensity or power or fo... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-signal-noun-1 - ws: sign/signaling/signal - [(any communication that encodes a m... - tc=19 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-adjective-4 - ws: light - [(not great in degree or quantity or... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-identify-verb-2 - ws: identify/name - [(give the name or identifying chara... - tc=7 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-light-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-noun-5 - ws: light - [(an illuminated area; "he stepped i... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-noun-7 - ws: light/lightness - [(the visual effect of illumination ... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-adjective-2 - ws: light/light-colored - [((used of color) having a relativel... - tc=11 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-3 - ws: man - [(the generic use of the word to ref... - tc=275 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-man-noun-5 - ws: human being/homo/human/man - [(any living or extinct member of th... - tc=88 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-navigation-noun-2 - ws: navigation - [(ship traffic; "the channel will be... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-sea-noun-1 - ws: sea - [(a division of an ocean or a large ... - tc=38 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-light-noun-1 - ws: light/visible light/visible radiation - [((physics) electromagnetic radiatio... - tc=59 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[lighthouse#NN#null 4], [light#NN#null 4], [light#JJ#null 1], [signal#NN#null 1], [assist#VB#null 1], [navigation#NN#null 1], [sea#NN#null 1], [man#NN#null 1], [lighthouse tag#NN#null 1], [identify#VB#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-light-noun-15 - ws: ignitor/igniter/light/lighter - [(a device for lighting or igniting ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[lighthouse#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-identify-verb-5 - ws: identify/name/describe/discover/distinguish/key/key out - [(identify as in botany or biology, ... - tc=4 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:tourism/v:motel">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-short-adjective-6 - ws: short - [(of speech sounds (especially vowel... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-term-noun-6 - ws: term/full term - [(the end of gestation or point at w... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-short-adjective-1 - ws: short - [(primarily temporal sense; indicati... - tc=43 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-car-noun-3 - ws: cable car/car - [(a conveyance for passengers or fre... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-short-adjective-2 - ws: short - [(primarily spatial sense; having li... - tc=22 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-car-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/accommodation-noun-5"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-accommodation-noun-1 - ws: fitting/accommodation/adjustment - [(making or becoming suitable; adjus... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-motel-noun-1 - ws: motel - [(a motor hotel)] - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-accommodation-noun-6 - ws: accommodation - [((physiology) the automatic adjustm... - tc=0 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">tourism</osnp:keyLabel>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[short#JJ#null 1], [term#NN#null 1], [term accommodation#NN#null 1], [accommodation#NN#null 1], [people#NN#null 1], [travel#VB#null 1], [car#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-accommodation-noun-4 - ws: accommodation - [(living quarters provided for publi... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-car-noun-4 - ws: car/gondola - [(car suspended from an airship and ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-travel-verb-4 - ws: travel/journey - [(travel upon or across; "travel the... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-travel-verb-3 - ws: trip/jaunt/travel - [(make a trip for pleasure)] - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-car-noun-5 - ws: car/elevator car - [(where passengers ride up and down;... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-short-adjective-3 - ws: short - [(low in stature; not tall; "his was... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-travel-verb-5 - ws: travel - [(undergo transportation as in a veh... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-term-noun-4 - ws: term - [(any distinct quantity contained in... - tc=23 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-term-noun-2 - ws: term - [(a limited period of time; "a priso... - tc=216 -  </osnp:debug>
+    <skos:definition xml:lang="en">Short term accommodation, particularly for people travelling by car.</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-accommodation-noun-5 - ws: accommodation - [(the act of providing something (lo... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-people-noun-3 - ws: people/multitude/hoi polloi/mass/masses - [(the common people generally; "sepa... - tc=40 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-short-adjective-5 - ws: short - [(not holding securities or commodit... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-term-noun-5 - ws: term - [(one of the substantive phrases in ... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-term-noun-3 - ws: condition/term - [((usually plural) a statement of wh... - tc=113 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-people-noun-4 - ws: people - [(members of a family line; "his peo... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-people-noun-1 - ws: people - [((plural) any group of human beings... - tc=559 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-travel-verb-2 - ws: travel/journey - [(undertake a journey or trip)] - tc=9 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-car-noun-2 - ws: car/railcar/railroad car/railway car - [(a wheeled vehicle adapted to the r... - tc=24 -  </osnp:debug>
+    <osnp:value xml:lang="en">motel</osnp:value>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-travel-verb-1 - ws: travel/move/locomote/go - [(change location; move, travel, or ... - tc=36 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-travel-verb-6 - ws: travel/move around - [(travel from place to place, as for... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[tourism#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-term-noun-1 - ws: term - [(a word or expression used for some... - tc=307 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-term-noun-7 - ws: terminus/term/terminal figure - [((architecture) a statue or a human... - tc=0 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-motel-noun-1"/>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[motel#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-accommodation-noun-3 - ws: accommodation - [(in the theories of Jean Piaget: th... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-people-noun-2 - ws: people/citizenry - [(the body of citizens of a state or... - tc=94 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-car-noun-1 - ws: automobile/car/auto/machine/motorcar - [(4-wheeled motor vehicle; usually p... - tc=598 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-accommodation-noun-2 - ws: accommodation - [(a settlement of differences; "they... - tc=0 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:shop/v:hunting">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-gun-noun-1"/>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[hunting#NN#null 1]]</osnp:debug>
+    <skos:definition xml:lang="en">Shop where you can buy gun and hunting equipment. In use Shop where you can buy gun and hunting equipment.</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-buy-verb-4 - ws: buy - [(accept as true; "I can't buy this ... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-gun-noun-2 - ws: gun/artillery/heavy weapon/ordnance - [(large but transportable armament)]... - tc=25 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-hunting-noun-1 - ws: hunting/hunt - [(the pursuit and killing or capture... - tc=14 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-gun-noun-7 - ws: gun - [(the discharge of a gun as signal o... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-shop-noun-1 - ws: shop/store - [(a mercantile establishment for the... - tc=9 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-equipment-noun-1 - ws: equipment - [(an instrumentality needed for an u... - tc=50 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">shop</osnp:keyLabel>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-gun-noun-5 - ws: grease-gun/gun - [(a hand-operated pump that resemble... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-buy-verb-1 - ws: buy/purchase - [(obtain by purchase; acquire by mea... - tc=594 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-gun-noun-4 - ws: shooter/gun/gunman/gun for hire/gunslinger/hired gun/hit man/hitman/torpedo/triggerman - [(a professional killer who uses a g... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-gun-noun-6 - ws: throttle/accelerator/accelerator pedal/gas/gas pedal/gun - [(a pedal that controls the throttle... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-buy-verb-2 - ws: bribe/buy/corrupt/grease one's palms - [(make illegal payments to in exchan... - tc=7 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-hunting-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-shop-noun-3 - ws: shop class/shop - [(a course of instruction in a trade... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-gun-noun-1 - ws: gun - [(a weapon that discharges a missile... - tc=72 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-shop-noun-2 - ws: workshop/shop - [(small workplace where handcrafts o... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[shop#NN#null 1]]</osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-equipment-noun-1"/>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[shop#NN#null 2], [buy#VB#null 2], [gun#NN#null 2], [hunting#NN#null 2], [hunting equipment#NN#null 2], [equipment#NN#null 2], [use shop#NN#null 1]]</osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-shop-noun-1"/>
+    <osnp:value xml:lang="en">hunting</osnp:value>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-gun-noun-3 - ws: gun/gunman - [(a person who shoots a gun (as rega... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-buy-verb-3 - ws: buy - [(acquire by trade or sacrifice or e... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-hunting-noun-3 - ws: hunting/hunt - [(the work of finding and killing or... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-hunting-noun-2 - ws: hunting/hunt/search - [(the activity of looking thoroughly... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-buy-verb-5 - ws: buy - [(be worth or be capable of buying; ... - tc=3 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:amenity/v:restaurant">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-waiter-noun-1 - ws: server/waiter - [(a person whose occupation is to se... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-place-noun-1 - ws: place/topographic point/spot - [(a point located with respect to su... - tc=79 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-place-noun-4 - ws: place - [(a general vicinity; "He comes from... - tc=17 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-serve-verb-15 - ws: serve - [(put the ball into play; "It was Ag... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-serve-verb-4 - ws: service/serve - [(be used by; as of a utility; "The ... - tc=23 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[restaurant#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-place-noun-13 - ws: place - [(proper or appropriate position or ... - tc=1 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-facility-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-meal-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sit-verb-8 - ws: seat/sit/sit down - [(show to a seat; assign a seat for;... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-formal-adjective-1 - ws: formal - [(being in accord with established f... - tc=13 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-serve-verb-10 - ws: assist/attend/serve/attend to/wait on - [(work for or be a servant to; "May ... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-serve-verb-7 - ws: serve - [(devote (part of) one's life or eff... - tc=19 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sell-verb-8 - ws: sell - [(be responsible for the sale of; "A... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sell-verb-7 - ws: sell - [(be approved of or gain acceptance;... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-place-noun-9 - ws: place/position - [(the particular portion of space oc... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-serve-verb-2 - ws: serve - [(do duty or hold offices; serve in ... - tc=36 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-place-noun-10 - ws: place/station - [(proper or designated social situat... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-meal-noun-3 - ws: meal - [(coarsely ground foodstuff; especia... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-place-noun-3 - ws: place - [(an abstract mental location; "he h... - tc=22 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sell-verb-5 - ws: sell - [(give up for a price or reward; "Sh... - tc=8 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sit-verb-5 - ws: pose/sit/posture/model - [(assume a posture as for artistic p... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sell-verb-1 - ws: sell - [(exchange or deliver for money or i... - tc=633 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-place-noun-2 - ws: place/property - [(any area set aside for a particula... - tc=38 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-formal-adjective-3 - ws: formal - [((of spoken and written language) a... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-meal-noun-1 - ws: meal/repast - [(the food served and eaten at one t... - tc=20 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sit-verb-4 - ws: sit - [(be in session; "When does the cour... - tc=6 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">amenity</osnp:keyLabel>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-place-noun-8 - ws: place/office/post/position/berth/billet/situation/spot - [(a job in an organization; "he occu... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sit-verb-1 - ws: sit/sit down - [(be seated)] - tc=134 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-place-noun-7 - ws: place/home - [(where you live at a particular tim... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sit-verb-7 - ws: sit/baby-sit - [(work or act as a baby-sitter; "I c... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-serve-verb-11 - ws: process/serve/swear out - [(deliver a warrant or summons to so... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-serve-verb-9 - ws: serve/do - [(spend time in prison or in a labor... - tc=3 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-place-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-place-noun-6 - ws: place/shoes - [(a particular situation; "If you we... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[sell#VB#null 4], [formal#JJ#null 2], [place#NN#null 2], [sit#VB#null 2], [facility#NN#null 2], [full#JJ#null 2], [meal#NN#null 2], [serve#VB#null 2], [waiter#NN#null 2], [licensed#JJ#null 2]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-serve-verb-8 - ws: serve/serve well - [(promote, benefit, or be useful or ... - tc=7 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-serve-verb-1 - ws: function/serve - [(serve a purpose, role, or function... - tc=55 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-place-noun-14 - ws: plaza/piazza/place - [(a public square with room for pede... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-restaurant-noun-1 - ws: restaurant/eating house/eating place - [(a building where people go to eat)... - tc=7 -  </osnp:debug>
+    <osnp:value xml:lang="en">restaurant</osnp:value>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sell-verb-2 - ws: sell - [(be sold at a certain price or in a... - tc=159 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sell-verb-6 - ws: betray/sell - [(deliver to an enemy by treachery; ... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-place-noun-15 - ws: place/position - [(an item on a list or in a sequence... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-facility-noun-1 - ws: installation/facility - [(a building or place that provides ... - tc=35 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-meal-noun-2 - ws: meal - [(any of the occasions for eating fo... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-full-adjective-1 - ws: full - [(containing as much or as many as i... - tc=42 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[amenity#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sit-verb-6 - ws: ride/sit - [(sit and travel on the back of anim... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-facility-noun-4 - ws: facility - [(services and space and equipment p... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-serve-verb-14 - ws: service/serve - [(mate with; "male animals serve the... - tc=0 -  </osnp:debug>
+    <skos:definition xml:lang="en">Is for a generally formal place with sit-down facilities selling full meals served by waiters and often licensed (where allowed) to sell alcoholic drinks. amenity=restaurant is for a generally formal place with sit-down facilities selling full meals served by waiters and often licensed (where allowed) to sell alcoholic drinks.</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-place-noun-5 - ws: stead/lieu/place/position - [(the function or position properly ... - tc=10 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-place-noun-12 - ws: place - [(the passage that is being read; "h... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-place-noun-16 - ws: place/space/blank space - [(a blank area; "write your name in ... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-facility-noun-3 - ws: facility/readiness - [(a natural effortlessness; "they co... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-serve-verb-6 - ws: dish/serve/dish out/dish up/serve up - [(provide (usually but not necessari... - tc=20 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-serve-verb-12 - ws: suffice/answer/do/serve - [(be sufficient; be adequate, either... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-serve-verb-3 - ws: serve - [(contribute or conduce to; "The sca... - tc=24 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-serve-verb-13 - ws: serve - [(do military service; "She served i... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-waiter-noun-2 - ws: waiter - [(a person who waits or awaits)] - tc=0 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-restaurant-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-full-adjective-5 - ws: full - [((of sound) having marked depth and... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-serve-verb-5 - ws: serve/help - [(help to some food; help with food ... - tc=21 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sit-verb-2 - ws: sit - [(sit around, often unused; "The obj... - tc=33 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-facility-noun-5 - ws: facility - [(a service that an organization or ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sell-verb-4 - ws: sell - [(persuade somebody to accept someth... - tc=31 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sit-verb-3 - ws: sit down/sit - [(take a seat)] - tc=10 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sell-verb-3 - ws: trade/deal/sell - [(do business; offer for sale as for... - tc=59 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-place-noun-11 - ws: seat/place - [(a space reserved for sitting (as i... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-facility-noun-2 - ws: adeptness/adroitness/deftness/facility/quickness - [(skillful performance or ability wi... - tc=0 -  </osnp:debug>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/proposed_term/heritage">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-site-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-register-verb-10 - ws: register - [(enter into someone's consciousness... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-register-verb-5 - ws: register/read/record/show - [(indicate a certain reading; of gau... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-building-noun-3 - ws: building/construction - [(the commercial activity involved i... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-permanent-adjective-1 - ws: permanent/lasting - [(continuing or enduring without mar... - tc=13 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">heritage</osnp:keyLabel>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-object-noun-3 - ws: object - [((grammar) a constituent that is ac... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-portal-noun-1 - ws: portal - [(a grand and imposing entrance (oft... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-heritage-noun-1 - ws: heritage - [(practices that are handed down fro... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-heritage-noun-3 - ws: inheritance/heritage - [(that which is inherited; a title o... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-site-noun-2 - ws: situation/site - [(physical position in relation to t... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-official-adjective-1 - ws: official - [(having official authority or sanct... - tc=10 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-site-noun-1 - ws: site/land site - [(the piece of land on which somethi... - tc=51 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-object-noun-1 - ws: object/physical object - [(a tangible and visible entity; an ... - tc=64 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-building-noun-2 - ws: building/construction - [(the act of constructing or buildin... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-heritage-noun-2 - ws: inheritance/heritage - [(any attribute or immaterial posses... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-official-adjective-2 - ws: official - [(of or relating to an office; "offi... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-register-verb-7 - ws: register - [(show in one's face; "Her surprise ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[heritage#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-portal-noun-3 - ws: portal vein/hepatic portal vein/portal/vena portae - [(a short vein that carries blood in... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-register-verb-4 - ws: record/register - [(be aware of; "Did you register any... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-object-noun-2 - ws: target/aim/object/objective - [(the goal intended to be attained (... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[uwh#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-object-noun-4 - ws: object - [(the focus of cognitions or feeling... - tc=1 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-heritage-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-building-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-permanent-adjective-1"/>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-building-noun-1 - ws: building/edifice - [(a structure that has a roof and wa... - tc=48 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-portal-noun-2 - ws: portal site/portal - [(a site that the owner positions as... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-heritage-noun-4 - ws: inheritance/heritage - [(hereditary succession to a title o... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-register-verb-8 - ws: register - [(manipulate the registers of an org... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-building-noun-4 - ws: building - [(the occupants of a building; "the ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-register-verb-3 - ws: register - [(enroll to vote; "register for an e... - tc=4 -  </osnp:debug>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[site#NN#null 1], [building#NN#null 1], [permanent#JJ#null 1], [object#NN#null 1], [stair#NN#null 1], [portal#NN#null 1], [register#VB#null 1], [official#JJ#null 1], [heritage#NN#null 1], [heritage oranisation#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-register-verb-6 - ws: register/cross-file - [(have one's name listed as a candid... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-site-noun-3 - ws: web site/internet site/site - [(a computer connected to the intern... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-register-verb-2 - ws: file/register - [(record in a public office or in a ... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-register-verb-9 - ws: register - [(send by registered mail; "I'd like... - tc=0 -  </osnp:debug>
+    <osnp:value xml:lang="en">uwh_...</osnp:value>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-stair-noun-1 - ws: step/stair - [(support consisting of a place to r... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-register-verb-1 - ws: register - [(record in writing; enter into a bo... - tc=7 -  </osnp:debug>
+    <skos:definition xml:lang="en">site, building, permanent object (stair, portal...) registered by an official heritage oranisation</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spatial.ucd.ie/lod/osn/term/k:building/v:school">
+  	<osnp:manual xml:lang="en">TRUE</osnp:manual>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-hall-noun-2 - ws: anteroom/antechamber/entrance hall/foyer/hall/lobby/vestibule - [(a large entrance or reception room... - tc=10 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-building-noun-1 - ws: building/edifice - [(a structure that has a roof and wa... - tc=48 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-hall-noun-5 - ws: manor hall/hall - [(the large room of a manor or castl... - tc=2 -  </osnp:debug>
+    <osnp:debug xml:lang="en">VAL_TERMS: [[school#NN#null 1]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-school-noun-5 - ws: school/school day/schooltime - [(the period of instruction in a sch... - tc=28 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-purpose-noun-3 - ws: purpose/determination - [(the quality of being determined to... - tc=5 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-building-noun-4 - ws: building - [(the occupants of a building; "the ... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-school-noun-2 - ws: school/schoolhouse - [(a building where young people rece... - tc=108 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-building-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-hall-noun-12 - ws: hall - [(a large building used by a college... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sport-noun-2 - ws: sport - [(the occupation of athletes who com... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-amenity-noun-1 - ws: agreeableness/amenity - [(pleasantness resulting from agreea... - tc=0 -  </osnp:debug>
+    <skos:definition xml:lang="en">For any generic school buildings. Buildings for specific uses (sports halls etc) should be tagged for their purpose. Use amenity=school for the perimeter of the school grounds. For any generic school buildings. Buildings for specific uses (sports halls etc) should be tagged for their purpose. Use amenity=school for the perimeter of the school grounds. For any generic school buildings. Buildings for specific uses (sports halls etc) should be tagged for their purpose. Use amenity=school for the perimeter of the school grounds.</skos:definition>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-school-noun-3 - ws: school/schooling - [(the process of being formally educ... - tc=86 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-hall-noun-11 - ws: mansion/hall/manse/mansion house/residence - [(a large and imposing house)] - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-generic-adjective-1 - ws: generic - [(relating to or common to or descri... - tc=0 -  </osnp:debug>
+    <osnp:keyLabel xml:lang="en">building</osnp:keyLabel>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-school-noun-4 - ws: school - [(an educational institution's facul... - tc=35 -  </osnp:debug>
+    <osnp:debug xml:lang="en">KEY_TERMS: [[building#NN#null 1]]</osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-school-noun-1"/>
+    <osnp:debug xml:lang="en">DEF_TERMS: [[school#NN#null 9], [building#NN#null 6], [generic#JJ#null 3], [school building#NN#null 3], [sport#NN#null 3], [sport hall#NN#null 3], [hall#NN#null 3], [purpose#NN#null 3], [use amenity#NN#null 3], [amenity#NN#null 3]]</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-purpose-noun-2 - ws: function/purpose/role/use - [(what something is used for; "the f... - tc=27 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sport-noun-5 - ws: sport - [((Maine colloquial) temporary summe... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-hall-noun-4 - ws: dormitory/dorm/hall/residence hall/student residence - [(a college or university building c... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sport-noun-3 - ws: sport/sportsman/sportswoman - [(someone who engages in sports)] - tc=0 -  </osnp:debug>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-sport-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sport-noun-6 - ws: fun/play/sport - [(verbal wit (often at another's exp... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sport-noun-4 - ws: variation/mutation/mutant/sport - [((biology) an organism that has cha... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-building-noun-3 - ws: building/construction - [(the commercial activity involved i... - tc=1 -  </osnp:debug>
+    <osnp:debug xml:lang="en">Params: 'minTagC_1-minOl_1-addLab_true-tax_true-stem_true'</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-purpose-noun-1 - ws: design/aim/intent/purpose/intention - [(an anticipated outcome that is int... - tc=75 -  </osnp:debug>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-school-noun-2"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-school-noun-6 - ws: school - [(a body of creative artists or writ... - tc=25 -  </osnp:debug>
+    <osnp:value xml:lang="en">school</osnp:value>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-hall-noun-1"/>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-sport-noun-1 - ws: sport/athletics - [(an active diversion requiring phys... - tc=11 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-hall-noun-3 - ws: hall - [(a large room for gatherings or ent... - tc=6 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-school-noun-1 - ws: school - [(an educational institution; "the s... - tc=610 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-school-noun-7 - ws: school/shoal - [(a large group of fish; "a school o... - tc=0 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-building-noun-2 - ws: building/construction - [(the act of constructing or buildin... - tc=3 -  </osnp:debug>
+    <osnp:debug xml:lang="en">BEST CAND: WN: instances/wordsense-hall-noun-1 - ws: hallway/hall - [(an interior passage or corridor on... - tc=25 -  </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-hall-noun-13 - ws: hall - [(a large building for meetings or e... - tc=0 -  </osnp:debug>
+  </rdf:Description>
+</rdf:RDF>
