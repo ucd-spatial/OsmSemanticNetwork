@@ -1,0 +1,1365 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:osnp="http://spatial.ucd.ie/lod/osn/property/"
+    xmlns:osn="http://spatial.ucd.ie/lod/osn/"
+    xmlns:osnt="http://spatial.ucd.ie/lod/osn/term/"
+    xmlns:wn="http://www.w3.org/2006/03/wn/wn20/instances/"
+    xmlns:wns="http://www.w3.org/2006/03/wn/wn20/schema/"
+  	xml:base="http://www.geonames.org/ontology#">
+  
+<!--
+  	Author: Dr. Andrea Ballatore (http://sites.google.com/site/andreaballatore)
+  	
+  	Abstract: This file contains a manual mapping of 30 terms from the GeoNames ontology with WordNet 2.0.
+  		  The <osnp:debug> tags contain the debug information used to establish the mappings manually.
+  		  
+  	Date: September 27, 2013
+  	
+  	Example: http://www.geonames.org/ontology#T.VAL ('valley') is a "skos:closeMatch" to
+  			 http://www.w3.org/2006/03/wn/wn20/instances/wordsense-valley-noun-1 in WordNet.
+--> 
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#R.CSWYQ">
+	<!-- Pair 1 -->
+    <skos:prefLabel xml:lang="en">former causeway</skos:prefLabel>
+    <skos:definition xml:lang="en">a causeway no longer used for transportation</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-causeway-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-transportation-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-causeway-noun-1 - ws: causeway - [(a road that is raised above water ... - tc=0 - </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-transportation-noun-2 - ws: conveyance/transferral/transfer/transportation - [(the act of transporting something ... - tc=5 - 
+		WN: instances/wordsense-transportation-noun-5 - ws: transport/shipping/transportation - [(the commercial enterprise of trans... - tc=0 - 
+		WN: instances/wordsense-transportation-noun-1 - ws: transit/transportation/transportation system - [(a facility consisting of the means... - tc=7 - 
+		WN: instances/wordsense-transportation-noun-6 - ws: expatriation/deportation/exile/transportation - [(the act of expelling a person from... - tc=0 - 
+		WN: instances/wordsense-transportation-noun-3 - ws: fare/transportation - [(the sum charged for riding in a pu... - tc=0 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#H.FLLSX">
+  	<!-- Pair 2 -->
+    <skos:prefLabel xml:lang="en">section of waterfall</skos:prefLabel>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-waterfall-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-section-noun-4 - ws: segment/section - [(one of several parts or pieces tha... - tc=10 - 
+		WN: instances/wordsense-section-noun-6 - ws: section/part/division - [(one of the portions into which som... - tc=1 - 
+		WN: instances/wordsense-section-noun-12 - ws: section - [(a segment of a citrus fruit; "he a... - tc=0 - 
+		WN: instances/wordsense-section-noun-3 - ws: section - [(a distinct region or subdivision o... - tc=11 - 
+		WN: instances/wordsense-section-noun-8 - ws: section/plane section - [((geometry) the area created by a p... - tc=0 - 
+		WN: instances/wordsense-section-noun-13 - ws: incision/section/surgical incision - [(the cutting of or into body tissue... - tc=0 - 
+		WN: instances/wordsense-section-noun-1 - ws: section/subdivision - [(a self-contained part of a larger ... - tc=45 - 
+		WN: instances/wordsense-section-noun-11 - ws: department/section - [(a specialized division of a large ... - tc=0 - 
+		WN: instances/wordsense-section-noun-5 - ws: section - [(a small team of policemen working ... - tc=1 - 
+		WN: instances/wordsense-section-noun-10 - ws: section - [(a small army unit usually having a... - tc=0 - 
+		WN: instances/wordsense-section-noun-9 - ws: section - [(a division of an orchestra contain... - tc=0 - 
+		WN: instances/wordsense-section-noun-2 - ws: section - [(a very thin slice (of tissue or mi... - tc=31 - 
+		WN: instances/wordsense-section-noun-7 - ws: section - [(a land unit of 1 square mile measu... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-waterfall-noun-1 - ws: waterfall/falls - [(a steep descent of the water of a ... - tc=3 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#S.MLSGQ">
+  	<!-- Pair 3 -->
+    <skos:prefLabel xml:lang="en">former sugar mill</skos:prefLabel>
+    <skos:definition xml:lang="en">a sugar mill no longer used as a sugar mill</skos:definition>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-mill-noun-5"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-sugar-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-sugar-noun-1 - ws: sugar/refined sugar - [(a white crystalline carbohydrate u... - tc=41 - 
+		WN: instances/wordsense-sugar-noun-3 - ws: cabbage/boodle/bread/clams/dinero/dough/gelt/kale/lettuce/lolly/loot/lucre/moolah/pelf/scratch/shekels/simoleons/sugar/wampum - [(informal terms for money)] - tc=0 - 
+		WN: instances/wordsense-sugar-noun-2 - ws: carbohydrate/saccharide/sugar - [(an essential structural component ... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-mill-noun-5 - ws: pulverisation/pulverization/mill/grind - [(the act of grinding to a powder or... - tc=0 - 
+		WN: instances/wordsense-mill-noun-4 - ws: grinder/mill - [(machine that processes materials b... - tc=0 - 
+		WN: instances/wordsense-mill-noun-1 - ws: factory/manufactory/manufacturing plant/mill - [(a plant consisting of buildings wi... - tc=4 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#S.RLG">
+  	<!-- Pair 4 -->
+    <skos:prefLabel xml:lang="en">religious site</skos:prefLabel>
+    <skos:definition xml:lang="en">an ancient site of significant religious importance</skos:definition>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-site-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-religious-adjective-2"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-religion-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-religious-adjective-2 - ws: religious - [(having or showing belief in and re... - tc=3 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-significant-adjective-1 - ws: significant/important - [(important in effect or meaning; "a... - tc=19 - 
+		WN: instances/wordsense-significant-adjective-3 - ws: significant - [(too closely correlated to be attri... - tc=3 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-site-noun-1 - ws: site/land site - [(the piece of land on which somethi... - tc=51 - 
+		WN: instances/wordsense-site-noun-3 - ws: web site/internet site/site - [(a computer connected to the intern... - tc=0 - 
+		WN: instances/wordsense-site-noun-2 - ws: situation/site - [(physical position in relation to t... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-importance-noun-1 - ws: importance - [(the quality of being important and... - tc=50 - 
+		WN: instances/wordsense-importance-noun-2 - ws: importance/grandness - [(a prominent status; "a person of i... - tc=4 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#T.TAL">
+  	<!-- Pair 5 -->
+    <skos:prefLabel xml:lang="en">talus slope</skos:prefLabel>
+    <skos:definition xml:lang="en">a steep concave slope formed by an accumulation of loose rock fragments at the base of a cliff or steep slope</skos:definition>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-talus-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-slope-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-rock-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-concave-adjective-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-steep-adjective-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-fragment-noun-2 - ws: fragment/shard/sherd - [(a broken piece of a brittle artifa... - tc=1 - 
+		WN: instances/wordsense-fragment-noun-3 - ws: fragment - [(an incomplete piece; "fragments of... - tc=0 - 
+		WN: instances/wordsense-fragment-noun-1 - ws: fragment - [(a piece broken off or cut off of s... - tc=10 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-form-verb-7 - ws: form - [(give shape to; "form the clay into... - tc=3 - 
+		WN: instances/wordsense-form-verb-2 - ws: organise/organize/form - [(create (as an entity); "social gro... - tc=28 - 
+		WN: instances/wordsense-form-verb-5 - ws: form/shape/mold/forge/mould/work - [(make something, usually for a spec... - tc=11 - 
+		WN: instances/wordsense-form-verb-4 - ws: form/shape - [(give a shape or form to; "shape th... - tc=16 - 
+		WN: instances/wordsense-form-verb-3 - ws: form/spring/take form/take shape - [(develop into a distinctive entity;... - tc=23 - 
+		WN: instances/wordsense-form-verb-1 - ws: constitute/form/make - [(to compose or represent:"This wall... - tc=29 - 
+		WN: instances/wordsense-form-verb-6 - ws: imprint/form - [(establish or impress firmly in the... - tc=3 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-talus-noun-2 - ws: astragal/anklebone/astragalus/talus - [(the bone in the ankle that articul... - tc=0 - 
+		WN: instances/wordsense-talus-noun-1 - ws: talus/scree - [(a sloping mass of loose rocks at t... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-slope-noun-2 - ws: slope/gradient - [(the property possessed by a line o... - tc=4 - 
+		WN: instances/wordsense-slope-noun-1 - ws: incline/slope/side - [(an elevated geological formation; ... - tc=11 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-rock-noun-7 - ws: tilt/sway/careen/rock - [(pitching dangerously to one side)]... - tc=0 - 
+		WN: instances/wordsense-rock-noun-2 - ws: stone/rock - [(material consisting of the aggrega... - tc=6 - 
+		WN: instances/wordsense-rock-noun-6 - ws: rock 'n' roll/rock-and-roll/rock/rock and roll/rock music/rock'n'roll - [(a genre of popular music originati... - tc=0 - 
+		WN: instances/wordsense-rock-noun-5 - ws: rock candy/rock - [(hard stick bright-colored stick ca... - tc=0 - 
+		WN: instances/wordsense-rock-noun-1 - ws: stone/rock - [(a lump or mass of hard consolidate... - tc=14 - 
+		WN: instances/wordsense-rock-noun-4 - ws: rock - [((figurative) someone who is strong... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-base-noun-2 - ws: base/base of operations - [(installation from which a military... - tc=4 - 
+		WN: instances/wordsense-base-noun-17 - ws: base - [(the principal ingredient of a mixt... - tc=0 - 
+		WN: instances/wordsense-base-noun-9 - ws: foundation/base/basis/cornerstone/fundament/groundwork - [(the fundamental assumptions from w... - tc=2 - 
+		WN: instances/wordsense-base-noun-13 - ws: base/home - [(the place where you are stationed ... - tc=0 - 
+		WN: instances/wordsense-base-noun-1 - ws: alkali/base - [(any of various water-soluble compo... - tc=11 - 
+		WN: instances/wordsense-base-noun-7 - ws: base - [((anatomy) the part of an organ nea... - tc=2 - 
+		WN: instances/wordsense-base-noun-10 - ws: base/pedestal/stand - [(a support or foundation; "the base... - tc=2 - 
+		WN: instances/wordsense-base-noun-4 - ws: base/bag - [(place that runner must touch befor... - tc=3 - 
+		WN: instances/wordsense-base-noun-19 - ws: base - [((electronics) the part of a transi... - tc=0 - 
+		WN: instances/wordsense-base-noun-18 - ws: base - [(a flat bottom on which something i... - tc=0 - 
+		WN: instances/wordsense-base-noun-3 - ws: foundation/base/foot/fundament/groundwork/substructure/understructure - [(lowest support of a structure; "it... - tc=3 - 
+		WN: instances/wordsense-base-noun-16 - ws: infrastructure/base - [(the stock of basic facilities and ... - tc=0 - 
+		WN: instances/wordsense-base-noun-15 - ws: stem/root/base/radical/root word/theme - [((linguistics) the form of a word a... - tc=0 - 
+		WN: instances/wordsense-base-noun-8 - ws: floor/base - [(a lower limit; "the government est... - tc=2 - 
+		WN: instances/wordsense-base-noun-6 - ws: base - [(the bottom or lowest part; "the ba... - tc=2 - 
+		WN: instances/wordsense-base-noun-5 - ws: base/radix - [((numeration system) the positive i... - tc=2 - 
+		WN: instances/wordsense-base-noun-12 - ws: basis/base - [(the most important or necessary pa... - tc=0 - 
+		WN: instances/wordsense-base-noun-11 - ws: base - [(the bottom side of a geometric fig... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-steep-adjective-1 - ws: steep - [(having a sharp inclination; "the s... - tc=5 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-accumulation-noun-3 - ws: accruement/accrual/accumulation - [(the act of accumulating)] - tc=1 - 
+		WN: instances/wordsense-accumulation-noun-2 - ws: assemblage/accumulation/collection/aggregation - [(several things grouped together or... - tc=1 - 
+		WN: instances/wordsense-accumulation-noun-4 - ws: accumulation - [((finance) profits that are not pai... - tc=0 - 
+		WN: instances/wordsense-accumulation-noun-1 - ws: accretion/accumulation - [(an increase by natural growth or a... - tc=2 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-loose-adjective-2 - ws: loose - [(not compact or dense in structure ... - tc=2 - 
+		WN: instances/wordsense-loose-adjective-4 - ws: loose - [(not tight; not closely constrained... - tc=1 - 
+		WN: instances/wordsense-loose-adjective-8 - ws: unaffixed/loose - [(not affixed; "the stamp came loose... - tc=0 - 
+	</osnp:debug>
+    
+    <osnp:debug xml:lang="en">WN: instances/wordsense-concave-adjective-1 - ws: concave - [(curving inward)] - tc=3 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#S.PIER">
+  	<!-- Pair 6 -->
+    <skos:prefLabel xml:lang="en">pier</skos:prefLabel>
+    <skos:definition xml:lang="en">a structure built out into navigable water on piles providing berthing for ships and recreation</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-pier-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-ship-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-recreation-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-water-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-build-verb-1 - ws: build/construct/make - [(make by combining materials and pa... - tc=123 - 
+		WN: instances/wordsense-build-verb-5 - ws: build - [(order, supervise, or finance the c... - tc=0 - 
+		WN: instances/wordsense-build-verb-7 - ws: build - [(be engaged in building; "These arc... - tc=0 - 
+		WN: instances/wordsense-build-verb-4 - ws: build - [(improve the cleansing action of; "... - tc=1 - 
+		WN: instances/wordsense-build-verb-10 - ws: build - [(develop and grow; "Suspense was bu... - tc=0 - 
+		WN: instances/wordsense-build-verb-2 - ws: progress/build up/build/work up - [(form or accumulate steadily; "Resi... - tc=11 - 
+		WN: instances/wordsense-build-verb-9 - ws: build up/build/ramp up/work up - [(bolster or strengthen; "We worked ... - tc=0 - 
+		WN: instances/wordsense-build-verb-8 - ws: build - [(found or ground; "build a defense ... - tc=0 - 
+		WN: instances/wordsense-build-verb-3 - ws: build/establish - [(build or establish something abstr... - tc=4 - 
+		WN: instances/wordsense-build-verb-6 - ws: build - [(give form to, according to a plan;... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pile-noun-1 - ws: cumulus/heap/pile/mound - [(a collection of objects laid on to... - tc=9 - 
+		WN: instances/wordsense-pile-noun-2 - ws: wad/pile/heap/batch/deal/flock/good deal/great deal/hatful/lot/mass/mess/mickle/mint/muckle/peck/plenty/pot/quite a little/raft/sight/slew/spate/stack/tidy sum/whole lot/whole slew - [((often followed by `of') a large n... - tc=3 - 
+		WN: instances/wordsense-pile-noun-8 - ws: atomic pile/atomic reactor/chain reactor/pile - [(a nuclear reactor that uses contro... - tc=0 - 
+		WN: instances/wordsense-pile-noun-7 - ws: pile/nap - [(the yarn (as in a rug or velvet or... - tc=0 - 
+		WN: instances/wordsense-pile-noun-6 - ws: pile/piling/spile/stilt - [(a column of wood or steel or concr... - tc=0 - 
+		WN: instances/wordsense-pile-noun-5 - ws: voltaic pile/galvanic pile/pile - [(battery consisting of voltaic cell... - tc=0 - 
+		WN: instances/wordsense-pile-noun-4 - ws: down/pile - [(fine soft dense hair (as the fine ... - tc=0 - 
+		WN: instances/wordsense-pile-noun-3 - ws: pile/big bucks/big money/bundle/megabucks - [(a large sum of money (especially a... - tc=2 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pier-noun-1 - ws: dock/wharfage/wharf/pier - [(a platform built out from the shor... - tc=1 - 
+		WN: instances/wordsense-pier-noun-3 - ws: pier - [(a support for two adjacent bridge ... - tc=0 - 
+		WN: instances/wordsense-pier-noun-2 - ws: pier - [((architecture) a vertical supporti... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-recreation-noun-2 - ws: recreation/refreshment - [(activity that refreshes and recrea... - tc=0 - 
+		WN: instances/wordsense-recreation-noun-1 - ws: recreation/diversion - [(an activity that diverts or amuses... - tc=23 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-structure-noun-2 - ws: structure - [(the manner of construction of some... - tc=17 - 
+		WN: instances/wordsense-structure-noun-3 - ws: structure - [(the complex composition of knowled... - tc=7 - 
+		WN: instances/wordsense-structure-noun-1 - ws: structure/construction - [(a thing constructed; a complex con... - tc=24 - 
+		WN: instances/wordsense-structure-noun-4 - ws: structure/anatomical structure/bodily structure/body structure/complex body part - [(a particular complex anatomical st... - tc=3 - 
+		WN: instances/wordsense-structure-noun-5 - ws: social organization/social organisation/social structure/social system/structure - [(the people in a society considered... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ship-noun-1 - ws: ship - [(a vessel that carries passengers o... - tc=49 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-provide-verb-1 - ws: supply/provide/furnish/render - [(provide or furnish with; "We provi... - tc=272 - 
+		WN: instances/wordsense-provide-verb-2 - ws: supply/provide/cater/ply - [(provide what is desired or needed,... - tc=25 - 
+		WN: instances/wordsense-provide-verb-6 - ws: provide/bring home the bacon - [(supply means of subsistence; earn ... - tc=0 - 
+		WN: instances/wordsense-provide-verb-3 - ws: provide - [(determine (what is to happen in ce... - tc=14 - 
+		WN: instances/wordsense-provide-verb-5 - ws: provide/leave/allow/allow for - [(make a possibility or provide oppo... - tc=0 - 
+		WN: instances/wordsense-provide-verb-7 - ws: provide - [(take measures in preparation for; ... - tc=0 - 
+		WN: instances/wordsense-provide-verb-4 - ws: put up/offer/provide - [(mount or put up; "put up a good fi... - tc=2 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-water-noun-1 - ws: water/H2O - [(binary compound that occurs at roo... - tc=744 - 
+		WN: instances/wordsense-water-noun-3 - ws: water system/water/water supply - [(facility that provides a source of... - tc=50 - 
+		WN: instances/wordsense-water-noun-6 - ws: water - [(a fluid necessary for the life of ... - tc=0 - 
+		WN: instances/wordsense-water-noun-2 - ws: body of water/water - [(the part of the earth's surface co... - tc=219 - 
+		WN: instances/wordsense-water-noun-4 - ws: water - [(once thought to be one of four ele... - tc=3 - 
+		WN: instances/wordsense-water-noun-5 - ws: piddle/pee/piss/urine/water/weewee - [(liquid excretory product; "there w... - tc=1 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#L.RNGA">
+  	<!-- Pair 7 -->
+    <skos:prefLabel xml:lang="en">artillery range</skos:prefLabel>
+    <skos:definition xml:lang="en">a tract of land used for artillery firing practice</skos:definition>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-artillery-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-firing-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-tract-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-land-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-range-noun-3"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-range-noun-5"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-practice-noun-1 - ws: pattern/practice - [(a customary way of operation or be... - tc=24 - 
+		WN: instances/wordsense-practice-noun-4 - ws: practice - [(the exercise of a profession; "the... - tc=2 - 
+		WN: instances/wordsense-practice-noun-2 - ws: drill/practice/exercise/practice session/recitation - [(systematic training by multiple re... - tc=5 - 
+		WN: instances/wordsense-practice-noun-3 - ws: practice/praxis - [(translating an idea into action; "... - tc=3 - 
+		WN: instances/wordsense-practice-noun-5 - ws: practice - [(knowledge of how something is usua... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-firing-noun-2 - ws: firing/discharge/firing off - [(the act of discharging a gun)] - tc=6 - 
+		WN: instances/wordsense-firing-noun-4 - ws: sacking/sack/firing/discharge/dismission/dismissal/liberation/release - [(the termination of someone's emplo... - tc=0 - 
+		WN: instances/wordsense-firing-noun-1 - ws: firing/fire - [(the act of firing weapons or artil... - tc=8 - 
+		WN: instances/wordsense-firing-noun-3 - ws: inflammation/kindling/ignition/firing/lighting - [(the act of setting on fire or catc... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-tract-noun-4 - ws: nerve pathway/nerve tract/pathway/tract - [(a bundle of mylenated nerve fibers... - tc=0 - 
+		WN: instances/wordsense-tract-noun-2 - ws: tract - [(a system of body parts that togeth... - tc=3 - 
+		WN: instances/wordsense-tract-noun-3 - ws: tract/pamphlet - [(a brief treatise on a subject of i... - tc=1 - 
+		WN: instances/wordsense-tract-noun-1 - ws: parcel/tract/parcel of land/piece of ground/piece of land - [(an extended area of land)] - tc=3 - 
+	</osnp:debug>
+    
+    <osnp:debug xml:lang="en">WN: instances/wordsense-artillery-noun-1 - ws: gun/artillery/heavy weapon/ordnance - [(large but transportable armament)]... - tc=8 - 
+		WN: instances/wordsense-artillery-noun-3 - ws: weapon/artillery - [(a means of persuading or arguing; ... - tc=1 - 
+		WN: instances/wordsense-artillery-noun-2 - ws: artillery/artillery unit - [(an army unit that uses big guns)] - tc=3 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-3 - ws: ground/earth/land/dry land/solid ground/terra firma - [(the solid part of the earth's surf... - tc=11 - 
+		WN: instances/wordsense-land-noun-11 - ws: farming/land - [(working the land as an occupation ... - tc=0 - 
+		WN: instances/wordsense-land-noun-8 - ws: nation/a people/country/land - [(the people who live in a nation or... - tc=2 - 
+		WN: instances/wordsense-land-noun-9 - ws: state/nation/body politic/commonwealth/country/land/res publica - [(a politically organized body of pe... - tc=1 - 
+		WN: instances/wordsense-land-noun-5 - ws: country/land/state - [(the territory occupied by a nation... - tc=7 - 
+		WN: instances/wordsense-land-noun-4 - ws: domain/demesne/land - [(territory over which rule or contr... - tc=11 - 
+		WN: instances/wordsense-land-noun-2 - ws: land/ground/soil - [(material in the top layer of the s... - tc=18 - 
+		WN: instances/wordsense-land-noun-7 - ws: estate/acres/demesne/land/landed estate - [(extensive landed property (especia... - tc=2 - 
+		WN: instances/wordsense-land-noun-1 - ws: land - [(the land on which real estate is l... - tc=23 - 
+		WN: instances/wordsense-land-noun-6 - ws: kingdom/land/realm - [(a domain in which something is dom... - tc=2 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-range-noun-1 - ws: compass/range/scope/ambit/orbit/reach - [(an area in which something acts or... - tc=47 - 
+		WN: instances/wordsense-range-noun-8 - ws: range/compass/grasp/reach - [(the limit of capability; "within t... - tc=0 - 
+		WN: instances/wordsense-range-noun-7 - ws: range - [(a variety of different things or a... - tc=0 - 
+		WN: instances/wordsense-range-noun-2 - ws: reach/range - [(the limits within which something ... - tc=14 - 
+		WN: instances/wordsense-range-noun-3 - ws: range - [(a large tract of grassy open land ... - tc=7 - 
+		WN: instances/wordsense-range-noun-6 - ws: range - [(the limits of the values a functio... - tc=0 - 
+		WN: instances/wordsense-range-noun-5 - ws: range - [(a place for shooting (firing or dr... - tc=1 - 
+		WN: instances/wordsense-range-noun-9 - ws: stove/cooking stove/kitchen range/kitchen stove/range - [(a kitchen appliance used for cooki... - tc=0 - 
+		WN: instances/wordsense-range-noun-4 - ws: range/chain/chain of mountains/mountain chain/mountain range/range of mountains - [(a series of hills or mountains; "t... - tc=1 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#H.RPDS">
+  	<!-- Pair 8 -->
+    <skos:prefLabel xml:lang="en">rapids</skos:prefLabel>
+    <skos:definition xml:lang="en">a turbulent section of a stream associated with a steep, irregular stream bed</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-rapid-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-stream-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-steep-adjective-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-bed-noun-3"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-associate-verb-1 - ws: associate/relate/connect/colligate/link/link up/tie in - [(make a logical or causal connectio... - tc=26 - 
+		WN: instances/wordsense-associate-verb-2 - ws: associate/consort/affiliate/assort - [(keep company with; hang out with; ... - tc=3 - 
+		WN: instances/wordsense-associate-verb-3 - ws: associate/consociate - [(bring or come into association or ... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-section-noun-4 - ws: segment/section - [(one of several parts or pieces tha... - tc=10 - 
+		WN: instances/wordsense-section-noun-6 - ws: section/part/division - [(one of the portions into which som... - tc=1 - 
+		WN: instances/wordsense-section-noun-12 - ws: section - [(a segment of a citrus fruit; "he a... - tc=0 - 
+		WN: instances/wordsense-section-noun-3 - ws: section - [(a distinct region or subdivision o... - tc=11 - 
+		WN: instances/wordsense-section-noun-8 - ws: section/plane section - [((geometry) the area created by a p... - tc=0 - 
+		WN: instances/wordsense-section-noun-13 - ws: incision/section/surgical incision - [(the cutting of or into body tissue... - tc=0 - 
+		WN: instances/wordsense-section-noun-1 - ws: section/subdivision - [(a self-contained part of a larger ... - tc=45 - 
+		WN: instances/wordsense-section-noun-11 - ws: department/section - [(a specialized division of a large ... - tc=0 - 
+		WN: instances/wordsense-section-noun-5 - ws: section - [(a small team of policemen working ... - tc=1 - 
+		WN: instances/wordsense-section-noun-10 - ws: section - [(a small army unit usually having a... - tc=0 - 
+		WN: instances/wordsense-section-noun-9 - ws: section - [(a division of an orchestra contain... - tc=0 - 
+		WN: instances/wordsense-section-noun-2 - ws: section - [(a very thin slice (of tissue or mi... - tc=31 - 
+		WN: instances/wordsense-section-noun-7 - ws: section - [(a land unit of 1 square mile measu... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-rapid-noun-1 - ws: rapid - [(a part of a river where the curren... - tc=0 - 
+    </osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-bed-noun-1 - ws: bed - [(a piece of furniture that provides... - tc=51 - 
+		WN: instances/wordsense-bed-noun-2 - ws: bed - [(a plot of ground in which plants a... - tc=3 - 
+		WN: instances/wordsense-bed-noun-8 - ws: bed - [(a foundation of earth or rock supp... - tc=0 - 
+		WN: instances/wordsense-bed-noun-7 - ws: bed - [(the flat surface of a printing pre... - tc=0 - 
+		WN: instances/wordsense-bed-noun-6 - ws: layer/bed - [(single thickness of usually some h... - tc=0 - 
+		WN: instances/wordsense-bed-noun-5 - ws: seam/bed - [(a stratum of ore or coal thick eno... - tc=0 - 
+		WN: instances/wordsense-bed-noun-3 - ws: bed/bottom - [(a depression forming the ground un... - tc=2 - 
+		WN: instances/wordsense-bed-noun-4 - ws: bed - [((geology) a stratum of rock (espec... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-steep-adjective-1 - ws: steep - [(having a sharp inclination; "the s... - tc=5 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-irregular-adjective-1 - ws: irregular - [(contrary to rule or accepted order... - tc=4 - 
+		WN: instances/wordsense-irregular-adjective-2 - ws: irregular - [((of solids) not having clear dimen... - tc=2 - 
+		WN: instances/wordsense-irregular-adjective-4 - ws: irregular - [(used of the military; not belongin... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-stream-noun-4 - ws: stream/flow - [(the act of flowing or streaming; c... - tc=3 - 
+		WN: instances/wordsense-stream-noun-3 - ws: stream/current - [(a steady flow (usually from natura... - tc=3 - 
+		WN: instances/wordsense-stream-noun-1 - ws: stream/watercourse - [(a natural body of running water fl... - tc=20 - 
+		WN: instances/wordsense-stream-noun-5 - ws: flow/stream - [(something that resembles a flowing... - tc=2 - 
+		WN: instances/wordsense-stream-noun-2 - ws: stream/current/flow - [(dominant course (suggestive of run... - tc=4 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#S.MAR">
+  	<!-- Pair 9 -->
+  	<skos:prefLabel xml:lang="en">marina</skos:prefLabel>
+    <skos:definition xml:lang="en">a harbor facility for small boats, yachts, etc.</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-marina-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-facility-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-harbor-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-small-adjective-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-boat-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-yacht-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-yacht-noun-1 - ws: yacht/racing yacht - [(an expensive vessel propelled by s... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-small-adjective-1 - ws: little/small - [(limited or below average in number... - tc=1181 - 
+		WN: instances/wordsense-small-adjective-5 - ws: microscopic/microscopical/small - [(too small to be seen except under ... - tc=28 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-marina-noun-1 - ws: marina - [(a fancy dock for small yachts and ... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-facility-noun-5 - ws: facility - [(a service that an organization or ... - tc=0 - 
+		WN: instances/wordsense-facility-noun-4 - ws: facility - [(services and space and equipment p... - tc=0 - 
+		WN: instances/wordsense-facility-noun-1 - ws: installation/facility - [(a building or place that provides ... - tc=35 - 
+		WN: instances/wordsense-facility-noun-3 - ws: facility/readiness - [(a natural effortlessness; "they co... - tc=0 - 
+		WN: instances/wordsense-facility-noun-2 - ws: adeptness/adroitness/deftness/facility/quickness - [(skillful performance or ability wi... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-boat-noun-1 - ws: boat - [(a small vessel for travel on water... - tc=14 - 
+		WN: instances/wordsense-boat-noun-2 - ws: gravy boat/boat/gravy holder/sauceboat - [(a dish (often boat-shaped) for ser... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-harbor-noun-2 - ws: harbour/harbor - [(a place of refuge and comfort and ... - tc=0 - 
+		WN: instances/wordsense-harbor-noun-1 - ws: seaport/harbor/harbour/haven - [(a sheltered port where ships can t... - tc=8 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#R.TNLRR">
+  	<!-- Pair 10 -->
+    <skos:prefLabel xml:lang="en">railroad tunnel</skos:prefLabel>
+    <skos:definition xml:lang="en">a tunnel through which a railroad passes</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-railroad_tunnel-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-railroad-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-tunnel-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-tunnel-noun-1 - ws: tunnel - [(a passageway through or under some... - tc=1 - 
+		WN: instances/wordsense-tunnel-noun-2 - ws: tunnel/burrow - [(a hole in the ground made by an an... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-railroad_tunnel-noun-1 - ws: railroad tunnel - [(a tunnel through which the railroa... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pass-verb-14 - ws: pass/make it - [(go successfully through a test or ... - tc=2 - 
+		WN: instances/wordsense-pass-verb-16 - ws: pass - [(accept or judge as acceptable; "Th... - tc=1 - 
+		WN: instances/wordsense-pass-verb-19 - ws: pass/sink/lapse - [(pass into a specified state or con... - tc=1 - 
+		WN: instances/wordsense-pass-verb-5 - ws: pass/hand/give/pass on/reach/turn over - [(place into the hands or custody of... - tc=13 - 
+		WN: instances/wordsense-pass-verb-7 - ws: overtake/pass/overhaul - [(travel past; "The sports car passe... - tc=8 - 
+		WN: instances/wordsense-pass-verb-21 - ws: pass - [(throw (a ball) to another player; ... - tc=0 - 
+		WN: instances/wordsense-pass-verb-26 - ws: pass/excrete/eliminate/egest - [(eliminate from the body; "Pass a k... - tc=0 - 
+		WN: instances/wordsense-pass-verb-3 - ws: legislate/pass - [(make laws, bills, etc. or bring in... - tc=29 - 
+		WN: instances/wordsense-pass-verb-24 - ws: authorise/clear/authorize/pass - [(grant authorization or clearance f... - tc=0 - 
+		WN: instances/wordsense-pass-verb-13 - ws: pass/evanesce/blow over/fade/fleet/pass off - [(disappear gradually; "The pain eve... - tc=3 - 
+		WN: instances/wordsense-pass-verb-25 - ws: die/go/expire/exit/pass/decease/pass away/perish - [(pass from physical life and lose a... - tc=0 - 
+		WN: instances/wordsense-pass-verb-20 - ws: pass - [(be identified, regarded, accepted,... - tc=0 - 
+		WN: instances/wordsense-pass-verb-2 - ws: pass/go by/travel by/go past/pass by/surpass - [(pass by; "A black limousine passed... - tc=31 - 
+		WN: instances/wordsense-pass-verb-11 - ws: pass/guide/draw/run - [(guide or pass over something; "He ... - tc=3 - 
+		WN: instances/wordsense-pass-verb-1 - ws: pass/go across/go through - [(go across or through; "We passed t... - tc=33 - 
+		WN: instances/wordsense-pass-verb-8 - ws: happen/hap/come about/fall out/go on/occur/pass/pass off/take place - [(come to pass; "What is happening?"... - tc=8 - 
+		WN: instances/wordsense-pass-verb-12 - ws: communicate/put across/pass on/pass - [(transmit information ; "Please com... - tc=3 - 
+		WN: instances/wordsense-pass-verb-23 - ws: pass/make pass - [(cause to pass; "She passed around ... - tc=0 - 
+		WN: instances/wordsense-pass-verb-4 - ws: lapse/elapse/go by/slide by/glide by/slip away/slip by/go along/pass - [(pass by; "three years elapsed")] - tc=17 - 
+		WN: instances/wordsense-pass-verb-18 - ws: pass - [(transfer to another; of rights or ... - tc=1 - 
+		WN: instances/wordsense-pass-verb-22 - ws: fall/devolve/pass/return - [(be inherited by; "The estate fell ... - tc=0 - 
+		WN: instances/wordsense-pass-verb-17 - ws: pass - [(allow to go without comment or cen... - tc=1 - 
+		WN: instances/wordsense-pass-verb-9 - ws: pass/clear - [(go unchallenged; be approved; "The... - tc=4 - 
+		WN: instances/wordsense-pass-verb-15 - ws: exceed/top/transcend/go past/overstep/pass - [(go beyond; "She exceeded our expec... - tc=1 - 
+		WN: instances/wordsense-pass-verb-6 - ws: extend/run/go/lead/pass - [(stretch out over a distance, space... - tc=9 - 
+		WN: instances/wordsense-pass-verb-10 - ws: spend/pass - [(pass (time) in a specific way; "Ho... - tc=3 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-railroad-noun-2 - ws: railroad/railroad track/railway - [(a line of track providing a runway... - tc=0 - 
+		WN: instances/wordsense-railroad-noun-1 - ws: railroad/railway/railroad line/railway line/railway system - [(line that is the commercial organi... - tc=13 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#S.JTY">
+  	<!-- Pair 11 -->
+    <skos:prefLabel xml:lang="en">jetty</skos:prefLabel>
+    <skos:definition xml:lang="en">a structure built out into the water at a river mouth or harbor entrance to regulate currents and silting</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-jetty-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-mouth-noun-4"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-river-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-harbor-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-water-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-structure-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-water-noun-2"/>
+  	<skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-regulate-verb-2"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-entrance-noun-3 - ws: entry/entering/entrance/incoming/ingress - [(the act of entering; "she made a g... - tc=3 - 
+		WN: instances/wordsense-entrance-noun-2 - ws: entering/entrance - [(a movement into or inward)] - tc=5 - 
+		WN: instances/wordsense-entrance-noun-1 - ws: entree/entry/entrance/entranceway/entryway - [(something that provides access (en... - tc=10 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-build-verb-1 - ws: build/construct/make - [(make by combining materials and pa... - tc=123 - 
+		WN: instances/wordsense-build-verb-5 - ws: build - [(order, supervise, or finance the c... - tc=0 - 
+		WN: instances/wordsense-build-verb-7 - ws: build - [(be engaged in building; "These arc... - tc=0 - 
+		WN: instances/wordsense-build-verb-4 - ws: build - [(improve the cleansing action of; "... - tc=1 - 
+		WN: instances/wordsense-build-verb-10 - ws: build - [(develop and grow; "Suspense was bu... - tc=0 - 
+		WN: instances/wordsense-build-verb-2 - ws: progress/build up/build/work up - [(form or accumulate steadily; "Resi... - tc=11 - 
+		WN: instances/wordsense-build-verb-9 - ws: build up/build/ramp up/work up - [(bolster or strengthen; "We worked ... - tc=0 - 
+		WN: instances/wordsense-build-verb-8 - ws: build - [(found or ground; "build a defense ... - tc=0 - 
+		WN: instances/wordsense-build-verb-3 - ws: build/establish - [(build or establish something abstr... - tc=4 - 
+		WN: instances/wordsense-build-verb-6 - ws: build - [(give form to, according to a plan;... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-water-noun-1 - ws: water/H2O - [(binary compound that occurs at roo... - tc=744 - 
+		WN: instances/wordsense-water-noun-3 - ws: water system/water/water supply - [(facility that provides a source of... - tc=50 - 
+		WN: instances/wordsense-water-noun-6 - ws: water - [(a fluid necessary for the life of ... - tc=0 - 
+		WN: instances/wordsense-water-noun-2 - ws: body of water/water - [(the part of the earth's surface co... - tc=219 - 
+		WN: instances/wordsense-water-noun-4 - ws: water - [(once thought to be one of four ele... - tc=3 - 
+		WN: instances/wordsense-water-noun-5 - ws: piddle/pee/piss/urine/water/weewee - [(liquid excretory product; "there w... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-mouth-noun-2 - ws: mouth - [(the externally visible part of the... - tc=12 - 
+		WN: instances/wordsense-mouth-noun-1 - ws: mouth/oral cavity/oral fissure/rima oris - [(the opening through which food is ... - tc=49 - 
+		WN: instances/wordsense-mouth-noun-7 - ws: mouth/sassing/sass/back talk/backtalk/lip - [(an impudent or insolent rejoinder;... - tc=0 - 
+		WN: instances/wordsense-mouth-noun-6 - ws: mouth/mouthpiece - [(a spokesperson (as a lawyer))] - tc=0 - 
+		WN: instances/wordsense-mouth-noun-8 - ws: mouth - [(the opening of a jar or bottle; "t... - tc=0 - 
+		WN: instances/wordsense-mouth-noun-4 - ws: mouth - [(the point where a stream issues in... - tc=2 - 
+		WN: instances/wordsense-mouth-noun-3 - ws: mouth - [(an opening that resembles a mouth ... - tc=2 - 
+		WN: instances/wordsense-mouth-noun-5 - ws: mouth - [(a person conceived as a consumer o... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-harbor-noun-2 - ws: harbour/harbor - [(a place of refuge and comfort and ... - tc=0 - 
+		WN: instances/wordsense-harbor-noun-1 - ws: seaport/harbor/harbour/haven - [(a sheltered port where ships can t... - tc=8 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-river-noun-1 - ws: river - [(a large natural stream of water (l... - tc=55 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-structure-noun-2 - ws: structure - [(the manner of construction of some... - tc=17 - 
+		WN: instances/wordsense-structure-noun-3 - ws: structure - [(the complex composition of knowled... - tc=7 - 
+		WN: instances/wordsense-structure-noun-1 - ws: structure/construction - [(a thing constructed; a complex con... - tc=24 - 
+		WN: instances/wordsense-structure-noun-4 - ws: structure/anatomical structure/bodily structure/body structure/complex body part - [(a particular complex anatomical st... - tc=3 - 
+		WN: instances/wordsense-structure-noun-5 - ws: social organization/social organisation/social structure/social system/structure - [(the people in a society considered... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-regulate-verb-2 - ws: regulate/govern/order/regularise/regularize - [(bring into conformity with rules o... - tc=5 - 
+		WN: instances/wordsense-regulate-verb-3 - ws: influence/regulate/determine/shape/mold - [(shape or influence; give direction... - tc=1 - 
+		WN: instances/wordsense-regulate-verb-1 - ws: modulate/regulate - [(fix or adjust the time, amount, de... - tc=6 - 
+		WN: instances/wordsense-regulate-verb-4 - ws: baffle/regulate - [(check the emission of (sound))] - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-jetty-noun-1 - ws: bulwark/breakwater/groin/groyne/jetty/mole/seawall - [(a protective structure of stone or... - tc=0 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#H.RSVT">
+  	<!-- Pair 12 -->
+    <skos:prefLabel xml:lang="en">water tank</skos:prefLabel>
+    <skos:definition xml:lang="en">a contained pool or tank of water at, below, or above ground level</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-water_tank-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-ground_level-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-tank-noun-2"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-pool-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-water_tank-noun-1 - ws: cistern/water tank - [(a tank that holds the water used t... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-water-noun-1 - ws: water/H2O - [(binary compound that occurs at roo... - tc=744 - 
+		WN: instances/wordsense-water-noun-3 - ws: water system/water/water supply - [(facility that provides a source of... - tc=50 - 
+		WN: instances/wordsense-water-noun-6 - ws: water - [(a fluid necessary for the life of ... - tc=0 - 
+		WN: instances/wordsense-water-noun-2 - ws: body of water/water - [(the part of the earth's surface co... - tc=219 - 
+		WN: instances/wordsense-water-noun-4 - ws: water - [(once thought to be one of four ele... - tc=3 - 
+		WN: instances/wordsense-water-noun-5 - ws: piddle/pee/piss/urine/water/weewee - [(liquid excretory product; "there w... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-contain-verb-6 - ws: contain/stop/hold back/check/arrest/turn back - [(hold back, as of a danger or an en... - tc=0 - 
+		WN: instances/wordsense-contain-verb-2 - ws: carry/hold/contain/bear - [(contain or hold; have within; "The... - tc=39 - 
+		WN: instances/wordsense-contain-verb-3 - ws: curb/check/moderate/control/contain/hold/hold in - [(lessen the intensity of; temper; h... - tc=2 - 
+		WN: instances/wordsense-contain-verb-1 - ws: incorporate/comprise/contain - [(include or contain; have as a comp... - tc=119 - 
+		WN: instances/wordsense-contain-verb-5 - ws: hold/contain/take - [(be capable of holding or containin... - tc=0 - 
+		WN: instances/wordsense-contain-verb-4 - ws: contain - [(be divisible by; "24 contains 6")]... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ground-noun-8 - ws: ground - [(a relatively homogeneous percept e... - tc=0 - 
+		WN: instances/wordsense-ground-noun-11 - ws: undercoat/primer/ground/flat coat/primer coat/priming/priming coat - [(the first or preliminary coat of p... - tc=0 - 
+		WN: instances/wordsense-ground-noun-9 - ws: ground/earth - [(a connection between an electrical... - tc=0 - 
+		WN: instances/wordsense-ground-noun-2 - ws: ground/reason - [(a rational motive for a belief or ... - tc=11 - 
+		WN: instances/wordsense-ground-noun-1 - ws: ground/earth/land/dry land/solid ground/terra firma - [(the solid part of the earth's surf... - tc=87 - 
+		WN: instances/wordsense-ground-noun-10 - ws: ground - [((art) the surface (as a wall or ca... - tc=0 - 
+		WN: instances/wordsense-ground-noun-6 - ws: background/ground - [(the part of a scene (or picture) t... - tc=1 - 
+		WN: instances/wordsense-ground-noun-5 - ws: ground - [(a position to be won or defended i... - tc=1 - 
+		WN: instances/wordsense-ground-noun-7 - ws: land/ground/soil - [(material in the top layer of the s... - tc=0 - 
+		WN: instances/wordsense-ground-noun-4 - ws: footing/basis/ground - [(a relation that provides the found... - tc=1 - 
+		WN: instances/wordsense-ground-noun-3 - ws: earth/ground - [(the loose soft material that makes... - tc=7 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ground_level-noun-2 - ws: ground floor/first floor/ground level - [(the floor of a building that is at... - tc=0 - 
+		WN: instances/wordsense-ground_level-noun-1 - ws: grade/ground level - [(the height of the ground on which ... - tc=2 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-tank-noun-2 - ws: tank/storage tank - [(a large (usually metallic) vessel ... - tc=3 - 
+		WN: instances/wordsense-tank-noun-3 - ws: tank/tankful - [(as much as a tank will hold)] - tc=0 - 
+		WN: instances/wordsense-tank-noun-5 - ws: cooler/tank - [(a cell for violent prisoners)] - tc=0 - 
+		WN: instances/wordsense-tank-noun-1 - ws: tank/armored combat vehicle/armoured combat vehicle/army tank - [(an enclosed armored military vehic... - tc=7 - 
+		WN: instances/wordsense-tank-noun-4 - ws: tank car/tank - [(a freight car that transports liqu... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-level-noun-6 - ws: level/horizontal surface - [(a flat surface at right angles to ... - tc=8 - 
+		WN: instances/wordsense-level-noun-5 - ws: level/spirit level - [(indicator that establishes the hor... - tc=18 - 
+		WN: instances/wordsense-level-noun-7 - ws: floor/level/storey/story - [(structure consisting of a room or ... - tc=2 - 
+		WN: instances/wordsense-level-noun-1 - ws: degree/grade/level - [(a position on a scale of intensity... - tc=467 - 
+		WN: instances/wordsense-level-noun-4 - ws: level - [(height above ground; "the water re... - tc=81 - 
+		WN: instances/wordsense-level-noun-8 - ws: layer/level/stratum - [(an abstract place usually conceive... - tc=0 - 
+		WN: instances/wordsense-level-noun-3 - ws: degree/level/point/stage - [(a specific identifiable position i... - tc=130 - 
+		WN: instances/wordsense-level-noun-2 - ws: grade/level/tier - [(a relative position or degree of v... - tc=169 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pool-noun-3 - ws: pool - [(an organization of people or resou... - tc=2 - 
+		WN: instances/wordsense-pool-noun-5 - ws: pool - [(any communal combination of funds;... - tc=1 - 
+		WN: instances/wordsense-pool-noun-9 - ws: pool/pocket billiards - [(any of various games played on a p... - tc=0 - 
+		WN: instances/wordsense-pool-noun-1 - ws: pool - [(an excavation that is (usually) fi... - tc=13 - 
+		WN: instances/wordsense-pool-noun-4 - ws: syndicate/consortium/pool - [(an association of companies for so... - tc=2 - 
+		WN: instances/wordsense-pool-noun-8 - ws: pool/puddle - [(something resembling a pool of liq... - tc=0 - 
+		WN: instances/wordsense-pool-noun-2 - ws: pond/pool - [(a small lake; "the pond was too sm... - tc=2 - 
+		WN: instances/wordsense-pool-noun-6 - ws: puddle/pool - [(a small body of standing water (ra... - tc=1 - 
+		WN: instances/wordsense-pool-noun-7 - ws: pool/kitty - [(the combined stakes of the betters... - tc=0 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#T.CNYN">
+  	<!-- Pair 13 -->
+    <skos:prefLabel xml:lang="en">canyon</skos:prefLabel>
+    <skos:definition xml:lang="en">a deep, narrow valley with steep sides cutting into a plateau or mountainous area</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-canyon-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-deep-adjective-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-steep-adjective-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-plateau-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-area-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-valley-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-canyon-noun-1 - ws: canyon/canon - [(a ravine formed by a river in an a... - tc=5 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-steep-adjective-1 - ws: steep - [(having a sharp inclination; "the s... - tc=5 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cut-verb-22 - ws: cut - [(form or shape by cutting or incisi... - tc=0 - 
+		WN: instances/wordsense-cut-verb-38 - ws: dilute/thin/cut/reduce/thin out - [(lessen the strength or flavor of a... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-narrow-adjective-1 - ws: narrow - [(not wide; "a narrow bridge"; "a na... - tc=20 - 
+		WN: instances/wordsense-narrow-adjective-4 - ws: narrow - [(very limited in degree; "won by a ... - tc=0 - 
+		WN: instances/wordsense-narrow-adjective-3 - ws: narrow-minded/narrow - [(lacking tolerance or flexibility o... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-valley-noun-1 - ws: valley/vale - [(a long depression in the surface o... - tc=27 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-deep-adjective-3 - ws: deep - [(having great spatial extension or ... - tc=11 - 
+		WN: instances/wordsense-deep-adjective-1 - ws: deep - [(relatively deep or strong; affecti... - tc=16 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-side-noun-2 - ws: side - [(one of two or more contesting grou... - tc=25 - 
+		WN: instances/wordsense-side-noun-3 - ws: side - [(either the left or right half of a... - tc=18 - 
+		WN: instances/wordsense-side-noun-4 - ws: side - [(an extended outer surface of an ob... - tc=18 - 
+		WN: instances/wordsense-side-noun-7 - ws: side - [(an aspect of something (as contras... - tc=5 - 
+		WN: instances/wordsense-side-noun-10 - ws: side/position - [(an opinion that is held in opposit... - tc=1 - 
+		WN: instances/wordsense-side-noun-12 - ws: English/side - [((sports) the spin given to a ball ... - tc=0 - 
+		WN: instances/wordsense-side-noun-9 - ws: side/side of meat - [(a lengthwise dressed half of an an... - tc=1 - 
+		WN: instances/wordsense-side-noun-8 - ws: side - [(a family line of descent; "he gets... - tc=1 - 
+		WN: instances/wordsense-side-noun-5 - ws: face/side - [(a surface forming part of the outs... - tc=12 - 
+		WN: instances/wordsense-side-noun-6 - ws: side - [(a line segment forming part of the... - tc=7 - 
+		WN: instances/wordsense-side-noun-1 - ws: side - [(a place within a region identified... - tc=104 - 
+		WN: instances/wordsense-side-noun-11 - ws: incline/slope/side - [(an elevated geological formation; ... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-plateau-noun-1 - ws: tableland/plateau - [(a relatively flat highland)] - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-1 - ws: area/country - [(a particular geographical region o... - tc=620 - 
+		WN: instances/wordsense-area-noun-4 - ws: area - [(a part of a structure having some ... - tc=42 - 
+		WN: instances/wordsense-area-noun-6 - ws: area/expanse/surface area - [(the extent of a 2-dimensional surf... - tc=26 - 
+		WN: instances/wordsense-area-noun-5 - ws: area/region - [(a part of an animal that has a spe... - tc=32 - 
+		WN: instances/wordsense-area-noun-3 - ws: area - [(a subject of study; "it was his ar... - tc=66 - 
+		WN: instances/wordsense-area-noun-2 - ws: sphere/area/arena/domain/field/orbit - [(a particular environment or walk o... - tc=72 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#H.RFC">
+  	<!-- Pair 14 -->
+    <skos:prefLabel xml:lang="en">coral reef</skos:prefLabel>
+    <skos:definition xml:lang="en">a surface-navigation hazard composed of coral</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-reef-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-coral-noun-4"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-navigation-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-hazard-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-compose-verb-3 - ws: pen/compose/write/indite - [(produce a literary work; "She comp... - tc=4 - 
+		WN: instances/wordsense-compose-verb-2 - ws: compose/write - [(write music; "Beethoven composed n... - tc=5 - 
+		WN: instances/wordsense-compose-verb-5 - ws: compose - [(calm (someone, especially oneself)... - tc=1 - 
+		WN: instances/wordsense-compose-verb-1 - ws: compose - [(form the substance of; "Greed and ... - tc=14 - 
+		WN: instances/wordsense-compose-verb-4 - ws: compile/compose - [(put together out of existing mater... - tc=3 - 
+		WN: instances/wordsense-compose-verb-6 - ws: frame/draw up/compose - [(draw up the plans or basic details... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-navigation-noun-1 - ws: piloting/pilotage/navigation - [(the guidance of ships or airplanes... - tc=1 - 
+		WN: instances/wordsense-navigation-noun-2 - ws: navigation - [(ship traffic; "the channel will be... - tc=0 - 
+		WN: instances/wordsense-navigation-noun-3 - ws: seafaring/navigation/sailing - [(the work of a sailor)] - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-hazard-noun-2 - ws: hazard/chance/luck/fortune - [(an unknown and unpredictable pheno... - tc=1 - 
+		WN: instances/wordsense-hazard-noun-1 - ws: risk/peril/jeopardy/hazard - [(a source of danger; a possibility ... - tc=3 - 
+		WN: instances/wordsense-hazard-noun-3 - ws: hazard - [(an obstacle on a golf course)] - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-surface-noun-1 - ws: surface - [(the outer boundary of an artifact ... - tc=103 - 
+		WN: instances/wordsense-surface-noun-5 - ws: surface/open - [(information that has become public... - tc=1 - 
+		WN: instances/wordsense-surface-noun-4 - ws: surface - [(a superficial aspect as opposed to... - tc=4 - 
+		WN: instances/wordsense-surface-noun-2 - ws: surface - [(the extended two-dimensional outer... - tc=39 - 
+		WN: instances/wordsense-surface-noun-3 - ws: surface/Earth's surface - [(the outermost level of the land or... - tc=11 - 
+		WN: instances/wordsense-surface-noun-6 - ws: airfoil/aerofoil/control surface/surface - [(a device that provides reactive fo... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-reef-noun-1 - ws: reef - [(a submerged ridge of rock or coral... - tc=1 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#T.RKFL">
+  	<!-- Pair 15 -->
+    <skos:prefLabel xml:lang="en">rockfall</skos:prefLabel>
+    <skos:definition xml:lang="en">an irregular mass of fallen rock at the base of a cliff or steep slope</skos:definition>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-slope-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-cliff-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-rock-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-steep-adjective-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-rock-noun-7 - ws: tilt/sway/careen/rock - [(pitching dangerously to one side)]... - tc=0 - 
+		WN: instances/wordsense-rock-noun-2 - ws: stone/rock - [(material consisting of the aggrega... - tc=6 - 
+		WN: instances/wordsense-rock-noun-6 - ws: rock 'n' roll/rock-and-roll/rock/rock and roll/rock music/rock'n'roll - [(a genre of popular music originati... - tc=0 - 
+		WN: instances/wordsense-rock-noun-5 - ws: rock candy/rock - [(hard stick bright-colored stick ca... - tc=0 - 
+		WN: instances/wordsense-rock-noun-1 - ws: stone/rock - [(a lump or mass of hard consolidate... - tc=14 - 
+		WN: instances/wordsense-rock-noun-4 - ws: rock - [((figurative) someone who is strong... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-irregular-adjective-1 - ws: irregular - [(contrary to rule or accepted order... - tc=4 - 
+		WN: instances/wordsense-irregular-adjective-2 - ws: irregular - [((of solids) not having clear dimen... - tc=2 - 
+		WN: instances/wordsense-irregular-adjective-4 - ws: irregular - [(used of the military; not belongin... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-fall-verb-2 - ws: fall/descend/go down/come down - [(move downward and lower, but not n... - tc=21 - 
+		WN: instances/wordsense-fall-verb-10 - ws: fall - [(be captured; "The cities fell to t... - tc=3 - 
+		WN: instances/wordsense-fall-verb-13 - ws: fall - [(lose office or power; "The governm... - tc=2 - 
+		WN: instances/wordsense-fall-verb-6 - ws: fall - [(suffer defeat, failure, or ruin; "... - tc=4 - 
+		WN: instances/wordsense-fall-verb-1 - ws: fall - [(descend in free fall under the inf... - tc=46 - 
+		WN: instances/wordsense-fall-verb-23 - ws: fall/fall down - [(lose an upright position suddenly;... - tc=0 - 
+		WN: instances/wordsense-fall-verb-24 - ws: fall - [(drop oneself to a lower or less er... - tc=0 - 
+		WN: instances/wordsense-fall-verb-12 - ws: fall - [(yield to temptation or sin; "Adam ... - tc=2 - 
+		WN: instances/wordsense-fall-verb-17 - ws: fall - [(lose one's chastity; "a fallen wom... - tc=0 - 
+		WN: instances/wordsense-fall-verb-7 - ws: decrease/fall/diminish/lessen - [(decrease in size, extent, or range... - tc=4 - 
+		WN: instances/wordsense-fall-verb-22 - ws: fall - [(slope downward; "The hills around ... - tc=0 - 
+		WN: instances/wordsense-fall-verb-3 - ws: fall - [(pass suddenly and passively into a... - tc=16 - 
+		WN: instances/wordsense-fall-verb-32 - ws: fall/descend/settle - [(come as if by falling; "Night fell... - tc=0 - 
+		WN: instances/wordsense-fall-verb-31 - ws: fall - [(go as if by falling; "Grief fell f... - tc=0 - 
+		WN: instances/wordsense-fall-verb-11 - ws: fall - [(occur at a specified time or place... - tc=3 - 
+		WN: instances/wordsense-fall-verb-30 - ws: fall - [(begin vigorously; "The prisoners f... - tc=0 - 
+		WN: instances/wordsense-fall-verb-29 - ws: fall - [(be born, used chiefly of lambs; "T... - tc=0 - 
+		WN: instances/wordsense-fall-verb-28 - ws: fall - [(come out; issue; "silly phrases fe... - tc=0 - 
+		WN: instances/wordsense-fall-verb-27 - ws: fall - [(be cast down; "his eyes fell")] - tc=0 - 
+		WN: instances/wordsense-fall-verb-26 - ws: fall - [(assume a disappointed or sad expre... - tc=0 - 
+		WN: instances/wordsense-fall-verb-25 - ws: hang/fall/flow - [(fall or flow in a certain way; "Th... - tc=0 - 
+		WN: instances/wordsense-fall-verb-15 - ws: fall - [(move in a specified direction; "Th... - tc=1 - 
+		WN: instances/wordsense-fall-verb-21 - ws: fall/devolve/pass/return - [(be inherited by; "The estate fell ... - tc=0 - 
+		WN: instances/wordsense-fall-verb-20 - ws: fall/light - [(fall to somebody by assignment or ... - tc=0 - 
+		WN: instances/wordsense-fall-verb-19 - ws: accrue/fall - [(come into the possession of; "The ... - tc=0 - 
+		WN: instances/wordsense-fall-verb-14 - ws: fall - [(to be given by assignment or distr... - tc=2 - 
+		WN: instances/wordsense-fall-verb-18 - ws: fall - [(to be given by right or inheritanc... - tc=0 - 
+		WN: instances/wordsense-fall-verb-9 - ws: fall/shine/strike - [(touch or seem as if touching visua... - tc=3 - 
+		WN: instances/wordsense-fall-verb-8 - ws: fall - [(die, as in battle or in a hunt; "M... - tc=3 - 
+		WN: instances/wordsense-fall-verb-16 - ws: fall - [(be due; "payments fall on the 1st ... - tc=0 - 
+		WN: instances/wordsense-fall-verb-4 - ws: fall/come - [(come under, be classified or inclu... - tc=6 - 
+		WN: instances/wordsense-fall-verb-5 - ws: precipitate/come down/fall - [(fall from clouds; "rain, snow and ... - tc=4 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-steep-adjective-1 - ws: steep - [(having a sharp inclination; "the s... - tc=5 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-slope-noun-2 - ws: slope/gradient - [(the property possessed by a line o... - tc=4 - 
+		WN: instances/wordsense-slope-noun-1 - ws: incline/slope/side - [(an elevated geological formation; ... - tc=11 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-base-noun-2 - ws: base/base of operations - [(installation from which a military... - tc=4 - 
+		WN: instances/wordsense-base-noun-17 - ws: base - [(the principal ingredient of a mixt... - tc=0 - 
+		WN: instances/wordsense-base-noun-9 - ws: foundation/base/basis/cornerstone/fundament/groundwork - [(the fundamental assumptions from w... - tc=2 - 
+		WN: instances/wordsense-base-noun-13 - ws: base/home - [(the place where you are stationed ... - tc=0 - 
+		WN: instances/wordsense-base-noun-1 - ws: alkali/base - [(any of various water-soluble compo... - tc=11 - 
+		WN: instances/wordsense-base-noun-7 - ws: base - [((anatomy) the part of an organ nea... - tc=2 - 
+		WN: instances/wordsense-base-noun-10 - ws: base/pedestal/stand - [(a support or foundation; "the base... - tc=2 - 
+		WN: instances/wordsense-base-noun-4 - ws: base/bag - [(place that runner must touch befor... - tc=3 - 
+		WN: instances/wordsense-base-noun-19 - ws: base - [((electronics) the part of a transi... - tc=0 - 
+		WN: instances/wordsense-base-noun-18 - ws: base - [(a flat bottom on which something i... - tc=0 - 
+		WN: instances/wordsense-base-noun-3 - ws: foundation/base/foot/fundament/groundwork/substructure/understructure - [(lowest support of a structure; "it... - tc=3 - 
+		WN: instances/wordsense-base-noun-16 - ws: infrastructure/base - [(the stock of basic facilities and ... - tc=0 - 
+		WN: instances/wordsense-base-noun-15 - ws: stem/root/base/radical/root word/theme - [((linguistics) the form of a word a... - tc=0 - 
+		WN: instances/wordsense-base-noun-8 - ws: floor/base - [(a lower limit; "the government est... - tc=2 - 
+		WN: instances/wordsense-base-noun-6 - ws: base - [(the bottom or lowest part; "the ba... - tc=2 - 
+		WN: instances/wordsense-base-noun-5 - ws: base/radix - [((numeration system) the positive i... - tc=2 - 
+		WN: instances/wordsense-base-noun-12 - ws: basis/base - [(the most important or necessary pa... - tc=0 - 
+		WN: instances/wordsense-base-noun-11 - ws: base - [(the bottom side of a geometric fig... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-mass-noun-3 - ws: mass - [(an ill-structured collection of si... - tc=12 - 
+		WN: instances/wordsense-mass-noun-1 - ws: mass - [(the property of a body that causes... - tc=109 - 
+		WN: instances/wordsense-mass-noun-7 - ws: bulk/mass/volume - [(the property of something that is ... - tc=3 - 
+		WN: instances/wordsense-mass-noun-6 - ws: people/multitude/hoi polloi/mass/masses - [(the common people generally; "sepa... - tc=4 - 
+		WN: instances/wordsense-mass-noun-5 - ws: mass - [(a body of matter without definite ... - tc=6 - 
+		WN: instances/wordsense-mass-noun-2 - ws: wad/pile/heap/batch/deal/flock/good deal/great deal/hatful/lot/mass/mess/mickle/mint/muckle/peck/plenty/pot/quite a little/raft/sight/slew/spate/stack/tidy sum/whole lot/whole slew - [((often followed by `of') a large n... - tc=14 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-cliff-noun-1 - ws: cliff/drop/drop-off - [(a steep high face of rock; "he sto... - tc=3 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#H.PNDN">
+  	<!-- Pair 16 -->
+    <skos:prefLabel xml:lang="en">salt pond</skos:prefLabel>
+    <skos:definition xml:lang="en">a small standing body of salt water often in a marsh or swamp, usually along a seacoast</skos:definition>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-pond-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-salt-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-seacoast-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-marsh-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-swamp-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-water-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-standing-noun-2 - ws: standing - [(the act of assuming or maintaining... - tc=0 - 
+		WN: instances/wordsense-standing-noun-1 - ws: standing - [(social or financial or professiona... - tc=3 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pond-noun-1 - ws: pond/pool - [(a small lake; "the pond was too sm... - tc=26 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-body-noun-2 - ws: body/dead body - [(body of a dead animal or person; "... - tc=266 - 
+		WN: instances/wordsense-body-noun-7 - ws: body - [(the external structure of a vehicl... - tc=18 - 
+		WN: instances/wordsense-body-noun-8 - ws: consistency/body/consistence - [(the property of holding together a... - tc=4 - 
+		WN: instances/wordsense-body-noun-1 - ws: body/organic structure/physical structure - [(the entire physical structure of a... - tc=536 - 
+		WN: instances/wordsense-body-noun-4 - ws: torso/body/trunk - [(the body excluding the head and ne... - tc=63 - 
+		WN: instances/wordsense-body-noun-9 - ws: body - [(the central message of a communica... - tc=1 - 
+		WN: instances/wordsense-body-noun-3 - ws: body - [(a group of persons associated by s... - tc=160 - 
+		WN: instances/wordsense-body-noun-6 - ws: body - [(a collection of particulars consid... - tc=30 - 
+		WN: instances/wordsense-body-noun-5 - ws: body - [(an individual 3-dimensional object... - tc=31 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-seacoast-noun-1 - ws: coast/seashore/sea-coast/seacoast - [(the shore of a sea or ocean)] - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-swamp-verb-1 - ws: swamp/drench - [(drench or submerge or be drenched ... - tc=1 - 
+		WN: instances/wordsense-swamp-verb-2 - ws: flood/inundate/deluge/swamp - [(fill quickly beyond capacity; as w... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-marsh-noun-1 - ws: marsh/fen/fenland/marshland - [(low-lying wet land with grassy veg... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-small-adjective-1 - ws: little/small - [(limited or below average in number... - tc=1181 - 
+		WN: instances/wordsense-small-adjective-5 - ws: microscopic/microscopical/small - [(too small to be seen except under ... - tc=28 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-salt-noun-4 - ws: salt/salinity/saltiness - [(the taste experience when salt is ... - tc=0 - 
+		WN: instances/wordsense-salt-noun-2 - ws: salt/common salt/table salt - [(white crystalline form of especial... - tc=5 - 
+		WN: instances/wordsense-salt-noun-1 - ws: salt - [(a compound formed by replacing hyd... - tc=26 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-water-noun-1 - ws: water/H2O - [(binary compound that occurs at roo... - tc=744 - 
+		WN: instances/wordsense-water-noun-3 - ws: water system/water/water supply - [(facility that provides a source of... - tc=50 - 
+		WN: instances/wordsense-water-noun-6 - ws: water - [(a fluid necessary for the life of ... - tc=0 - 
+		WN: instances/wordsense-water-noun-2 - ws: body of water/water - [(the part of the earth's surface co... - tc=219 - 
+		WN: instances/wordsense-water-noun-4 - ws: water - [(once thought to be one of four ele... - tc=3 - 
+		WN: instances/wordsense-water-noun-5 - ws: piddle/pee/piss/urine/water/weewee - [(liquid excretory product; "there w... - tc=1 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+
+ 
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#S.SHRN">
+ 	<!-- Pair 17 -->
+    <skos:prefLabel xml:lang="en">shrine</skos:prefLabel>
+    <skos:definition xml:lang="en">a structure or place memorializing a person or religious concept</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-shrine-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-place-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-memorialize-verb-2"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-religious-adjective-2"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-religion-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-shrine-noun-1 - ws: shrine - [(a place of worship hallowed by ass... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-memorialize-verb-2 - ws: memorialize/record/commemorate/immortalise/immortalize/memorialise - [(be or provide a memorial to a pers... - tc=0 - 
+		WN: instances/wordsense-memorialize-verb-1 - ws: memorialise/memorialize - [(address in a memorial; "The Presid... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-person-noun-1 - ws: individual/person/human/mortal/somebody/someone/soul - [(a human being; "there was too much... - tc=7229 - 
+		WN: instances/wordsense-person-noun-2 - ws: person - [(a person's body (usually including... - tc=11 - 
+		WN: instances/wordsense-person-noun-3 - ws: person - [(a grammatical category of pronouns... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-place-noun-8 - ws: place/office/post/position/berth/billet/situation/spot - [(a job in an organization; "he occu... - tc=4 - 
+		WN: instances/wordsense-place-noun-3 - ws: place - [(an abstract mental location; "he h... - tc=22 - 
+		WN: instances/wordsense-place-noun-16 - ws: place/space/blank space - [(a blank area; "write your name in ... - tc=1 - 
+		WN: instances/wordsense-place-noun-15 - ws: place/position - [(an item on a list or in a sequence... - tc=1 - 
+		WN: instances/wordsense-place-noun-2 - ws: place/property - [(any area set aside for a particula... - tc=38 - 
+		WN: instances/wordsense-place-noun-7 - ws: place/home - [(where you live at a particular tim... - tc=6 - 
+		WN: instances/wordsense-place-noun-9 - ws: place/position - [(the particular portion of space oc... - tc=3 - 
+		WN: instances/wordsense-place-noun-1 - ws: place/topographic point/spot - [(a point located with respect to su... - tc=79 - 
+		WN: instances/wordsense-place-noun-6 - ws: place/shoes - [(a particular situation; "If you we... - tc=7 - 
+		WN: instances/wordsense-place-noun-13 - ws: place - [(proper or appropriate position or ... - tc=1 - 
+		WN: instances/wordsense-place-noun-5 - ws: stead/lieu/place/position - [(the function or position properly ... - tc=10 - 
+		WN: instances/wordsense-place-noun-12 - ws: place - [(the passage that is being read; "h... - tc=2 - 
+		WN: instances/wordsense-place-noun-14 - ws: plaza/piazza/place - [(a public square with room for pede... - tc=1 - 
+		WN: instances/wordsense-place-noun-4 - ws: place - [(a general vicinity; "He comes from... - tc=17 - 
+		WN: instances/wordsense-place-noun-11 - ws: seat/place - [(a space reserved for sitting (as i... - tc=2 - 
+		WN: instances/wordsense-place-noun-10 - ws: place/station - [(proper or designated social situat... - tc=2 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-structure-noun-2 - ws: structure - [(the manner of construction of some... - tc=17 - 
+		WN: instances/wordsense-structure-noun-3 - ws: structure - [(the complex composition of knowled... - tc=7 - 
+		WN: instances/wordsense-structure-noun-1 - ws: structure/construction - [(a thing constructed; a complex con... - tc=24 - 
+		WN: instances/wordsense-structure-noun-4 - ws: structure/anatomical structure/bodily structure/body structure/complex body part - [(a particular complex anatomical st... - tc=3 - 
+		WN: instances/wordsense-structure-noun-5 - ws: social organization/social organisation/social structure/social system/structure - [(the people in a society considered... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-religious-adjective-2 - ws: religious - [(having or showing belief in and re... - tc=3 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-concept-noun-1 - ws: conception/concept/construct - [(an abstract or general idea inferr... - tc=40 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#R.TNLRD">
+  	<!-- Pair 18 -->
+    <skos:prefLabel xml:lang="en">road tunnel</skos:prefLabel>
+    <skos:definition xml:lang="en">a tunnel through which a road passes</skos:definition>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-road-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-tunnel-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-road-noun-2 - ws: road - [(a way or means to achieve somethin... - tc=2 - 
+		WN: instances/wordsense-road-noun-1 - ws: route/road - [(an open way (generally public) for... - tc=95 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-tunnel-noun-1 - ws: tunnel - [(a passageway through or under some... - tc=1 - 
+		WN: instances/wordsense-tunnel-noun-2 - ws: tunnel/burrow - [(a hole in the ground made by an an... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pass-verb-14 - ws: pass/make it - [(go successfully through a test or ... - tc=2 - 
+		WN: instances/wordsense-pass-verb-16 - ws: pass - [(accept or judge as acceptable; "Th... - tc=1 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#T.INTF">
+    <!-- Pair 19 -->
+    <skos:prefLabel xml:lang="en">interfluve</skos:prefLabel>
+    <skos:definition xml:lang="en">a relatively undissected upland between adjacent stream valleys</skos:definition>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-stream-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-valley-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-upland-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-upland-noun-1 - ws: highland/upland - [(elevated (e.g., mountainous) land)... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-valley-noun-1 - ws: valley/vale - [(a long depression in the surface o... - tc=27 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-stream-noun-4 - ws: stream/flow - [(the act of flowing or streaming; c... - tc=3 - 
+		WN: instances/wordsense-stream-noun-3 - ws: stream/current - [(a steady flow (usually from natura... - tc=3 - 
+		WN: instances/wordsense-stream-noun-1 - ws: stream/watercourse - [(a natural body of running water fl... - tc=20 - 
+		WN: instances/wordsense-stream-noun-5 - ws: flow/stream - [(something that resembles a flowing... - tc=2 - 
+		WN: instances/wordsense-stream-noun-2 - ws: stream/current/flow - [(dominant course (suggestive of run... - tc=4 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#S.SCHM">
+    <!-- Pair 20 -->
+    <skos:prefLabel xml:lang="en">military school</skos:prefLabel>
+    <skos:definition xml:lang="en">a school at which military science forms the core of the curriculum</skos:definition>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-school-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-military-adjective-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-military-adjective-2"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-military_science-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-military-adjective-3 - ws: military - [(associated with or performed by ar... - tc=3 - 
+		WN: instances/wordsense-military-adjective-2 - ws: military - [(characteristic of or associated wi... - tc=12 - 
+		WN: instances/wordsense-military-adjective-1 - ws: military - [(of or relating to the study of the... - tc=37 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-form-noun-16 - ws: form - [(a mold for setting concrete; "they... - tc=0 - 
+		WN: instances/wordsense-form-noun-3 - ws: pattern/shape/form - [(a perceptual structure; "the compo... - tc=40 - 
+		WN: instances/wordsense-form-noun-11 - ws: form - [(an arrangement of the elements in ... - tc=1 - 
+		WN: instances/wordsense-form-noun-6 - ws: shape/form - [(the spatial arrangement of somethi... - tc=8 - 
+		WN: instances/wordsense-form-noun-15 - ws: mannequin/form/manakin/manikin/mannikin - [(a life-size dummy used to display ... - tc=0 - 
+		WN: instances/wordsense-form-noun-7 - ws: shape/form/cast - [(the visual appearance of something... - tc=3 - 
+		WN: instances/wordsense-form-noun-12 - ws: form - [(a particular mode in which somethi... - tc=1 - 
+		WN: instances/wordsense-form-noun-4 - ws: contour/shape/configuration/conformation/form - [(any spatial attributes (especially... - tc=23 - 
+		WN: instances/wordsense-form-noun-14 - ws: form - [(an ability to perform well; "he wa... - tc=0 - 
+		WN: instances/wordsense-form-noun-5 - ws: human body/anatomy/bod/build/chassis/figure/flesh/form/frame/material body/physical body/physique/shape/soma - [(alternative names for the body of ... - tc=19 - 
+		WN: instances/wordsense-form-noun-2 - ws: sort/kind/form/variety - [(a category of things distinguished... - tc=76 - 
+		WN: instances/wordsense-form-noun-1 - ws: signifier/form/descriptor/word form - [(the phonological or orthographic s... - tc=96 - 
+		WN: instances/wordsense-form-noun-9 - ws: form - [(a printed document with spaces in ... - tc=2 - 
+		WN: instances/wordsense-form-noun-10 - ws: form/strain/var./variant - [((biology) a group of organisms wit... - tc=1 - 
+		WN: instances/wordsense-form-noun-13 - ws: class/form/grade - [(a body of students who are taught ... - tc=0 - 
+		WN: instances/wordsense-form-noun-8 - ws: phase/form - [((physical chemistry) a distinct st... - tc=2 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-science-noun-2 - ws: skill/science - [(ability to produce solutions in so... - tc=1 - 
+		WN: instances/wordsense-science-noun-1 - ws: science/scientific discipline - [(a particular branch of scientific ... - tc=9 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-core-noun-1 - ws: core - [(the center of an object; "the ball... - tc=5 - 
+		WN: instances/wordsense-core-noun-9 - ws: core - [(a bar of magnetic material (as sof... - tc=0 - 
+		WN: instances/wordsense-core-noun-8 - ws: core - [(the chamber of a nuclear reactor c... - tc=0 - 
+		WN: instances/wordsense-core-noun-4 - ws: sum/kernel/center/core/essence/gist/heart/heart and soul/inwardness/marrow/meat/nitty-gritty/nub/pith/substance - [(the choicest or most essential or ... - tc=2 - 
+		WN: instances/wordsense-core-noun-7 - ws: effect/burden/core/essence/gist - [(the central meaning or theme of a ... - tc=0 - 
+		WN: instances/wordsense-core-noun-2 - ws: core/core group/nucleus - [(a small group of indispensable per... - tc=5 - 
+		WN: instances/wordsense-core-noun-3 - ws: core - [(the central part of the Earth)] - tc=2 - 
+		WN: instances/wordsense-core-noun-5 - ws: core - [(a cylindrical sample of soil or ro... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-curriculum-noun-1 - ws: curriculum/course of study/program/programme/syllabus - [(an integrated course of academic s... - tc=7 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-school-noun-2 - ws: school/schoolhouse - [(a building where young people rece... - tc=108 - 
+		WN: instances/wordsense-school-noun-3 - ws: school/schooling - [(the process of being formally educ... - tc=86 - 
+		WN: instances/wordsense-school-noun-7 - ws: school/shoal - [(a large group of fish; "a school o... - tc=0 - 
+		WN: instances/wordsense-school-noun-1 - ws: school - [(an educational institution; "the s... - tc=610 - 
+		WN: instances/wordsense-school-noun-4 - ws: school - [(an educational institution's facul... - tc=35 - 
+		WN: instances/wordsense-school-noun-5 - ws: school/school day/schooltime - [(the period of instruction in a sch... - tc=28 - 
+		WN: instances/wordsense-school-noun-6 - ws: school - [(a body of creative artists or writ... - tc=25 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#L.CLG">
+  	<!-- Pair 21 -->
+    <skos:prefLabel xml:lang="en">clearing</skos:prefLabel>
+    <skos:definition xml:lang="en">an area in a forest with trees removed</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-clearing-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-area-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-tree-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-forest-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-forest-noun-1 - ws: forest/wood/woods - [(the trees and other plants in a la... - tc=36 - 
+		WN: instances/wordsense-forest-noun-2 - ws: forest/timber/timberland/woodland - [(land that is covered with trees an... - tc=2 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-clearing-noun-3 - ws: clarification/clearing - [(the act of removing solid particle... - tc=0 - 
+		WN: instances/wordsense-clearing-noun-2 - ws: clearing - [(the act of freeing from suspicion)... - tc=0 - 
+		WN: instances/wordsense-clearing-noun-1 - ws: clearing/glade - [(a tract of land with few or no tre... - tc=3 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-1 - ws: area/country - [(a particular geographical region o... - tc=620 - 
+		WN: instances/wordsense-area-noun-4 - ws: area - [(a part of a structure having some ... - tc=42 - 
+		WN: instances/wordsense-area-noun-6 - ws: area/expanse/surface area - [(the extent of a 2-dimensional surf... - tc=26 - 
+		WN: instances/wordsense-area-noun-5 - ws: area/region - [(a part of an animal that has a spe... - tc=32 - 
+		WN: instances/wordsense-area-noun-3 - ws: area - [(a subject of study; "it was his ar... - tc=66 - 
+		WN: instances/wordsense-area-noun-2 - ws: sphere/area/arena/domain/field/orbit - [(a particular environment or walk o... - tc=72 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-tree-noun-1 - ws: tree - [(a tall perennial woody plant havin... - tc=107 - 
+		WN: instances/wordsense-tree-noun-2 - ws: tree/tree diagram - [(a figure that branches from a sing... - tc=0 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#T.CUET">
+  	<!-- Pair 22 -->
+    <skos:prefLabel xml:lang="en">cuesta</skos:prefLabel>
+    <skos:definition xml:lang="en">an asymmetric ridge formed on tilted strata</skos:definition>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-stratum-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-asymmetric-adjective-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-ridge-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-stratum-noun-1 - ws: stratum - [(one of several parallel layers of ... - tc=3 - 
+		WN: instances/wordsense-stratum-noun-2 - ws: layer/level/stratum - [(an abstract place usually conceive... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-form-verb-7 - ws: form - [(give shape to; "form the clay into... - tc=3 - 
+		WN: instances/wordsense-form-verb-2 - ws: organise/organize/form - [(create (as an entity); "social gro... - tc=28 - 
+		WN: instances/wordsense-form-verb-5 - ws: form/shape/mold/forge/mould/work - [(make something, usually for a spec... - tc=11 - 
+		WN: instances/wordsense-form-verb-4 - ws: form/shape - [(give a shape or form to; "shape th... - tc=16 - 
+		WN: instances/wordsense-form-verb-3 - ws: form/spring/take form/take shape - [(develop into a distinctive entity;... - tc=23 - 
+		WN: instances/wordsense-form-verb-1 - ws: constitute/form/make - [(to compose or represent:"This wall... - tc=29 - 
+		WN: instances/wordsense-form-verb-6 - ws: imprint/form - [(establish or impress firmly in the... - tc=3 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-ridge-noun-1 - ws: ridge - [(a long narrow natural elevation or... - tc=6 - 
+		WN: instances/wordsense-ridge-noun-3 - ws: ridge - [(a long narrow range of hills)] - tc=0 - 
+		WN: instances/wordsense-ridge-noun-2 - ws: ridge - [(any long raised strip)] - tc=0 - 
+		WN: instances/wordsense-ridge-noun-5 - ws: ridge/ridgepole/rooftree - [(a beam laid along the ridge of a r... - tc=0 - 
+		WN: instances/wordsense-ridge-noun-4 - ws: ridge - [(any long raised border or margin o... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-asymmetric-adjective-1 - ws: asymmetrical/asymmetric - [(characterized by asymmetry in the ... - tc=2 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#U.MTU">
+  	<!-- Pair 23 -->
+    <skos:prefLabel xml:lang="en">mountain</skos:prefLabel>
+    <skos:definition xml:lang="en">a well-delineated subdivision of a large and complex positive feature</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-mountain-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-large-adjective-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-large-adjective-1 - ws: big/large - [(above average in size or number or... - tc=152 - 
+		WN: instances/wordsense-large-adjective-3 - ws: macroscopic/large/macroscopical - [(large enough to be visible to the ... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-delineated-adjective-1 - ws: delineated/delineate/represented - [(represented accurately or precisel... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-complex-adjective-1 - ws: complex - [(complicated in structure; consisti... - tc=29 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-mountain-noun-1 - ws: mountain/mount - [(a land mass that projects well abo... - tc=17 - 
+		WN: instances/wordsense-mountain-noun-2 - ws: tons/dozens/gobs/heaps/lashings/loads/lots/mountain/oodles/piles/rafts/scads/scores/slews/stacks/wads - [(a large number or amount; "made lo... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-positive-adjective-1 - ws: positive - [(characterized by or displaying aff... - tc=20 - 
+		WN: instances/wordsense-positive-adjective-4 - ws: positive/confirming - [(indicating existence or presence o... - tc=1 - 
+		WN: instances/wordsense-positive-adjective-2 - ws: positive/electropositive - [(having a positive electric charge;... - tc=8 - 
+		WN: instances/wordsense-positive-adjective-7 - ws: positive/positivistic/positivist - [(of or relating to positivism; "pos... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-subdivision-noun-2 - ws: subdivision - [(the act of subdividing; division o... - tc=2 - 
+		WN: instances/wordsense-subdivision-noun-5 - ws: subsection/subdivision - [(a section of a section; a part of ... - tc=0 - 
+		WN: instances/wordsense-subdivision-noun-4 - ws: section/subdivision - [(a self-contained part of a larger ... - tc=0 - 
+		WN: instances/wordsense-subdivision-noun-3 - ws: branch/arm/subdivision - [(an administrative division of some... - tc=1 - 
+		WN: instances/wordsense-subdivision-noun-1 - ws: subdivision - [(an area composed of subdivided lot... - tc=2 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#U.PRVU">
+  	<!-- Pair 24 -->
+    <skos:prefLabel xml:lang="en">province</skos:prefLabel>
+    <skos:definition xml:lang="en">a region identifiable by a group of similar physiographic features whose characteristics are markedly in contrast with surrounding areas</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-province-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-region-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-area-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-characteristic-noun-2 - ws: characteristic - [(a distinguishing quality)] - tc=7 - 
+		WN: instances/wordsense-characteristic-noun-4 - ws: characteristic/device characteristic - [(any measurable property of a devic... - tc=0 - 
+		WN: instances/wordsense-characteristic-noun-1 - ws: feature/characteristic - [(a prominent aspect of something; "... - tc=19 - 
+		WN: instances/wordsense-characteristic-noun-3 - ws: characteristic - [(the integer part (positive or nega... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-area-noun-1 - ws: area/country - [(a particular geographical region o... - tc=620 - 
+		WN: instances/wordsense-area-noun-4 - ws: area - [(a part of a structure having some ... - tc=42 - 
+		WN: instances/wordsense-area-noun-6 - ws: area/expanse/surface area - [(the extent of a 2-dimensional surf... - tc=26 - 
+		WN: instances/wordsense-area-noun-5 - ws: area/region - [(a part of an animal that has a spe... - tc=32 - 
+		WN: instances/wordsense-area-noun-3 - ws: area - [(a subject of study; "it was his ar... - tc=66 - 
+		WN: instances/wordsense-area-noun-2 - ws: sphere/area/arena/domain/field/orbit - [(a particular environment or walk o... - tc=72 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-province-noun-1 - ws: province/state - [(the territory occupied by one of t... - tc=4 - 
+		WN: instances/wordsense-province-noun-2 - ws: province/responsibility - [(the proper sphere or extent of you... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-identifiable-adjective-1 - ws: identifiable - [(possible to identify)] - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-region-noun-3 - ws: region - [(a large indefinite location on the... - tc=2 - 
+		WN: instances/wordsense-region-noun-2 - ws: area/region - [(a part of an animal that has a spe... - tc=5 - 
+		WN: instances/wordsense-region-noun-5 - ws: domain/realm/region - [(a knowledge domain that you are in... - tc=0 - 
+		WN: instances/wordsense-region-noun-1 - ws: region/part - [(the extended spatial location of s... - tc=67 - 
+		WN: instances/wordsense-region-noun-4 - ws: region/neighborhood - [(the approximate amount of somethin... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-contrast-noun-2 - ws: contrast - [(the act of distinguishing by compa... - tc=10 - 
+		WN: instances/wordsense-contrast-noun-3 - ws: contrast/demarcation/line/dividing line - [(a conceptual separation or demarca... - tc=3 - 
+		WN: instances/wordsense-contrast-noun-1 - ws: contrast/direct contrast - [(the opposition or dissimilarity of... - tc=23 - 
+		WN: instances/wordsense-contrast-noun-5 - ws: contrast - [(the range of optical density and t... - tc=0 - 
+		WN: instances/wordsense-contrast-noun-4 - ws: contrast - [(the perceptual effect of the juxta... - tc=2 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-group-noun-1 - ws: group/grouping - [(any number of entities (members) c... - tc=2350 - 
+		WN: instances/wordsense-group-noun-3 - ws: group/mathematical group - [(a set that is closed, associative,... - tc=3 - 
+		WN: instances/wordsense-group-noun-2 - ws: group/chemical group/radical - [((chemistry) two or more atoms boun... - tc=9 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-surround-verb-1 - ws: surround/circle/ring/environ/encircle/round - [(be around; "Developments surround ... - tc=14 - 
+		WN: instances/wordsense-surround-verb-2 - ws: border/surround/skirt - [(extend on all sides of simultaneou... - tc=6 - 
+		WN: instances/wordsense-surround-verb-5 - ws: fence/palisade/wall/surround/fence in - [(surround with a wall in order to f... - tc=0 - 
+		WN: instances/wordsense-surround-verb-4 - ws: besiege/beleaguer/circumvent/hem in/surround - [(surround so as to force to give up... - tc=1 - 
+		WN: instances/wordsense-surround-verb-3 - ws: smother/surround - [(envelop completely; "smother the m... - tc=2 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-similar-adjective-1 - ws: similar - [(marked by correspondence or resemb... - tc=65 - 
+		WN: instances/wordsense-similar-adjective-3 - ws: like/similar - [(resembling or similar; having the ... - tc=0 - 
+		WN: instances/wordsense-similar-adjective-2 - ws: alike(p)/like/similar - [(having the same or similar charact... - tc=7 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#R.TRL">
+  	<!-- Pair 25 -->
+    <skos:prefLabel xml:lang="en">trail</skos:prefLabel>
+    <skos:definition xml:lang="en">a path, track, or route used by pedestrians, animals, or off-road vehicles</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-trail-noun-2"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-route-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-animal-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-track-noun-2"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-vehicle-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-pedestrian-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-path-noun-4"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-road-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-path-noun-1 - ws: way/path/way of life - [(a course of conduct; "the path of ... - tc=10 - 
+		WN: instances/wordsense-path-noun-2 - ws: path - [(a way especially designed for a pa... - tc=8 - 
+		WN: instances/wordsense-path-noun-3 - ws: route/path/itinerary - [(an established line of travel or a... - tc=3 - 
+		WN: instances/wordsense-path-noun-4 - ws: course/track/path - [(a line or route along which someth... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-track-noun-2 - ws: track/lead/trail - [(evidence pointing to a possible so... - tc=1 - 
+		WN: instances/wordsense-track-noun-1 - ws: course/track/path - [(a line or route along which someth... - tc=6 - 
+		WN: instances/wordsense-track-noun-11 - ws: running/track - [(the act of participating in an ath... - tc=0 - 
+		WN: instances/wordsense-track-noun-4 - ws: racetrack/racecourse/raceway/track - [(a course over which races are run)... - tc=1 - 
+		WN: instances/wordsense-track-noun-10 - ws: track/cart track/cartroad - [(any road or path affording passage... - tc=0 - 
+		WN: instances/wordsense-track-noun-9 - ws: rail/track/rails - [(a bar or bars of rolled steel maki... - tc=0 - 
+		WN: instances/wordsense-track-noun-3 - ws: track - [(a pair of parallel rails providing... - tc=1 - 
+		WN: instances/wordsense-track-noun-8 - ws: track - [(a groove on a phonograph recording... - tc=0 - 
+		WN: instances/wordsense-track-noun-7 - ws: track/data track - [((computer science) one of the circ... - tc=0 - 
+		WN: instances/wordsense-track-noun-6 - ws: track/caterpillar track/caterpillar tread - [(an endless metal belt on which tra... - tc=0 - 
+		WN: instances/wordsense-track-noun-5 - ws: cut/track - [(a distinct selection of music from... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-road-noun-2 - ws: road - [(a way or means to achieve somethin... - tc=2 - 
+		WN: instances/wordsense-road-noun-1 - ws: route/road - [(an open way (generally public) for... - tc=95 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-animal-noun-1 - ws: creature/animal/animate being/beast/brute/fauna - [(a living organism characterized by... - tc=67 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-vehicle-noun-1 - ws: vehicle - [(a conveyance that transports peopl... - tc=9 - 
+		WN: instances/wordsense-vehicle-noun-2 - ws: vehicle - [(a medium for the expression or ach... - tc=6 - 
+		WN: instances/wordsense-vehicle-noun-3 - ws: fomite/vehicle - [(any inanimate object (as a towel o... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-trail-noun-2 - ws: trail - [(a path or track roughly blazed thr... - tc=4 - 
+		WN: instances/wordsense-trail-noun-3 - ws: track/lead/trail - [(evidence pointing to a possible so... - tc=1 - 
+		WN: instances/wordsense-trail-noun-1 - ws: trail - [(a track or mark left by something ... - tc=5 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-route-noun-2 - ws: route/road - [(an open way (generally public) for... - tc=2 - 
+		WN: instances/wordsense-route-noun-1 - ws: route/path/itinerary - [(an established line of travel or a... - tc=11 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-pedestrian-noun-1 - ws: footer/walker/pedestrian - [(a person who travels by foot)] - tc=0 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#H.LGNS">
+    <!-- Pair 26 -->
+    <skos:prefLabel xml:lang="en">lagoons</skos:prefLabel>
+    <skos:definition xml:lang="en">shallow coastal waterbodies, completely or partly separated from a larger body of water by a barrier island, coral reef or other depositional feature</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-lagoon-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-shallow-adjective-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-island-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-water-noun-2"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-coastal-adjective-2"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-barrier_island-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-water-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-coastal-adjective-2 - ws: coastal - [(located on or near or bordering on... - tc=1 - 
+		WN: instances/wordsense-coastal-adjective-1 - ws: coastal - [(of or relating to a coast; "coasta... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-lagoon-noun-1 - ws: lagoon/laguna/lagune - [(a body of water cut off from a lar... - tc=12 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-island-noun-1 - ws: island - [(a land mass (smaller than a contin... - tc=13 - 
+		WN: instances/wordsense-island-noun-2 - ws: island - [(a zone or area resembling an islan... - tc=2 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-shallow-adjective-1 - ws: shallow - [(lacking physical depth; having lit... - tc=6 - 
+		WN: instances/wordsense-shallow-adjective-2 - ws: shallow - [(not deep or strong; not affecting ... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-barrier_island-noun-1 - ws: barrier island - [(a long narrow sandy island (wider ... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-body-noun-2 - ws: body/dead body - [(body of a dead animal or person; "... - tc=266 - 
+		WN: instances/wordsense-body-noun-7 - ws: body - [(the external structure of a vehicl... - tc=18 - 
+		WN: instances/wordsense-body-noun-8 - ws: consistency/body/consistence - [(the property of holding together a... - tc=4 - 
+		WN: instances/wordsense-body-noun-1 - ws: body/organic structure/physical structure - [(the entire physical structure of a... - tc=536 - 
+		WN: instances/wordsense-body-noun-4 - ws: torso/body/trunk - [(the body excluding the head and ne... - tc=63 - 
+		WN: instances/wordsense-body-noun-9 - ws: body - [(the central message of a communica... - tc=1 - 
+		WN: instances/wordsense-body-noun-3 - ws: body - [(a group of persons associated by s... - tc=160 - 
+		WN: instances/wordsense-body-noun-6 - ws: body - [(a collection of particulars consid... - tc=30 - 
+		WN: instances/wordsense-body-noun-5 - ws: body - [(an individual 3-dimensional object... - tc=31 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-separate-verb-2 - ws: separate/disunite/divide/part - [(force, take, or pull apart; "He se... - tc=11 - 
+		WN: instances/wordsense-separate-verb-11 - ws: part/split/separate - [(go one's own away; move apart; "Th... - tc=1 - 
+		WN: instances/wordsense-separate-verb-10 - ws: break up/split/separate/break/part/split up - [(discontinue an association or rela... - tc=1 - 
+		WN: instances/wordsense-separate-verb-6 - ws: separate - [(divide into components or constitu... - tc=3 - 
+		WN: instances/wordsense-separate-verb-5 - ws: separate/divide/part - [(come apart; "The two pieces that w... - tc=3 - 
+		WN: instances/wordsense-separate-verb-13 - ws: fork/ramify/branch/furcate/separate - [(divide into two or more branches s... - tc=0 - 
+		WN: instances/wordsense-separate-verb-8 - ws: break/come apart/fall apart/separate/split up - [(become separated into pieces or fr... - tc=3 - 
+		WN: instances/wordsense-separate-verb-3 - ws: differentiate/distinguish/secern/secernate/separate/severalise/severalize/tell/tell apart - [(mark as different; "We distinguish... - tc=7 - 
+		WN: instances/wordsense-separate-verb-7 - ws: assort/classify/sort/class/separate/sort out - [(arrange or order by classes or cat... - tc=3 - 
+		WN: instances/wordsense-separate-verb-9 - ws: divide/separate - [(make a division or separation)] - tc=2 - 
+		WN: instances/wordsense-separate-verb-4 - ws: divide/split/carve up/dissever/separate/split up - [(separate into parts or portions; "... - tc=6 - 
+		WN: instances/wordsense-separate-verb-12 - ws: discriminate/separate/single out - [(treat differently on the basis of ... - tc=0 - 
+		WN: instances/wordsense-separate-verb-1 - ws: divide/separate - [(act as a barrier between; stand be... - tc=19 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-barrier-noun-1 - ws: barrier - [(a structure or object that impedes... - tc=4 - 
+		WN: instances/wordsense-barrier-noun-2 - ws: barrier/roadblock - [(any condition that makes it diffic... - tc=3 - 
+		WN: instances/wordsense-barrier-noun-3 - ws: barrier - [(anything serving to maintain separ... - tc=2 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-water-noun-1 - ws: water/H2O - [(binary compound that occurs at roo... - tc=744 - 
+		WN: instances/wordsense-water-noun-3 - ws: water system/water/water supply - [(facility that provides a source of... - tc=50 - 
+		WN: instances/wordsense-water-noun-6 - ws: water - [(a fluid necessary for the life of ... - tc=0 - 
+		WN: instances/wordsense-water-noun-2 - ws: body of water/water - [(the part of the earth's surface co... - tc=219 - 
+		WN: instances/wordsense-water-noun-4 - ws: water - [(once thought to be one of four ele... - tc=3 - 
+		WN: instances/wordsense-water-noun-5 - ws: piddle/pee/piss/urine/water/weewee - [(liquid excretory product; "there w... - tc=1 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#H.LKO">
+  	<!-- Pair 27 -->
+    <skos:prefLabel xml:lang="en">oxbow lake</skos:prefLabel>
+    <skos:definition xml:lang="en">a crescent-shaped lake commonly found adjacent to meandering streams</skos:definition>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-lake-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-stream-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-crescent-noun-1 - ws: crescent - [(any shape resembling the curved sh... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-meander-verb-1 - ws: meander/thread/weave/wander/wind - [(to move or cause to move in a sinu... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-find-verb-3 - ws: find/regain - [(come upon after searching; find th... - tc=86 - 
+		WN: instances/wordsense-find-verb-1 - ws: find/encounter/bump/chance/happen - [(come upon, as if by accident; meet... - tc=159 - 
+		WN: instances/wordsense-find-verb-2 - ws: find/discover/detect/observe/notice - [(discover or determine the existenc... - tc=151 - 
+		WN: instances/wordsense-find-verb-8 - ws: find/discover - [(make a discovery, make a new findi... - tc=34 - 
+		WN: instances/wordsense-find-verb-9 - ws: find/discover - [(make a discovery; "She found that ... - tc=29 - 
+		WN: instances/wordsense-find-verb-11 - ws: rule/find - [(decide on and make a declaration a... - tc=16 - 
+		WN: instances/wordsense-find-verb-4 - ws: determine/find/ascertain/find out - [(after a calculation, investigation... - tc=60 - 
+		WN: instances/wordsense-find-verb-6 - ws: find/witness/see - [(perceive or be contemporaneous wit... - tc=45 - 
+		WN: instances/wordsense-find-verb-16 - ws: find oneself/find - [(accept and make use of one's perso... - tc=0 - 
+		WN: instances/wordsense-find-verb-12 - ws: receive/find/get/incur/obtain - [(receive a specified treatment (abs... - tc=13 - 
+		WN: instances/wordsense-find-verb-5 - ws: feel/find - [(come to believe on the basis of em... - tc=57 - 
+		WN: instances/wordsense-find-verb-15 - ws: find - [(succeed in reaching; arrive at; "T... - tc=0 - 
+		WN: instances/wordsense-find-verb-13 - ws: find - [(perceive oneself to be in a certai... - tc=11 - 
+		WN: instances/wordsense-find-verb-10 - ws: find - [(obtain through effort or managemen... - tc=18 - 
+		WN: instances/wordsense-find-verb-7 - ws: come up/get hold/line up/find - [(get something or somebody for a sp... - tc=42 - 
+		WN: instances/wordsense-find-verb-14 - ws: retrieve/recover/regain/find - [(get or find back; recover the use ... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-shape-verb-2 - ws: form/shape/mold/forge/mould/work - [(make something, usually for a spec... - tc=6 - 
+		WN: instances/wordsense-shape-verb-3 - ws: form/shape - [(give a shape or form to; "shape th... - tc=3 - 
+		WN: instances/wordsense-shape-verb-1 - ws: influence/regulate/determine/shape/mold - [(shape or influence; give direction... - tc=11 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-lake-noun-1 - ws: lake - [(a body of (usually fresh) water su... - tc=3 - 
+		WN: instances/wordsense-lake-noun-3 - ws: lake - [(any of numerous bright translucent... - tc=0 - 
+		WN: instances/wordsense-lake-noun-2 - ws: lake - [(a purplish red pigment prepared fr... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-stream-noun-4 - ws: stream/flow - [(the act of flowing or streaming; c... - tc=3 - 
+		WN: instances/wordsense-stream-noun-3 - ws: stream/current - [(a steady flow (usually from natura... - tc=3 - 
+		WN: instances/wordsense-stream-noun-1 - ws: stream/watercourse - [(a natural body of running water fl... - tc=20 - 
+		WN: instances/wordsense-stream-noun-5 - ws: flow/stream - [(something that resembles a flowing... - tc=2 - 
+		WN: instances/wordsense-stream-noun-2 - ws: stream/current/flow - [(dominant course (suggestive of run... - tc=4 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#H.MRSH">
+  	<!-- Pair 28 -->
+  	<skos:prefLabel xml:lang="en">marsh(es)</skos:prefLabel>
+    <skos:definition xml:lang="en">a wetland dominated by grass-like vegetation</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-marsh-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-vegetation-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-grass-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-wetland-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-wetland-noun-1 - ws: wetland - [(a low area where the land is satur... - tc=0 - 
+	</osnp:debug>
+
+    <osnp:debug xml:lang="en">WN: instances/wordsense-dominate-verb-2 - ws: dominate - [(be in control; rule the roost; "He... - tc=6 - 
+		WN: instances/wordsense-dominate-verb-3 - ws: master/dominate - [(have dominance or the power to def... - tc=6 - 
+		WN: instances/wordsense-dominate-verb-1 - ws: prevail/predominate/reign/dominate/rule - [(be larger in number, quantity, pow... - tc=9 - 
+		WN: instances/wordsense-dominate-verb-4 - ws: overlook/dominate/command/overtop - [(look down on; "The villa dominates... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-marsh-noun-1 - ws: marsh/fen/fenland/marshland - [(low-lying wet land with grassy veg... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-vegetation-noun-4 - ws: vegetation - [(inactivity that is passive and mon... - tc=0 - 
+		WN: instances/wordsense-vegetation-noun-3 - ws: vegetation - [(an abnormal growth or excrescence ... - tc=0 - 
+		WN: instances/wordsense-vegetation-noun-1 - ws: flora/vegetation - [(all the plant life in a particular... - tc=2 - 
+		WN: instances/wordsense-vegetation-noun-2 - ws: vegetation - [(the process of growth in plants)] - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-grass-noun-1 - ws: grass - [(narrow-leaved green herbage: grown... - tc=41 - 
+		WN: instances/wordsense-grass-noun-4 - ws: smoke/dope/pot/Mary Jane/gage/grass/green goddess/locoweed/sens/sess/skunk/weed - [(street names for marijuana)] - tc=0 - 
+		WN: instances/wordsense-grass-noun-3 - ws: pasturage/pasture/forage/eatage/grass - [(animal food for browsing or grazin... - tc=0 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#L.RESH">
+  	<!-- Pair 29 -->
+    <skos:prefLabel xml:lang="en">hunting reserve</skos:prefLabel>
+    <skos:definition xml:lang="en">a tract of land used primarily for hunting</skos:definition>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-reserve-noun-5"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-tract-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-hunting-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-land-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-reserve-noun-2 - ws: stockpile/backlog/reserve - [(something kept back or saved for f... - tc=1 - 
+		WN: instances/wordsense-reserve-noun-7 - ws: reserve/reticence/taciturnity - [(the trait of being uncommunicative... - tc=0 - 
+		WN: instances/wordsense-reserve-noun-1 - ws: modesty/reserve - [(formality and propriety of manner)... - tc=2 - 
+		WN: instances/wordsense-reserve-noun-6 - ws: military reserve/reserve - [(armed forces that are not on activ... - tc=0 - 
+		WN: instances/wordsense-reserve-noun-5 - ws: reservation/reserve - [(a district that is reserved for pa... - tc=0 - 
+		WN: instances/wordsense-reserve-noun-3 - ws: substitute/reserve - [(an athlete who plays only when ano... - tc=1 - 
+		WN: instances/wordsense-reserve-noun-4 - ws: reserve - [((medicine) potential capacity to r... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-land-noun-3 - ws: ground/earth/land/dry land/solid ground/terra firma - [(the solid part of the earth's surf... - tc=11 - 
+		WN: instances/wordsense-land-noun-11 - ws: farming/land - [(working the land as an occupation ... - tc=0 - 
+		WN: instances/wordsense-land-noun-8 - ws: nation/a people/country/land - [(the people who live in a nation or... - tc=2 - 
+		WN: instances/wordsense-land-noun-9 - ws: state/nation/body politic/commonwealth/country/land/res publica - [(a politically organized body of pe... - tc=1 - 
+		WN: instances/wordsense-land-noun-5 - ws: country/land/state - [(the territory occupied by a nation... - tc=7 - 
+		WN: instances/wordsense-land-noun-4 - ws: domain/demesne/land - [(territory over which rule or contr... - tc=11 - 
+		WN: instances/wordsense-land-noun-2 - ws: land/ground/soil - [(material in the top layer of the s... - tc=18 - 
+		WN: instances/wordsense-land-noun-7 - ws: estate/acres/demesne/land/landed estate - [(extensive landed property (especia... - tc=2 - 
+		WN: instances/wordsense-land-noun-1 - ws: land - [(the land on which real estate is l... - tc=23 - 
+		WN: instances/wordsense-land-noun-6 - ws: kingdom/land/realm - [(a domain in which something is dom... - tc=2 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-hunting-noun-1 - ws: hunting/hunt - [(the pursuit and killing or capture... - tc=14 - 
+		WN: instances/wordsense-hunting-noun-3 - ws: hunting/hunt - [(the work of finding and killing or... - tc=1 - 
+		WN: instances/wordsense-hunting-noun-2 - ws: hunting/hunt/search - [(the activity of looking thoroughly... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-tract-noun-4 - ws: nerve pathway/nerve tract/pathway/tract - [(a bundle of mylenated nerve fibers... - tc=0 - 
+		WN: instances/wordsense-tract-noun-2 - ws: tract - [(a system of body parts that togeth... - tc=3 - 
+		WN: instances/wordsense-tract-noun-3 - ws: tract/pamphlet - [(a brief treatise on a subject of i... - tc=1 - 
+		WN: instances/wordsense-tract-noun-1 - ws: parcel/tract/parcel of land/piece of ground/piece of land - [(an extended area of land)] - tc=3 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+  
+  
+  
+  <rdf:Description rdf:about="http://www.geonames.org/ontology#T.VAL">
+  	<!-- Pair 30 -->
+    <skos:prefLabel xml:lang="en">valley</skos:prefLabel>
+    <skos:definition xml:lang="en">an elongated depression usually traversed by a stream</skos:definition>
+    <skos:closeMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-valley-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-depression-noun-1"/>
+    <skos:relatedMatch rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/wordsense-stream-noun-1"/>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-traverse-verb-1 - ws: traverse/cross/track/pass over/cover/cut across/cut through/get across/get over - [(travel across or pass over; "The c... - tc=4 - 
+		WN: instances/wordsense-traverse-verb-3 - ws: deny/traverse - [(deny formally (an allegation of fa... - tc=1 - 
+		WN: instances/wordsense-traverse-verb-2 - ws: span/sweep/cross/traverse - [(to cover or extend over an area or... - tc=1 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-stream-noun-4 - ws: stream/flow - [(the act of flowing or streaming; c... - tc=3 - 
+		WN: instances/wordsense-stream-noun-3 - ws: stream/current - [(a steady flow (usually from natura... - tc=3 - 
+		WN: instances/wordsense-stream-noun-1 - ws: stream/watercourse - [(a natural body of running water fl... - tc=20 - 
+		WN: instances/wordsense-stream-noun-5 - ws: flow/stream - [(something that resembles a flowing... - tc=2 - 
+		WN: instances/wordsense-stream-noun-2 - ws: stream/current/flow - [(dominant course (suggestive of run... - tc=4 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-depression-noun-1 - ws: depression - [(a mental state characterized by a ... - tc=4 - 
+		WN: instances/wordsense-depression-noun-10 - ws: depression - [(pushing down; "depression of the s... - tc=0 - 
+		WN: instances/wordsense-depression-noun-4 - ws: depression - [(sad feelings of gloom and inadequa... - tc=1 - 
+		WN: instances/wordsense-depression-noun-3 - ws: natural depression/depression - [(a sunken or depressed geological f... - tc=3 - 
+		WN: instances/wordsense-depression-noun-9 - ws: depression - [(angular distance below the horizon... - tc=0 - 
+		WN: instances/wordsense-depression-noun-8 - ws: depression/impression/imprint - [(a concavity in a surface produced ... - tc=0 - 
+		WN: instances/wordsense-depression-noun-7 - ws: depressive disorder/clinical depression/depression - [(a state of depression and anhedoni... - tc=0 - 
+		WN: instances/wordsense-depression-noun-2 - ws: slump/depression/economic crisis - [(a long-term economic state charact... - tc=3 - 
+		WN: instances/wordsense-depression-noun-6 - ws: low/depression/low pressure - [(an air mass of lower pressure; oft... - tc=0 - 
+	</osnp:debug>
+    <osnp:debug xml:lang="en">WN: instances/wordsense-valley-noun-1 - ws: valley/vale - [(a long depression in the surface o... - tc=27 - 
+	</osnp:debug>
+  </rdf:Description>
+  
+</rdf:RDF>
