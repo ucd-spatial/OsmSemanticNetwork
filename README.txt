@@ -22,9 +22,9 @@ The files were validated with http://www.w3.org/RDF/Validator
 This material is Open Knowledge. http://opendefinition.org
 
 ================================================================================
-Author:  Andrea Ballatore (University College Dublin)
+Author:  Andrea Ballatore
 		 http://sites.google.com/site/andreaballatore
-Contact: myname.mysurname@ucd.ie
+Contact: myname.mysurname@gmail.com
 ================================================================================
   RDF/SKOS content: 
 ================================================================================
@@ -61,25 +61,28 @@ Folder content:
 * RDF files: the same content as the NT files in RDF format.
 * archive: previous versions of the OSM Semantic Network
 ================================================================================
+
 REFERENCE:
+
 If you use this work in your research, please reference this paper:
 
 --------------------------------------------------------------------------------
- A. Ballatore, D.C. Wilson & M. Bertolotto, A Survey of Volunteered Open Ontologies in 
- the Semantic Geospatial Web, in Advanced Techniques in Web Intelligence - 3: Quality-based
- Information Retrieval, Studies in Computational Intelligence, Springer, IN PRESS, 2012.
+ Ballatore, A., Bertolotto, M., & Wilson, D. C. (2013). Geographic knowledge extraction 
+ and semantic similarity in OpenStreetMap. Knowledge and information systems, 37(1), 61-81.
 --------------------------------------------------------------------------------
 
-  BIBTEX entry:
-  @incollection{Ballatore:2012:survey,
-     author={Ballatore, A. and Wilson, D.C. and Bertolotto, M.},
-     title = {{A Survey of Volunteered Open Ontologies in the Semantic Geospatial Web}},
-     booktitle = {Advanced Techniques in Web Intelligence - 3: Quality-based Information Retrieval},
-     series = {Studies in Computational Intelligence},
-     publisher = {Springer},
-     note = {IN PRESS}, 
-     year = {2012}
-  }
+BIBTEX entry:
+
+@article{ballatore2013geoknowledgeosm,
+  title={Geographic knowledge extraction and semantic similarity in OpenStreetMap},
+  author={Ballatore, Andrea and Bertolotto, Michela and Wilson, David C},
+  journal={Knowledge and Information Systems},
+  volume={37},
+  number={1},
+  pages={61--81},
+  year={2013},
+  publisher={Springer}
+}
 
 ================================================================================
-Last update: August 2012
+Last update: September 2014
